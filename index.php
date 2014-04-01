@@ -94,16 +94,16 @@
             <h4><i>Decentalized Domains</i></h4>
             </div>
             <p>
-            The secure alternative to todays domain name system that eliminates
+            The secure alternative to today's domain name system that eliminates
             domain name squatting while providing security against government
-            seizures, man-in-the-middle attacks.  
+            seizures and man-in-the-middle attacks.  
             </p>
             <p>
             Domains are purchased at auction and the proceeds are paid as dividends
             to the shareholders.  Anyone can make money by participating the price
             discovery process.
             <br/>
-            <a href="/bitshares-dns/">learn more...</a>
+            <a href="/bitshares/dns/">learn more...</a>
             </p>
         </div>
     		<div class="col-md-4 centered">
@@ -114,7 +114,7 @@
             </div>
             <p>
             With bitshares ME you can issue your own personal shares for
-            what ever purpose you choose.  You can use it to become your
+            whatever purpose you choose.  You can use it to become your
             own bank, IPO your own company, or a million other uses.
             </p>
             <p>
@@ -159,7 +159,7 @@
             </div>
             <p>
             For the first time in history it is now possible to have verified voting,
-            that is anonymous, continious, and free from manipulation. <br/>
+            that is anonymous, continuous, and free from manipulation. <br/>
             <a href="/bitshares-voice/">learn more...</a>
             </p>
         </div>
@@ -237,7 +237,7 @@
             <h1>TEAM</h1>
             <h4>Build the Industry</h4>
             </div>
-            <p> Our constantly growing team of independent individuals is actively working to make the world a better place by contributing their lives, forturnes and sacred honor to the cause. <br/><a href="/team">Meet the Team!</a></p>
+            <p> Our constantly growing team of independent individuals is actively working to make the world a better place by contributing their lives, fortunes and sacred honor to the cause. <br/><a href="/team">Meet the Team!</a></p>
             </p>
         </div>
        </div>

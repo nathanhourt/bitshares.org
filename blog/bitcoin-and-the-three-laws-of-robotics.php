@@ -172,7 +172,9 @@
 			not conflict with the first two laws.
 		</li>
 	</ol>
-	I, DACIn actual practice, these Three Laws are embedded into open
+	</p>
+	<p>
+	In actual practice, these Three Laws are embedded into open
 	source software for all stakeholders to inspect. They govern the
 	protection of the rights of stakeholders and how other rules can be
 	changed, but they themselves can never be changed.
@@ -584,7 +586,6 @@
 	</p>
 
 	<p>
-
 
 
 		<br />

@@ -4,7 +4,7 @@
 	<br />
 	<center>
 		<h1>
-			The Ten Natural Laws of the Crypto-Asset Universe
+			Bitcoin and the Three Laws of Robotics
 		</h1>
 	</center>
 	<center>
@@ -241,7 +241,7 @@
 
 
 
-	<div style="float: left; width: 370px">
+	<div style="float: left; width: 250px">
 		<img alt="Steely Eyed Geek (SEG)"
 			src="https://static.squarespace.com/static/51df1ba4e4b08840dcfce197/t/51f0174de4b02ed598f09a8d/1374689102633/123RF%20Developers%206828176_s.jpg?format=500w"
 			width="360" height="259" />

@@ -44,10 +44,16 @@
            </p>
         </div>
         <div class="article-summary">
-           <h2>Watch for Falling PTS</h2>
+           <h2>Watch For Falling PTS</h2>
            <h3>by Charles Evans on Feb 23, 2014</h3>
+           <p>
+           Soon, the first round of BitShares (BTS) will be issued to holders of BitShares PTS
+(originally known as ProtoShares). For those who may not be familiar, BitShares PTS 
+was first launched by Invictus Innovations on November 5, 2013 with the promise of
+providing PTS holders at least 10% of every future Decentralized Autonomous Company 
+(DAC) created by Invictus Innovations.
            <br/> <a href="watch-for-falling-pts.php">read more  </a>
-           </p>
+          </p>
         </div>
         <div class="article-summary">
            <h2>10 Natural Laws of the Crypto-Asset Universe</h2>

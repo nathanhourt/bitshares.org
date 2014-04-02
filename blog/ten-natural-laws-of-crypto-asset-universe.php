@@ -124,9 +124,6 @@ Make the BitShares PTS/AGS community an offer no other competitor can beat.  Lea
 
 
 
-
-
-
   <br/>
   <br/>
 

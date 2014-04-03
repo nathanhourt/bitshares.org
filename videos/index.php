@@ -15,6 +15,14 @@
                                   webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </li>
         <li>
+        <h2> Origin of the Decentralized Autonomous Company </h2>
+        <iframe width="480" height="270" src="//www.youtube.com/embed/hMYeRUUm-No" frameborder="0" allowfullscreen></iframe>
+        </li>
+        <li>
+            <h2>Dan Larimer Presenting in Texas</h2>
+            <iframe width="480" height="270" src="//www.youtube.com/embed/G9dFza8OaV0" frameborder="0" allowfullscreen></iframe>
+        </li>
+        <li>
             <h2>Ethereum Q&A</h2>
             <iframe src="//player.vimeo.com/video/86370915" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </li>

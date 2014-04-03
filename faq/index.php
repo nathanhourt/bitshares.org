@@ -48,6 +48,14 @@
             </p>
         </li>
         <li>
+            <h3>What is a proto-DAC?</h3>
+            <p>
+            A proto-DAC is a company that doesn't implement the full feature set of the ultimate company, but which allows the trading
+            of shares in one or more future companies while they are under development.  <a href="/bitshares/ags-pts.php">bitshares pts</a>
+            is a proto-DAC for the entire industry.
+            </p>
+        </li>
+        <li>
             <a name="mining"><h3>How do I mine bitshares?</h3></a>
             <p>
             Bitshares are not a single crypto-equity and therefore asking "how do I mine bitshares?" is like asking "how do I earn money?". Do you

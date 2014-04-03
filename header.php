@@ -8,7 +8,11 @@
     <meta name="author" content="BitShares">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
+    <?php if( $section_title != "" ) { ?>
     <title>bitshares - <?php echo ${section_title} ?></title>
+    <?php } else { ?>
+    <title>bitshares</title>
+    <?php } ?>
     <script type="text/javascript" src="/assets/js/flipcounter.js"></script>
 
     <!-- Bootstrap core CSS -->
@@ -64,12 +68,13 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-left">
-        <li><a href="/index.php"><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span>.org</a></li>
+        <li><a href="/index.php"><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span>.org<?php if( $section_title != "") echo " /"; ?></a> </li>
+        <li style="margin-left:-25px;"><a href=""><?php echo $section_title; ?></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/blog/">Blog</a></li>
         <li><a href="#footer">About</a></li>
-        <li><a href="/index.php#companies">Companies</a></li>
+        <li><a href="/index.php#industries">Industries</a></li>
         <li><a href="#footer">Resources</a></li>
         <li><a href="/index.php#getinvolved">Community</a></li>
 

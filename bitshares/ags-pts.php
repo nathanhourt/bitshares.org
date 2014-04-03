@@ -1,4 +1,4 @@
-<?php $section_title = "AGS/PTS"; include '../header.php'; ?>
+<?php $section_title = "AGS-PTS"; include '../header.php'; ?>
 <?php #echo "<script src=\"/assets/js/chart.js\"></script> "; ?>
    <script src="/assets/js/pts.prices.js"></script>
 
@@ -23,19 +23,21 @@
              <br/>
              <br/>
             <p>
-            AGS (Angel Shares) are shares in an angel fund that supports the research, development and creation of the BitShares technology. Those who support the fund are given public credit as 10,000 AGS shares are awarded each day, proportional to the amount donated. AGS donations started on January 1, 2014, are not liquid, and are limited to 2 million shares.
-
-            AGS can be thought of as an imaginary altcoin with an extraordinary source of value. People who hold them get free shares 
-            in every new <span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> decentralized autonomous company.
+            AGS (Angel Shares) are shares in an angel fund that supports the research, development and creation of the  
+            <span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> technology. 
+            Those who support the fund are given public credit as 10,000 AGS shares are acknolwedged each day, proportional to the amount donated. 
+            AGS donations started on January 1, 2014 and run for 199 days.  
             </p>
 
             <h3>How does it work?</h3>
             <p>
             The only way you can possibly get AGS is to be a Patron Angel. 
-            You donated funds to help build and promote the <span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> industry. People just don’t do that kind of thing without understanding the industry, and wanting to see it grow, and actually sacrificing to help it grow because they value shares in this industry and want to own more.
+            You donated funds to help build and promote the <span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> industry. 
+            People just don’t do that kind of thing without understanding the industry, and wanting to 
+            see it grow, and actually sacrificing to help it grow because they value shares in this industry and want to own more.
             </p>
             <p>
-               <center><b>DAC Developers Know This</b></center>
+               <center><h3>DAC Developers Know This</h3></center>
             </p>
             <p>
             They know if they give you promotional shares, you won’t dump them.

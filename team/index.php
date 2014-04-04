@@ -186,7 +186,7 @@
         <div class="fl-lt col-33">
           <div class="avatar"><img src="/assets/img/avatars/denny.jpg" alt="Emily" title="Emily"></div>
           <h2>
-            Emily 
+            Emily Knollenberg
             <span>Marketing Assistant</span>
           </h2>
           <p>&nbsp;</p>

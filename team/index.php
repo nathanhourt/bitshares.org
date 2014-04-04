@@ -53,7 +53,7 @@
           <div class="avatar"><img src="/assets/img/avatars/brian.jpg" alt="Brian Page . Director of Marketing" title="Brian Page . Director of Marketing"></div>
           <h2>
             Brian Page
-            <span>Evangilist</span>
+            <span>Evangelist</span>
           </h2>
           <p>&nbsp;</p>
         </div>
@@ -80,7 +80,7 @@
         <div class="fl-lt col-33">
           <div class="avatar"><img src="/assets/img/avatars/arlen.jpg" alt="Arlen Del Castillo . Vice President of Software" title="Arlen Del Castillo . Vice President of Software"></div>
           <h2>
-            Arlen Del Castillo
+            Arlen del Castillo
             <span>Systems Engineer</span>
           </h2>
           <p>&nbsp;</p>
@@ -186,7 +186,7 @@
         <div class="fl-lt col-33">
           <div class="avatar"><img src="/assets/img/avatars/denny.jpg" alt="Emily" title="Emily"></div>
           <h2>
-            Emily 
+            Emily Knollenberg
             <span>Marketing Assistant</span>
           </h2>
           <p>&nbsp;</p>

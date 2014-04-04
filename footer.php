@@ -13,8 +13,7 @@
           <li><a href="/vision">Vision</a></li>
           <li><a href="/faq">FAQ's</a></li>
           <li><a href="/videos">Videos</a></li>
-          <li><a href="/blog" target="_blank">Blog</a></li>
-          <li><a href="/newsletter">Newsletter</a></li>
+          <li><a href="/blog">Blog</a></li>
           <li><a href="/press">Press</a></li>
         </ul>
       </article>

@@ -8,6 +8,19 @@
 			<div class="inner-page row">
     		<div class="col-md-8"><!-- main content -->
         <div class="article-summary">
+           <h2>Delegated Proof of Stake</h2>
+           <h3>by Daniel Larimer on April 3, 2014</h3>
+           <p>
+         This paper introduces a new implementation of proof of stake that can validate transactions 
+         in seconds while providing greater security in a shorter period of time than all existing proof 
+         of stake systems.  In the time it takes Bitcoin to produce a single block a DPOS system can 
+         have your transaction verified by 20% of the shareholders and by the time Bitcoin claims the 
+         transaction is almost irreversible (6 blocks, 1 hour) your transaction under DPOS has been 
+         verified by 100% of the shareholders through their representatives.
+           <br/> <a href="/security/delegated-proof-of-stake.php">read more  </a> | <a href="https://bitsharestalk.org/index.php?topic=4009.msg50412#msg50412">discuss</a>
+           </p>
+        </div>
+        <div class="article-summary">
            <h2>The end of Cryptomoney</h2>
            <h3>by Charles Evans on March 25, 2014</h3>
            <p>

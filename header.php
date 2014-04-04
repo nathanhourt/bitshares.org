@@ -72,11 +72,11 @@
         <li style="margin-left:-25px;"><a href=""><?php echo $section_title; ?></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/blog/">Blog</a></li>
         <li><a href="#footer">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/index.php#getinvolved">Community</a></li>
         <li><a href="/index.php#industries">Industries</a></li>
         <li><a href="#footer">Resources</a></li>
-        <li><a href="/index.php#getinvolved">Community</a></li>
 
   <!--    <li><a href="blog.php">Blog</a></li> 
       <li><a href="http://www.twitter.com/_bitshares"><img  height="20px" src="https://g.twimg.com/Twitter_logo_blue.png"/></a></li>

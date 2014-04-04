@@ -2,8 +2,7 @@
 <section data-type="background" class="bitsharesx-header">
   <section class="inner-lg-billboard">
       <div class="container">
-        <div class="row" style="min-height:80px">
-        </div>
+        <div class="row" style="min-height:80px"> </div>
         <div class="row">
           <center>
             <h2 style="color:white; font-size:6em">Charity</h2>

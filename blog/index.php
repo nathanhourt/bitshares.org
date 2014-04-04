@@ -72,25 +72,30 @@ providing PTS holders at least 10% of every future Decentralized Autonomous Comp
            <p>
 Since <a href="http://bitshares.org/team/stanley-larimer.php">Stan Larimer</a> first published “<a title="Bitcoin and the Three Laws of Robotics" href="http://letstalkbitcoin.com/bitcoin-and-the-three-laws-of-robotics/">Bitcoin and the Three Laws of Robotics</a>” there have been many articles discussing the creation of Decentralized Autonomous Corporations (aka DACs).    <a href="https://bitcoinpresscenter.org/presscontact/vitalik-buterin">Vitalik Buterin</a> has published a <a href="http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/">3-part series</a> discussing the bootstrapping of a DAC, interacting with the world, and Identity Corp.   Others, such as <a href="http://8btc.com">8BTC</a>, have started to  <a href="http://bitcoinmagazine.com/7827/the-pirates-of-8btc-implement-the-idea-of-distributed-autonomous-corporations/">talk about their systems as a DAC</a>.</p>
            <p style="text-align: justify;">Unfortunately, the enthusiasm for DACs has led many people to jump the gun and start calling things a DAC that clearly are not while at the same time proposing new DACs that are not feasible.  As the original creator of the DAC metaphor I would like to add some clarity to the discussion that will help people design new DACs.
-           </p>
            <br/> <a href="dac-revisited.php">read more  </a>
            </p>
         </div>
         <div class="article-summary">
            <h2>Bitcoin &amp; the Three Laws of Robotics</h2>
            <h3>by Stan Larimer  September, 2013</h3>
+            <p>
+You may not have considered it, but Bitcoin can be viewed as an unmanned company – or a Distributed Autonomous Corporation (DAC) if you prefer.  Unlike passive currencies, Bitcoin derives much of its tangible value by performing a trustworthy confidential fiduciary service. Essentially, it keeps private books for customer “checking” accounts and will transfer credits between accounts upon receipt of a properly signed “check”. 
            <br/> <a href="bitcoin-and-the-three-laws-of-robotics.php">read more  </a>
            </p>
         </div>
         <div class="article-summary">
            <h2>Overpaying for Security</h2>
            <h3>by Daniel Larimer  September, 2013</h3>
+           <p>
+           If you have been following Bitcoin and crypto-currencies in general you will have probably seen the claim that miners provide computation power that secures the network. To compensate these miners for the security services they provide they earn mining rewards and transaction fees. The questions become, is there any rationale to justify how many resources are currently directed into ‘securing’ the network and how much ‘value’ is being provided in exchange for the so-called security provided? 
            <br/> <a href="overpaying-for-security.php">read more  </a>
            </p>
         </div>
         <div class="article-summary">
            <h2>Own your Identity</h2>
            <h3>by Daniel Larimer on September, 2013</h3>
+           <p>
+Who really owns your online identity? I can assure you that any ownership you perceive is an illusion and ultimately your online identity is not currently under your control. Chances are your identity is tied to your e-mail address and every service you sign up for uses email verification as the primary means of identification. 
            <br/> <a href="own-your-identity.php">read more  </a>
            </p>
         </div>

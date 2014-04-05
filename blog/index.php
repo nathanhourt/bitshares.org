@@ -75,7 +75,6 @@ providing PTS holders at least 10% of every future Decentralized Autonomous Comp
            Sometimes our suggestions that third-party developers should honor the BitShares Social Consensus sound a bit like Invictus is just making up a set of take-it-or-leave-it rules.  We are not.  What we are suggesting are more like Natural Economic Laws we have discovered that we are bound to follow as well.
            </p><p>
            Winning the favor of the BitShares PTS/AGS community is a Big Deal because owners of PTS and AGS already represent the lion’s share of informed early adopters of the concept of crypto-equities and Decentralized Autonomous Companies (DACs).  If you get these folks on your side, they can help you fine-tune your concept and spread the word once they understand what you have in mind.  And they will be the ones most likely to invest in your idea.  Everyone else in the world needs to be educated from scratch.
-           </p>
            <br/> <a href="ten-natural-laws-of-crypto-asset-universe.php">read more  </a>  |  <a href="https://bitsharestalk.org/index.php?topic=2876.0">discuss </a>
            </p>
         </div>

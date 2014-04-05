@@ -1,4 +1,3 @@
-
 <?php $section_title = "Voting"; include '../header.php'; ?>
 <section data-type="background" class="bitsharesx-header">
   <section class="inner-lg-billboard">

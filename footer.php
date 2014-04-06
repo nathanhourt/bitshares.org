@@ -1,13 +1,60 @@
-	<! ========== CALL TO ACTION BAR ===============================================================================================
+<! ========== CALL TO ACTION BAR ===============================================================================================
 	=============================================================================================================================>
 
 
 	<! ========== FOOTER ========================================================================================================
 	=============================================================================================================================>
+	
+	<script ype="text/javascript">
+	
+	equalheight = function(container){
+	
+	var currentTallest = 0,
+	     currentRowStart = 0,
+	     rowDivs = new Array(),
+	     $el,
+	     topPosition = 0;
+	 $(container).each(function() {
+	
+	   $el = $(this);
+	   $($el).height('auto')
+	   topPostion = $el.position().top;
+	
+	   if (currentRowStart != topPostion) {
+	     for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+	       rowDivs[currentDiv].height(currentTallest);
+	     }
+	     rowDivs.length = 0; // empty the array
+	     currentRowStart = topPostion;
+	     currentTallest = $el.height();
+	     rowDivs.push($el);
+	   } else {
+	     rowDivs.push($el);
+	     currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+	  }
+	   for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+	     rowDivs[currentDiv].height(currentTallest);
+	   }
+	 });
+	}
+	
+	$(window).load(function() {
+	  equalheight('.extra-nav .container article');
+	});
+	
+	
+	$(window).resize(function(){
+	  equalheight('.extra-nav .container article');
+	});
+	
+	
+	</script>
+	
+	
 <a name="footer"></a>
 <section class="extra-nav">
     <div class="container">
-      <article class="col-25">
+      <article class="f-col-25">
         <h3>About</h3>
         <ul>
           <li><a href="/vision">Vision</a></li>
@@ -18,7 +65,7 @@
           <li><a href="/press">Press</a></li>
         </ul>
       </article>
-      <article class="col-25">
+      <article class="f-col-25">
         <h3>Industries</h3>
         <ul>
           <li><a href="/banking">Banking</a></li>
@@ -35,7 +82,7 @@
           <li><a href="/voting">Voting</a></li>
         </ul>
       </article>
-      <article class="col-25">
+      <article class="f-col-25">
         <h3>Resources</h3>
         <ul>
           <li><a href="/documentation/">Documentation</a></li>
@@ -48,7 +95,7 @@
         </ul>
      
       </article>
-      <article class="col-25">
+      <article class="f-col-25">
         <h3>Community</h3>
         <ul>
           <li><a href="http://bitsharestalk.org" target="_blank">Forum</a></li>

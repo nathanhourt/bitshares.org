@@ -59,7 +59,13 @@ body {
 }
 .col-25 {
 	width: 25%;
+	
 }
+
+.f-col-25 {
+	width: 25%;
+}
+
 .col-30 {
 	width: 30%;
 }
@@ -804,11 +810,11 @@ header section .blue-btn {
 .extra-nav .container article h3 {
 	font-size: 32px;
 	font-weight: 300;
-	margin-bottom: 24px;
 }
 
 .extra-nav .container article ul {
-	height: auto;
+	height: 100%;
+	min-height:100%
 }
 
 .extra-nav .container article ul li {

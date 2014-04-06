@@ -35,24 +35,13 @@
     <script src="/assets/js/hover.zoom.js"></script>
     <script src="/assets/js/hover.zoom.conf.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-46805398-1', 'invictus.io');
     ga('send', 'pageview');
 
     </script>
   </head>
 
-  <body>
+<body>
 
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top">
@@ -77,16 +66,6 @@
         <li><a href="/index.php#getinvolved">Community</a></li>
         <li><a href="/index.php#industries">Industries</a></li>
         <li><a href="#footer">Resources</a></li>
-
-  <!--    <li><a href="blog.php">Blog</a></li> 
-      <li><a href="http://www.twitter.com/_bitshares"><img  height="20px" src="https://g.twimg.com/Twitter_logo_blue.png"/></a></li>
-      <li><a href="http://www.facebook.com/officialbitshares"><img  height="20px" src="http://epicshowdowns.com/wp-content/uploads/2013/12/facebook-icon.png"/></a></li>
--->
-      <!--
-      <li><a href="#"><img src="assets/img/us.png" alt="US Flag"/></a></li>
-      <li><a href="http://www.invictus-innovations.cn/ZH/"><img src="assets/img/cn.png" alt="US Flag"/></a></li>
-      -->
-
       </ul>
     </div><!--/.nav-collapse -->
   </div>

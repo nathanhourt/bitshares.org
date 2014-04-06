@@ -906,6 +906,18 @@ footer h1 {
 footer .clear {
 	clear: both;
 }
+/** vision */
+.vision-header {
+	position: relative;
+	background-image: url(../img/above-the-clouds-hd-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: fixed;
+	width: 100%;
+	height: auto;
+	color: #fff;
+  text-shadow: 3px 3px 3px #111111;
+}
 
 /* About */
 .about-header {

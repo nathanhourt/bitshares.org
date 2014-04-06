@@ -1,24 +1,149 @@
-<?php $section_title = ""; include 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bitshares earn 5% or more on anything">
+    <meta name="author" content="BitShares">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+        <title>bitshares</title>
+        <script type="text/javascript" src="/assets/js/flipcounter.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/css.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/colors/color-3498db.css" rel="stylesheet">
+    <link href="/assets/css/animations.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/invictus.css" rel="stylesheet">
+    <link href="/assets/css/counter.css" rel="stylesheet">
+
+
+    <!-- JavaScripts needed at the beginning
+    ================================================== -->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/assets/js/hover.zoom.js"></script>
+    <script src="/assets/js/hover.zoom.conf.js"></script>
+
+    ga('create', 'UA-46805398-1', 'invictus.io');
+    ga('send', 'pageview');
+
+    </script>
+  </head>
+
+<body>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <ul>
+      </ul>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="/index.php"><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span>.org</a> </li>
+        <li style="margin-left:-25px;"><a href=""></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#footer">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/index.php#getinvolved">Community</a></li>
+        <li><a href="/index.php#industries">Industries</a></li>
+        <li><a href="#footer">Resources</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
 
 	<! ========== HEADERWRAP ====================================================================================================
 	=============================================================================================================================>
+    <div id="headerwrap" class="index-page" style="background-color:black; min-height:1000px">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+              <center>
+               <h1 class="slideUp">Reimagine Everything.</h1>
+               <br/>
+                 <a id="player_button" href="javascript:hideme()" class="fancybox-media ico play-btn hideme"></a>
+                 <div id="video_player" class="video_player" style="margin-top:-10px;opacity:1">
+                     <iframe id="player_iframe" src="//player.vimeo.com/video/89948761" width="100" height="100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                 </div>
+              </center>
+          </div>
+      </div><!-- /row -->
+      </div><!-- /container -->
+      <div class="row" style="min-height:600px">
+      </div>
+      <div class="row">
+        <a name="industries"></a>
+      </div>
+   </div>
+  <script type="text/javascript">
+     var horizony=0;
+     var target_horizon=0;
+     var video_opacity = 0;
+     $('#headerwrap').css('background-position', '-250px '+horizony+'px');
+     $('.hideme').each( function(i){
+          $(this).animate({'opacity':'1'},100);
+     }); 
+     var hideme = function()
+     {
+        target_horizon = 600;
 
-	<! ========== FEATURED ICONS ================================================================================================
-	=============================================================================================================================>
+        document.getElementById('player_iframe').height="450px";
+        document.getElementById('player_iframe').width=  "800px";
+        $('video_player').each( function(i){
+            $(this).animate({'opacity':'1'},500);
+        }); 
+        $('#player_button').each( function(i){
+            $(this).animate({'opacity':'0'},500);
+        }); 
 
-	<div id="gray" class="bitsharesx">
-		<div class="container">
-			<div class="inner-page row">
-    		<div class="col-md-12 centered">
-           <img src="/assets/img/btslogo-300x89.png"/>
-           <br/>
-           <br/>
-               <iframe src="//player.vimeo.com/video/89948761" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-           <br/>
-        </div>
-      </div> <!-- row -->
-    </div>
-  </div>
+       // document.getElementById("player_iframe").contentWindow.postMessage( JSON.stringify({ method : 'play' }), "*" );
+        
+       $('#headerwrap').css('background-position', 'center '+horizony+'px');
+       $('#video_player').css('opacity', video_opacity);
+     }
+     window.setInterval(function(){
+                           $('#headerwrap').css('background-position', 'center '+horizony+'px');
+                           $('#video_player').css('opacity', video_opacity);
+
+                           if( horizony > 0 )
+                           {
+                              if( video_opacity < 1 )
+                              {
+                                 video_opacity += .005;
+                              }
+                           }
+                           else
+                           {
+                              if( video_opacity > 0 ) video_opacity -= .05;
+                           }
+                           if( horizony < target_horizon )
+                           {
+                              horizony=(horizony+1)%1100;//1100 is width of background image in px
+                           }
+                           else if( horizony > target_horizon )
+                           {
+                              horizony=(horizony-1)%1100;//1100 is width of background image in px
+                           }
+                        },30);
+
+  </script>
+
+
 
   <div class="lightblue-bg">
 			<div class="container">
@@ -55,49 +180,53 @@
         </div>
   </div>
   
-  <div style="display: none;">
-  	<script type="text/javascript">
-  		<!--//--><![CDATA[//><!--
-  			var images = new Array()
-  			function preload() {
-  				for (i = 0; i < preload.arguments.length; i++) {
-  					images[i] = new Image()
-  					images[i].src = preload.arguments[i]
-  				}
-  			}
-  			preload(
-  				"assets/ico/ico-banking.svg",
-  				"assets/ico/ico-banking-h.svg",
-  				"assets/ico/ico-domain.svg",
-  				"assets/ico/ico-domain-h.svg",
-  				"assets/ico/ico-stock.svg",
-  				"assets/ico/ico-stock-h.svg",
-  				"assets/ico/ico-money.svg",
-  				"assets/ico/ico-money-h.svg",
-  				"assets/ico/ico-music.svg",
-  				"assets/ico/ico-music-h.svg",
-  				"assets/ico/ico-charity.svg",
-  				"assets/ico/ico-charity-h.svg",
-  				"assets/ico/ico-contracts.svg",
-  				"assets/ico/ico-contracts-h.svg",
-  				"assets/ico/ico-insurance.svg",
-  				"assets/ico/ico-insurance-h.svg",
-  				"assets/ico/ico-voting.svg",
-  				"assets/ico/ico-voting-h.svg",
-  				"assets/ico/ico-gaming.svg",
-  				"assets/ico/ico-gaming-h.svg",
-  				"assets/ico/ico-lending.svg",
-  				"assets/ico/ico-lending-h.svg",
-  				"assets/ico/ico-identity.svg",
-  				"assets/ico/ico-identity-h.svg",
-  				""
-  			)
-  		//--><!]]>
-  	</script>
+  
+  <!-- ========== FEATURED ICONS ================================================================================================
+  ============================================================================================================================= -->
+  
+  
+ <div style="display: none;">
+    <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+        var images = new Array()
+        function preload() {
+          for (i = 0; i < preload.arguments.length; i++) {
+            images[i] = new Image()
+            images[i].src = preload.arguments[i]
+          }
+        }
+        preload(
+          "/assets/img/ico/ico-banking.svg",
+          "/assets/img/ico/ico-banking-h.svg",
+          "/assets/img/ico/ico-domain.svg",
+          "/assets/img/ico/ico-domain-h.svg",
+          "/assets/img/ico/ico-stock.svg",
+          "/assets/img/ico/ico-stock-h.svg",
+          "/assets/img/ico/ico-money.svg",
+          "/assets/img/ico/ico-money-h.svg",
+          "/assets/img/ico/ico-music.svg",
+          "/assets/img/ico/ico-music-h.svg",
+          "/assets/img/ico/ico-charity.svg",
+          "/assets/img/ico/ico-charity-h.svg",
+          "/assets/img/ico/ico-contracts.svg",
+          "/assets/img/ico/ico-contracts-h.svg",
+          "/assets/img/ico/ico-insurance.svg",
+          "/assets/img/ico/ico-insurance-h.svg",
+          "/assets/img/ico/ico-voting.svg",
+          "/assets/img/ico/ico-voting-h.svg",
+          "/assets/img/ico/ico-gaming.svg",
+          "/assets/img/ico/ico-gaming-h.svg",
+          "/assets/img/ico/ico-lending.svg",
+          "/assets/img/ico/ico-lending-h.svg",
+          "/assets/img/ico/ico-identity.svg",
+          "/assets/img/ico/ico-identity-h.svg",
+          ""
+        )
+      //--><!]]>
+    </script>
   </div>
   
 	<div id="grey">
-        <a name="industries"></a>
 			<div class="inner-page row"style="min-height:20px">
       </div>
 			<div class="inner-page row"style="min-height:60px">
@@ -106,85 +235,85 @@
 
     </div>
   </div>
-	<div id="grey">
-		<div class="container">
-			<div class="inner-page row"style="min-height:10px">
+<div id="grey">
+    <div class="container">
+      <div class="inner-page row" style="min-height:10px">
       </div>
-			<div class="inner-page row">
-			
-			<a href="/banking/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-banking ico-feature">
+      <div class="inner-page row">
+      
+      <a href="/banking/"><span style="display: block;">
+        <div class="col-md-3 centered ico-banking ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Banking</h2>
             </div>
         </div></span></a>
-       		 <a href="/domains/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-domain ico-feature">
+           <a href="/domains/"><span style="display: block;">
+        <div class="col-md-3 centered ico-domain ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Domain Names</h2>
             </div>
         </div></span></a>
-        	<a href="/exchange/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-stock ico-feature">
+          <a href="/exchange/"><span style="display: block;">
+        <div class="col-md-3 centered ico-stock ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Stock Exchanges</h2>
             </div>
         </div></span></a>
-        	<a href="/money/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-money ico-feature">
+          <a href="/money/"><span style="display: block;">
+        <div class="col-md-3 centered ico-money ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Money</h2>
             </div>
         </div></span></a>
       </div>
-			<div class="inner-page row">
-			<a href="/music/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-music ico-feature">
+      <div class="inner-page row">
+      <a href="/music/"><span style="display: block;">
+        <div class="col-md-3 centered ico-music ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Music</h2>
             </div>
         </div></span></a>
-        	<a href="/charity/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-charity ico-feature">
+          <a href="/charity/"><span style="display: block;">
+        <div class="col-md-3 centered ico-charity ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Charity</h2>
             </div>
         </div></span></a>
-        	<a href="/smart-contracts/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-contracts ico-feature">
+          <a href="/smart-contracts/"><span style="display: block;">
+        <div class="col-md-3 centered ico-contracts ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Smart Contracts</h2>
             </div>
         </div></span></a>
-        	<a href="/insurance/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-insurance ico-feature">
+          <a href="/insurance/"><span style="display: block;">
+        <div class="col-md-3 centered ico-insurance ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Insurance</h2>
             </div>
         </div></span></a>
       </div>
 
-			<div class="inner-page row">
-			<a href="/voting/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-voting ico-feature">
+      <div class="inner-page row">
+      <a href="/voting/"><span style="display: block;">
+        <div class="col-md-3 centered ico-voting ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Voting</h2>
             </div>
         </div></span></a>
-        	<a href="/gaming/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-gaming ico-feature">
+          <a href="/gaming/"><span style="display: block;">
+        <div class="col-md-3 centered ico-gaming ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Gaming</h2>
             </div>
         </div></span></a>
-        	<a href="/lending/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-lending ico-feature">
+          <a href="/lending/"><span style="display: block;">
+        <div class="col-md-3 centered ico-lending ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Lending</h2>
             </div>
         </div></span></a>
-        	<a href="/identity/"><span style="display: block;">
-    		<div class="col-md-3 centered ico-identity ico-feature">
+          <a href="/identity/"><span style="display: block;">
+        <div class="col-md-3 centered ico-identity ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Identity</h2>
             </div>
@@ -205,7 +334,7 @@
     		<div class="col-md-4 centered">
             <div style="min-height:20px"> </div>
             <div class="index-sub-title col-1">
-             <img src="http://bitshares.org/assets/images/pts-sm-logo.png"/> 
+             <img src="/assets/img/pts-sm-logo.png"/> 
             <h4>Trade the industry</h4>
             </div>
             <p>
@@ -217,7 +346,7 @@
     		<div class="col-md-4 centered">
             <div style="min-height:20px"> </div>
             <div class="index-sub-title col-1">
-               <img src="http://bitshares.org/assets/images/ags-sm-logo.png"/> 
+               <img src="/assets/img/ags-sm-logo.png"/> 
             <h4>Give to the industry</h4>
             </div>
             <p>
@@ -331,5 +460,138 @@
 
     
 
-<?php include 'news_logos.php'; ?>
-<?php include 'footer.php'; ?>
+<section>
+    <div class="container news">
+      <h2><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> Press</h2>
+      <ul class="hideme" style="opacity: 1;">
+        <li><a  class="ico bloomberg" href="http://www.bloomberg.com/news/2014-03-28/bitcoin-2-0-shows-technology-evolving-beyond-use-as-money.html">Bloomberg</a></li>
+        <li>
+          <a href="http://www.economist.com/blogs/babbage/2014/01/computer-corporations" class="ico economist" target="_blank">The Economist</a>
+        </li>
+        <li>
+          <a href="" class="ico yBitcoin" target="_blank">yBitcoin</a>
+        </li>
+        <li>
+          <a href="http://www.businessweek.com/news/2014-02-07/bitcoin-rally-spawns-startups-offering-theft-protection-tech" class="ico business-week" target="_blank">Bloomberg BusinessWeek</a>
+        </li>
+        <div class="clear"></div>
+      </ul>
+      <ul class="hideme" style="opacity: 1;">
+        <li>
+          <a href="http://techcrunch.com/2014/02/15/kickstarter-coins-2/" class="ico tc" target="_blank">TC</a>
+        </li>
+        <li>
+          <a href="http://bitcoinmagazine.com/7424/when-libertarians-and-bitcoiners-collide-crypto-currency-conference-recap/" class="ico bitcoin" target="_blank">Bitcoin Magazine</a>
+        </li>
+        <li>
+          <a href="http://www.newscientist.com/article/mg22129553.700-bitcoin-how-its-core-technology-will-change-the-world.htm" class="ico newScientist" target="_blank">New Scientist</a>
+        </li>
+        <div class="clear"></div>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <center>
+    <a href="http://www.roanoke.com/news/local/blacksburg/floyd-co-entrepreneur-cashes-in-on-virtual-currency-craze/article_d07256fc-a66f-11e3-b845-0017a43b2370.html">
+    <img src="/assets/img/roanoke_times.png"/></a>
+    <a href="http://www.coindesk.com/bitshares-p2p-trading-platform-to-offer-dividends-on-bitcoins/">&nbsp;&nbsp;<img src="http://www.coindesk.com/wp-content/themes/coindesk2/images/header-logo.png"</img></a>
+    </center>
+    <br/>
+  </section>
+
+	<a href="#" class="ico back-to-top"></a>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="assets/js/jquery.fancybox.js"></script>
+	<script src="assets/js/jquery.fancybox-media.js"></script>
+	<script src="assets/js/lean-slider.js"></script>
+	<script type="text/javascript" src="assets/js/util.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.videobackground.js"></script>
+
+<a name="footer"></a>
+<section class="extra-nav">
+    <div class="container">
+      <article class="col-25">
+        <h3>About</h3>
+        <ul>
+          <li><a href="/vision">Vision</a></li>
+          <li><a href="/faq">FAQ's</a></li>
+          <li><a href="/videos">Videos</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/press">Press</a></li>
+        </ul>
+      </article>
+      <article class="col-25">
+        <h3>Industries</h3>
+        <ul>
+          <li><a href="/banking">Banking</a></li>
+          <li><a href="/charity">Charity</a></li>
+          <li><a href="/contracts">Contracts</a></li>
+          <li><a href="/domains">Domain Names</a></li>
+          <li><a href="/exchange">Exchanges</a></li>
+          <li><a href="/gaming">Gaming</a></li>
+          <li><a href="/identity">Identity</a></li>
+          <li><a href="/insurance">Insurance</a></li>
+          <li><a href="/lending">Lending</a></li>
+          <li><a href="/money">Money</a></li>
+          <li><a href="/music">Music</a></li>
+          <li><a href="/voting">Voting</a></li>
+        </ul>
+        <ul> </ul>
+      </article>
+      <article class="col-25">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="/documentation/">Documentation</a></li>
+          <li><a href="http://github.com/BitShares">Source Code</a></li>
+          <li><a href="/downloads">Downloads</a></li>
+          <li><a href="http://jenkins.bitshares.org">Nightly Build</a></li>
+          <li><a href="http://genesis.bitshares.org">Genesis Blocks</a></li>
+          <li><a href="http://agsexplorer.com">AGS Explorer</a></li>
+          <li><a href="/keyhotee">Keyhotee</a></li>
+        </ul>
+        <ul> </ul>
+      </article>
+      <article class="col-25">
+        <h3>Community</h3>
+        <ul>
+          <li><a href="http://bitsharestalk.org" target="_blank">Forum</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/partners">Partners</a></li>
+          <li><a href="http://facebook.com/officialbitshares" target="_blank" >Facebook</a></li>
+          <li><a href="http://www.twitter.com/_bitshares" target="_blank" >Twitter</a></li>
+          <li><a href="https://plus.google.com/107773134084388749048/posts" target="_blank" >Google Plus</a></li>
+          <li><a href="http://www.youtube.com/user/bitshares" >YouTube</a></li>
+          <li><a href="mailto:info@bitshares.com" >Contact Us</a></li>
+        </ul>
+        <ul> </ul>
+      </article>
+      <div class="clear"></div>
+    </div>
+  </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina.js"></script>
+    <script src="assets/js/invictus.js"></script>
+	<script>
+		$(window).scroll(function() {
+			$('.si').each(function(){
+			var imagePos = $(this).offset().top;
+
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$(this).addClass("slideUp");
+				}
+			});
+		});
+	</script>
+    <script>
+	    $('#myTab a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		})
+	</script>
+  </body>
+</html>

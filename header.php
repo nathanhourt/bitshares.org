@@ -57,7 +57,10 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
+  
     <div class="navbar-header">
+          <div class="logo"><a href="/index.php"><span class="primary">bit</span><span class="secondary">shares</span>.org</a></div>
+    
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -67,10 +70,6 @@
       </ul>
     </div>
     <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/index.php"><span class="primary">bit</span><span class="secondary">shares</span>.org<?php if( $section_title != "") echo " /"; ?></a> </li>
-        <li style="margin-left:-25px;"><a href=""><?php echo $section_title; ?></a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/blog/">Blog</a></li>
         <li><a href="#footer">About</a></li>

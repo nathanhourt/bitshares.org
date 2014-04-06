@@ -13,23 +13,25 @@
           <li><a href="/vision">Vision</a></li>
           <li><a href="/faq">FAQ's</a></li>
           <li><a href="/videos">Videos</a></li>
-          <li><a href="/blog" target="_blank">Blog</a></li>
-          <li><a href="/newsletter">Newsletter</a></li>
+          <li><a href="/blog">Blog</a></li>
           <li><a href="/press">Press</a></li>
         </ul>
       </article>
       <article class="col-25">
-        <h3>Companies</h3>
+        <h3>Industries</h3>
         <ul>
-          <li><a href="/bitshares/bank">bitshares X</a></li>
-          <li><a href="/bitshares/me">bitshares ME</a></li>
-          <li><a href="/bitshares/dns">bitshares DNS</a></li>
-          <li><a href="/bitshares/voice">bitshares VOICE</a></li>
-          <li><a href="/bitshares/insurance">bitshares MAS</a></li>
-          <li><a href="/bitshares/music">bitshares MUSIC</a></li>
-          <li><a href="/bitshares/hope">bitshares HOPE</a></li>
-          <li><a href="/bitshares/vegas">bitshares VEGAS</a></li>
-          <li><a href="/bitshares/ags-pts.php">bitshares PTS/AGS</a></li>
+          <li><a href="/banking">Banking</a></li>
+          <li><a href="/charity">Charity</a></li>
+          <li><a href="/contracts">Contracts</a></li>
+          <li><a href="/domains">Domain Names</a></li>
+          <li><a href="/exchange">Exchanges</a></li>
+          <li><a href="/gaming">Gaming</a></li>
+          <li><a href="/identity">Identity</a></li>
+          <li><a href="/insurance">Insurance</a></li>
+          <li><a href="/lending">Lending</a></li>
+          <li><a href="/money">Money</a></li>
+          <li><a href="/music">Music</a></li>
+          <li><a href="/voting">Voting</a></li>
         </ul>
         <ul> </ul>
       </article>

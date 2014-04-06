@@ -124,7 +124,7 @@
     The definition of decentralized is hard to pin down because it has become a buzzword.  We consider the free market to be the ultimate form of decentralization and barriers to entry to be the basis of all centralization.  Like many things, there are degrees of centralization so we will instead compare the relative centralization of Delegated Proof of Stake to the other alternatives.
     </p>
 
-    <h5>2.3.1  Bitcoin</h5>
+    <h5>2.5.1  Bitcoin</h5>
 
     <p>
     Bitcoin currently operates on the basis of Delegated Proof of Work (DPOW) and therefore has about 10 representatives that control the vast majority of the hashing power.  Hashing power is itself centralized in the hands of those who can employee economies of scale to make mining unprofitable for their competition.  Lastly, proof of work creates a barrier to entry that prevents incumbents from being easily displaced.   Compared to Bitcoin, DPOS is at least 10x more decentralized in block production and perhaps infinitely more decentralized relative to market competition.
@@ -134,13 +134,13 @@
     Despite a limited amount of decentralization in hashing power, when it comes to percentage of shareholders (bitcoin holders) who are in control of Bitcoin we estimate it is clearly the most centralized.   If you consider the population of everyone who uses Bitcoin probably less than a fraction of a percent currently participate in mining.
     </p>
 
-    <h5>2.3.2 Peercoin</h5>
+    <h5>2.5.2 Peercoin</h5>
     <p>
 
     Peercoin is a hybrid coin and is thus partial centralized by the proof of work.  Like Bitcoin it also has mining pools.   Compared to Bitcoin the Peercoin is certainly more decentralized; however, because proof of stake mining requires users to keep their computers on and wallets unlocked, only a small percentage of the shareholders participate in any kind of mining.
     </p>
 
-    <h5>2.3.3 Nxt</h5>
+    <h5>2.5.3 Nxt</h5>
     <p>
     Nxt uses transparent forging where the next node is deterministically selected.  It can be compared to using Delegated Proof of Stake where the only person you can delegate to is yourself and the frequency in which you have the opportunity to forge a block is directly related to your balance.  In this sense Nxt is more decentralized than Peercoin and Bitcoin, but still suffers poor user participation due to security risks and the fact that most regular users do not leave their computers on all day to take advantage of the opportunity.
     </p>

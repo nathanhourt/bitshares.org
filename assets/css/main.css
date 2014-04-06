@@ -701,11 +701,12 @@ p.capitalize:first-letter {
 
 
 .ico-feature {
+height: 200px;
 }
 
 
+
 .ico-title {
-	margin-top: 164px;
 }
 
 
@@ -725,54 +726,54 @@ p.capitalize:first-letter {
 /* 1st row */
 
 .ico-banking {
-	background:  url('../img/ico/ico-banking.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-banking.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-banking:hover {
-	background: url('../img/ico/ico-banking-h.svg') no-repeat center 24px;
+	background: url('../img/ico/ico-banking-h.svg') no-repeat center 48px;
 	
 }
 
 
 .ico-domain {
-	background:  url('../img/ico/ico-domain.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-domain.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-domain:hover {
-	background:  url('../img/ico/ico-domain-h.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-domain-h.svg') no-repeat center 48px;
 
 	
 	
 }
 
 .ico-stock {
-	background:  url('../img/ico/ico-stock.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-stock.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-stock:hover {
-	background:  url('../img/ico/ico-stock-h.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-stock-h.svg') no-repeat center 48px;
 	
 }
 
 
 .ico-money {
-	background:  url('../img/ico/ico-money.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-money.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-money:hover {
-	background: url('../img/ico/ico-money-h.svg') no-repeat center 24px;
+	background: url('../img/ico/ico-money-h.svg') no-repeat center 48px;
 }
 
 
@@ -780,53 +781,53 @@ p.capitalize:first-letter {
 
 
 .ico-music {
-	background:  url('../img/ico/ico-music.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-music.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-music:hover {
-	background:  url('../img/ico/ico-music-h.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-music-h.svg') no-repeat center 48px;
 
 }
 
 
 
 .ico-charity {
-	background:  url('../img/ico/ico-charity.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-charity.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-charity:hover {
-	background: url('../img/ico/ico-charity-h.svg') no-repeat center 24px;
+	background: url('../img/ico/ico-charity-h.svg') no-repeat center 48px;
 
 }
 
 .ico-contracts {
-	background:  url('../img/ico/ico-contracts.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-contracts.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-contracts:hover {
-	background:  url('../img/ico/ico-contracts-h.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-contracts-h.svg') no-repeat center 48px;
 
 }
 
 
 .ico-insurance {
-	background:  url('../img/ico/ico-insurance.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-insurance.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-insurance:hover {
-	background:  url('../img/ico/ico-insurance-h.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-insurance-h.svg') no-repeat center 48px;
 
 }
 
@@ -834,50 +835,50 @@ p.capitalize:first-letter {
 /* 3rd row */
 
 .ico-voting {
-	background:  url('../img/ico/ico-voting.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-voting.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-voting:hover {
-	background: url('../img/ico/ico-voting-h.svg') no-repeat center 24px;
+	background: url('../img/ico/ico-voting-h.svg') no-repeat center 48px;
 }
 
 
 
 .ico-gaming {
-	background:  url('../img/ico/ico-gaming.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-gaming.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-gaming:hover {
-	background: url('../img/ico/ico-gaming-h.svg') no-repeat center 24px;
+	background: url('../img/ico/ico-gaming-h.svg') no-repeat center 48px;
 }
 
 .ico-lending {
-	background:  url('../img/ico/ico-lending.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-lending.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-lending:hover {
-	background:  url('../img/ico/ico-lending-h.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-lending-h.svg') no-repeat center 48px;
 }
 
 
 .ico-identity {
-	background:  url('../img/ico/ico-identity.svg') no-repeat center 24px;
+	background:  url('../img/ico/ico-identity.svg') no-repeat center 48px;
 	margin: 0 auto;
 	margin-bottom: 12px;
 	
 }
 
 .ico-identity:hover {
-	background: url('../img/ico/ico-identity-h.svg') no-repeat center 24px;
+	background: url('../img/ico/ico-identity-h.svg') no-repeat center 48px;
 }
 
 /* Footer Wrap */
@@ -1584,6 +1585,9 @@ p > tag {
 }
 
 @media (max-width: 900px) { 
+
+
+
 
 
 

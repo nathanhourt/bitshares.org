@@ -366,7 +366,7 @@
             <h1>FORUM</h1>
             <h4>Join the discussion</h4>
             </div>
-          <p>A dozen languages, 50 countries, and thousands of people from around the world make up the core of our community. Collaborate with your peers as you explore the endless possibilities of <span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span>.   <br/><a href="http://bitsharestalk.org">Join today!</a></p>
+          <p>A dozen languages, 50 countries, and thousands of people from around the world make up the core of our community. Collaborate with your peers as you explore the endless possibilities of <span class="primary">bit</span><span class="secondary" >shares</span>.   <br/><a href="http://bitsharestalk.org">Join today!</a></p>
             </p>
         </div>
     		<div class="col-md-4 centered">
@@ -375,7 +375,7 @@
             <h1>PARTNERS</h1>
             <h4>Build the Industry</h4>
             </div>
-            <p> There are many companies and organizations that are supporting the <span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> ecosystem with their services. <br/><a href="/partners">Become a Partner!</a></p>
+            <p> There are many companies and organizations that are supporting the <span class="primary">bit</span><span class="secondary">shares</span> ecosystem with their services. <br/><a href="/partners">Become a Partner!</a></p>
             </p>
         </div>
     		<div class="col-md-4 centered">

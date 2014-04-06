@@ -626,6 +626,7 @@ body .bitsharesx .boxes li span {
 	#headerwrap.index-page h2 {
 		font-size: 28px;
 	}
+
 }
 
 @media (max-width: 991px) {
@@ -695,6 +696,9 @@ body .bitsharesx .boxes li span {
 	.bitsharesx .action-buttons a.btn {
 		margin-bottom: 20px;
 	}
+	
+
+	
 }
 
 @media (max-width: 768px) {
@@ -719,11 +723,8 @@ body .bitsharesx .boxes li span {
 		margin: 10px 0 0 24px ;
 		
 	}
-	
 
-	.full-info {
-		padding: 0 30px;
-	}
+
 
 }
 

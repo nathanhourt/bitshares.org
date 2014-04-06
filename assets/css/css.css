@@ -302,17 +302,9 @@ nav section {
 }
 
 nav .container {
-	max-width: 707px;
+	max-width: 690px;
 }
 
-nav .scroll-logo {
-	margin-top: 6px !important;
-	background-position: 0 -747px;
-	width: 150px;
-	height: 46px;
-	display: block;
-	text-indent: -9000em;
-}
 
 nav a {
 	text-transform: uppercase;
@@ -338,7 +330,7 @@ nav a:nth-child(5) {
 }
 
 .topNavDefault .container {
-	width: 707px;
+	max-width: 690px;
 }
 
 .topNavDefault a {
@@ -393,8 +385,8 @@ nav section ul li {
 
 nav section ul li a {
 	color: #fff;
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 1px;
+	font-weight: 400;
 }
 
 nav section a h1 {

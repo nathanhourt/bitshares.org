@@ -68,7 +68,7 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-left">
-        <li><a href="/index.php"><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span>.org<?php if( $section_title != "") echo " /"; ?></a> </li>
+        <li><a href="/index.php"><span class="primary">bit</span><span class="secondary">shares</span>.org<?php if( $section_title != "") echo " /"; ?></a> </li>
         <li style="margin-left:-25px;"><a href=""><?php echo $section_title; ?></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

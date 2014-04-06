@@ -712,6 +712,14 @@ body .bitsharesx .boxes li span {
 		width: 60%;
 		margin: 0 auto 15px auto !important;
 	}
+	
+	
+	.logo {
+		position: absolute;
+		margin: 10px 0 0 24px ;
+		
+	}
+	
 
 	.full-info {
 		padding: 0 30px;

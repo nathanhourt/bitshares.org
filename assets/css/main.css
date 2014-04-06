@@ -21,6 +21,8 @@ body {
     color: #555;
     background: url(../img/bg.png);
     padding: 20px 0;
+    width: 100%;
+    overflow: ;
 }
 
 /* Titles */
@@ -31,10 +33,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
+}
+
+.top {
+	margin-top: 48px;
 }
 
 .centered {
@@ -81,14 +88,22 @@ a:after {
     padding: 0;
 }
 
+
+.primary {
+	color:#9ce936;
+}
+
+.secondary {
+	color:#009df6;
+}
+
 .navbar {
 	font-size: 20px;
 	background: #000000; /*ffffff; */
 }
 
 .navbar-fixed-top {
-border-width: 0 0 0px;
-border-bottom-width: 0px;
+border: none;
 }
 /* ================== BASIC CONFIGURATION ================== */
 
@@ -317,6 +332,8 @@ p.capitalize:first-letter {
 	-ms-transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 }
+
+
 @media \0screen {.testi-container:after {background:none; border:none;}}
 
 .testi-text {
@@ -327,27 +344,46 @@ p.capitalize:first-letter {
 	font-weight: 200;
 }
 
+
+
+/* ================== HEADER LOGO SECTIONS ================== */
+
+
+.logo {
+	height: 32px;
+	margin: 10px 0 0 0 ;
+	font-size: 1.1em;
+}
+
+.logo a {
+	color: #FFF;
+}
+
+.logo a:hover {
+}
+
+
 /* ================== MAIN WRAP SECTIONS ================== */
 
 #headerwrap {
-	background: url(../img/earthspace.jpg) no-repeat center top;  
+	background: #000 url(../img/earthspace.jpg) no-repeat center bottom;  
 	margin-top: -20px;
-	padding-top:10px;*/
-	background-attachment: relative;
-	background-position: center bottom;
-	min-height: 400px;
-	/*height: 100%;*/
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
+	padding-top:10px;
+	min-height: 700px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+
+
+
 
 
 #devwrap {
@@ -1550,9 +1586,13 @@ p > tag {
 @media (max-width: 900px) { 
 
 
+
 #cta03 {
 	background: #2d2d2d;
 	}	
+		
+	
+	
 }
 
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {

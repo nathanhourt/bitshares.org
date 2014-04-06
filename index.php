@@ -43,6 +43,7 @@
 <div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
+    <div class="logo"><a href="/index.php"><span class="primary">bit</span><span class="secondary">shares</span>.org</a></div>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -52,10 +53,6 @@
       </ul>
     </div>
     <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/index.php"><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span>.org</a> </li>
-        <li style="margin-left:-25px;"><a href=""></a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#footer">About</a></li>
         <li><a href="/blog/">Blog</a></li>
@@ -69,13 +66,13 @@
 
 	<! ========== HEADERWRAP ====================================================================================================
 	=============================================================================================================================>
-    <div id="headerwrap" class="index-page" style="background-color:black; min-height:1000px">
+    <div id="headerwrap" class="index-page">
       <div class="container">
       <div class="row">
         <div class="col-md-12">
-              <center>
+        <center>
                <h1 class="slideUp">Reimagine Everything.</h1>
-               <br/>
+               
                  <a id="player_button" href="javascript:hideme()" class="fancybox-media ico play-btn hideme"></a>
                  <div id="video_player" class="video_player" style="margin-top:-10px;opacity:1">
                      <iframe id="player_iframe" src="//player.vimeo.com/video/89948761" width="100" height="100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -84,11 +81,8 @@
           </div>
       </div><!-- /row -->
       </div><!-- /container -->
-      <div class="row" style="min-height:600px">
-      </div>
-      <div class="row">
-        <a name="industries"></a>
-      </div>
+    
+
    </div>
   <script type="text/javascript">
      var horizony=0;
@@ -227,10 +221,8 @@
   </div>
   
 	<div id="grey">
-			<div class="inner-page row"style="min-height:20px">
-      </div>
-			<div class="inner-page row"style="min-height:60px">
-      <center> <h1>Unlimited Opportunities</h1> </center>
+			<div class="inner-page row" ><p></p>
+      <center> <h1 class="top">Unlimited Opportunities</h1> </center>
       </div>
 
     </div>
@@ -321,7 +313,7 @@
       </div>
     </div>
   </div>
-	<div id="grey">
+	<section id="grey">
 		<div class="container">
 			<div class="inner-page row"style="min-height:30px">
       </div>
@@ -358,7 +350,7 @@
         </div>
        </div>
     </div>
-  </div>
+  </section>
 	<div id="grey">
 		<div class="container">
         <a name="getinvolved"></a>

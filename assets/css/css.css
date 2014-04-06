@@ -1,7 +1,6 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	line-height: 1em;
 	background: url(../img/bg.png);
 	font-family: 'Open Sans', sans-serif;
 }
@@ -271,7 +270,6 @@ body {
 }
 
 .container {
-	width: 1233px;
 	margin: 0 auto;
 }
 
@@ -304,7 +302,7 @@ nav section {
 }
 
 nav .container {
-	width: 707px;
+	max-width: 707px;
 }
 
 nav .scroll-logo {

@@ -25,8 +25,8 @@
       </p>
       <p>
       While many people get lost in never ending debates about what is or isn't money, we
-      choose to recognize that anything can be used as money if enough people except it
-      in comerce.  Certain things are easier to use than others, so perhaps the most 
+      choose to recognize that anything can be used as money if enough people accept its
+      use in commerce.  Certain things are easier to use than others, so perhaps the most 
       important factor when evaluating what makes a good money is considering its 
       ease of use.
       </p>
@@ -61,7 +61,7 @@
          Bitcoin was the first successful decentralized currency that
          marketed its shares as coins.  The shares in Bitcoin have
          many of the desirable properties of money and have proven
-         very useful for all manner of comerse on the internet.
+         very useful for all manner of commerce on the internet.
          </p>
       </div>
       <div class="col-lg-4 center">
@@ -80,7 +80,7 @@
          <p>
          The Ripple network allows gateways to issue digital bearer bonds denominated in
          any asset class.  These digital bearer bonds are redeemable at specific exchanges. 
-         Alternatively Ripple can allow businesses to trade credit with one other as
+         Alternatively, Ripple can allow businesses to trade credit with one other as
          a form of digital money.
          </p>
       </div>

@@ -1,8 +1,10 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
 	line-height: 1em;
-	background: url(../img/bg.png);
+	background: #000 url(../img/bg.png);
 	font-family: 'Open Sans', sans-serif;
 }
 

@@ -14,16 +14,13 @@
 /* OVERALL ASPECT */
 
 body {
-    background-color: #f2f2f2;
+  
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    
-    margin-top: 20px;
+    background: url(../img/bg.png);
+    padding: 20px 0;
 }
 
 /* Titles */
@@ -663,6 +660,189 @@ p.capitalize:first-letter {
 	font-weight: 400;
 }
 
+
+/* ================== Unlimited Opportunities Wrap ================== */
+
+
+.ico-feature {
+}
+
+
+.ico-title {
+	margin-top: 164px;
+}
+
+
+.ico-title h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	
+}
+
+
+.index-sub-title.col-1 {
+	margin-bottom: 12px;
+}
+
+
+/* 1st row */
+
+.ico-banking {
+	background:  url('../ico/ico-banking.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-banking:hover {
+	background: url('../ico/ico-banking-h.svg') no-repeat center 24px;
+	
+}
+
+
+.ico-domain {
+	background:  url('../ico/ico-domain.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-domain:hover {
+	background:  url('../ico/ico-domain-h.svg') no-repeat center 24px;
+
+	
+	
+}
+
+.ico-stock {
+	background:  url('../ico/ico-stock.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-stock:hover {
+	background:  url('../ico/ico-stock-h.svg') no-repeat center 24px;
+	
+}
+
+
+.ico-money {
+	background:  url('../ico/ico-money.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-money:hover {
+	background: url('../ico/ico-money-h.svg') no-repeat center 24px;
+}
+
+
+/* 2nd row */
+
+
+.ico-music {
+	background:  url('../ico/ico-music.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-music:hover {
+	background:  url('../ico/ico-music-h.svg') no-repeat center 24px;
+
+}
+
+
+
+.ico-charity {
+	background:  url('../ico/ico-charity.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-charity:hover {
+	background: url('../ico/ico-charity-h.svg') no-repeat center 24px;
+
+}
+
+.ico-contracts {
+	background:  url('../ico/ico-contracts.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-contracts:hover {
+	background:  url('../ico/ico-contracts-h.svg') no-repeat center 24px;
+
+}
+
+
+.ico-insurance {
+	background:  url('../ico/ico-insurance.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-insurance:hover {
+	background:  url('../ico/ico-insurance-h.svg') no-repeat center 24px;
+
+}
+
+
+/* 3rd row */
+
+.ico-voting {
+	background:  url('../ico/ico-voting.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-voting:hover {
+	background: url('../ico/ico-voting-h.svg') no-repeat center 24px;
+}
+
+
+
+.ico-gaming {
+	background:  url('../ico/ico-gaming.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-gaming:hover {
+	background: url('../ico/ico-gaming-h.svg') no-repeat center 24px;
+}
+
+.ico-lending {
+	background:  url('../ico/ico-lending.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-lending:hover {
+	background:  url('../ico/ico-lending-h.svg') no-repeat center 24px;
+}
+
+
+.ico-identity {
+	background:  url('../ico/ico-identity.svg') no-repeat center 24px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-identity:hover {
+	background: url('../ico/ico-identity-h.svg') no-repeat center 24px;
+}
 
 /* Footer Wrap */
 

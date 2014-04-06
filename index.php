@@ -6,7 +6,7 @@
 	<! ========== FEATURED ICONS ================================================================================================
 	=============================================================================================================================>
 
-	<div id="white" class="bitsharesx">
+	<div id="gray" class="bitsharesx">
 		<div class="container">
 			<div class="inner-page row">
     		<div class="col-md-12 centered">
@@ -54,6 +54,48 @@
           </div>
         </div>
   </div>
+  
+  <div style="display: none;">
+  	<script type="text/javascript">
+  		<!--//--><![CDATA[//><!--
+  			var images = new Array()
+  			function preload() {
+  				for (i = 0; i < preload.arguments.length; i++) {
+  					images[i] = new Image()
+  					images[i].src = preload.arguments[i]
+  				}
+  			}
+  			preload(
+  				"assets/ico/ico-banking.svg",
+  				"assets/ico/ico-banking-h.svg",
+  				"assets/ico/ico-domain.svg",
+  				"assets/ico/ico-domain-h.svg",
+  				"assets/ico/ico-stock.svg",
+  				"assets/ico/ico-stock-h.svg",
+  				"assets/ico/ico-money.svg",
+  				"assets/ico/ico-money-h.svg",
+  				"assets/ico/ico-music.svg",
+  				"assets/ico/ico-music-h.svg",
+  				"assets/ico/ico-charity.svg",
+  				"assets/ico/ico-charity-h.svg",
+  				"assets/ico/ico-contracts.svg",
+  				"assets/ico/ico-contracts-h.svg",
+  				"assets/ico/ico-insurance.svg",
+  				"assets/ico/ico-insurance-h.svg",
+  				"assets/ico/ico-voting.svg",
+  				"assets/ico/ico-voting-h.svg",
+  				"assets/ico/ico-gaming.svg",
+  				"assets/ico/ico-gaming-h.svg",
+  				"assets/ico/ico-lending.svg",
+  				"assets/ico/ico-lending-h.svg",
+  				"assets/ico/ico-identity.svg",
+  				"assets/ico/ico-identity-h.svg",
+  				""
+  			)
+  		//--><!]]>
+  	</script>
+  </div>
+  
 	<div id="grey">
         <a name="industries"></a>
 			<div class="inner-page row"style="min-height:20px">
@@ -69,83 +111,84 @@
 			<div class="inner-page row"style="min-height:10px">
       </div>
 			<div class="inner-page row">
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+			
+			<a href="/banking/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-banking ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Banking</h2>
-            <a href="/banking">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+       		 <a href="/domains/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-domain ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Domain Names</h2>
-            <a href="/domains">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/exchange/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-stock ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Stock Exchanges</h2>
-            <a href="/exchange/">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/money/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-money ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Money</h2>
-            <a href="/money/">learn more...</a>
             </div>
-        </div>
+        </div></span></a>
       </div>
 			<div class="inner-page row">
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+			<a href="/music/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-music ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Music</h2>
-            <a href="/music">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/charity/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-charity ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Charity</h2>
-            <a href="/charity">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/smart-contracts/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-contracts ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Smart Contracts</h2>
-            <a href="/smart-contracts/">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/insurance/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-insurance ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Insurance</h2>
-            <a href="/insurance/">learn more...</a>
             </div>
-        </div>
+        </div></span></a>
       </div>
 
 			<div class="inner-page row">
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+			<a href="/voting/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-voting ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Voting</h2>
-            <a href="/voting">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/gaming/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-gaming ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Gaming</h2>
-            <a href="/gaming">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/lending/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-lending ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Lending</h2>
-            <a href="/lending">learn more...</a>
             </div>
-        </div>
-    		<div class="col-md-3 centered">
-            <div class="index-sub-title col-1">
+        </div></span></a>
+        	<a href="/identity/"><span style="display: block;">
+    		<div class="col-md-3 centered ico-identity ico-feature">
+            <div class="index-sub-title col-1 ico-title">
             <h2>Identity</h2>
-            <a href="/identity">learn more...</a>
             </div>
-        </div>
+        </div></span></a>
       </div>
     </div>
   </div>

@@ -790,7 +790,7 @@ header section .blue-btn {
 
 .extra-nav .container article {
 	float: left;
-	padding: 40px 0 0 25px;
+	padding: 10px 25px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -802,20 +802,19 @@ header section .blue-btn {
 }
 
 .extra-nav .container article h3 {
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 300;
-	margin-bottom: 35px;
-	line-height: 30px;
+	margin-bottom: 24px;
 }
 
 .extra-nav .container article ul {
-	height: 245px;
+	height: auto;
 }
 
 .extra-nav .container article ul li {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 4px;
 }
 
 .map {
@@ -887,9 +886,7 @@ footer span {
 }
 
 footer span, 
-footer a {
-	padding-top: 30px;
-}
+
 footer h1 {
 	margin: 15px auto 0 auto;
 }

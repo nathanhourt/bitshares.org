@@ -34,7 +34,6 @@
           <li><a href="/music">Music</a></li>
           <li><a href="/voting">Voting</a></li>
         </ul>
-        <ul> </ul>
       </article>
       <article class="col-25">
         <h3>Resources</h3>
@@ -47,7 +46,7 @@
           <li><a href="http://agsexplorer.com">AGS Explorer</a></li>
           <li><a href="/keyhotee">Keyhotee</a></li>
         </ul>
-        <ul> </ul>
+     
       </article>
       <article class="col-25">
         <h3>Community</h3>
@@ -61,7 +60,7 @@
           <li><a href="http://www.youtube.com/user/bitshares" >YouTube</a></li>
           <li><a href="mailto:info@bitshares.com" >Contact Us</a></li>
         </ul>
-        <ul> </ul>
+     
       </article>
       <div class="clear"></div>
     </div>

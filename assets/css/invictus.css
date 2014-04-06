@@ -755,6 +755,16 @@ body .bitsharesx .boxes li span {
 		width: 90%;
 		margin-bottom: 30px !important;
 	}
+	
+	.col-25 {
+		width: 100%;
+	}
+	
+	.extra-nav .container article {
+		border: none;
+		text-align: center;
+	}
+	
 }
 
 @media (max-width: 600px) {
@@ -824,4 +834,6 @@ body .bitsharesx .boxes li span {
 		font-size: 14px;
 		padding: 6px 10px;
 	}
+	
+	
 }

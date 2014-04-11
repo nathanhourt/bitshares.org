@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px"
-	 height="130px" viewBox="0 0 125 130" enable-background="new 0 0 125 130" xml:space="preserve">
-<g id="Ebene_1">
-	<g id="bg" display="none">
-		<polygon fill="#CCCCCC" points="125,98.372 62.5,126.702 0,98.372 0,30.032 62.5,1.702 125,30.032 		"/>
-		<polygon display="inline" fill="#CCCCCC" points="122,99.303 62,128.404 2,99.303 2,29.101 62,0 122,29.101 		"/>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 125 130" style="enable-background:new 0 0 125 130;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#CCCCCC;}
+	.st2{fill:#1B485D;}
+	.st3{fill:#00AEEE;}
+	.st4{fill:#CCCCCC;}
+</style>
+<g id="Ebene_1_1_">
+	<g id="bg" class="st0">
+		<polygon class="st1" points="125,98.4 62.5,126.7 0,98.4 0,30 62.5,1.7 125,30 		"/>
+		<polygon class="st1" points="122,99.3 62,128.4 2,99.3 2,29.1 62,0 122,29.1 		"/>
 	</g>
 	<g id="bg_x5F_hover">
-		<polygon fill="#1B485D" points="122,100.101 62,129.202 2,100.101 2,29.899 62,0.798 122,29.899 		"/>
+		<polygon class="st2" points="122,100.1 62,129.2 2,100.1 2,29.9 62,0.8 122,29.9 		"/>
 	</g>
 </g>
 <g id="Ebene_3">
 	<g>
 		
-			<image overflow="visible" opacity="0.25" width="231" height="231" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO4AAADuCAYAAAA+7jsiAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
+			<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="238" height="238" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO4AAADuCAYAAAA+7jsiAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAJDZJREFUeNrsnYly4zqMRUFJttPb
 65n//87XHS+S5qVGrNxcAyRla7MNVKniTidxIvEQKwERFxcXFxcXFxcXFxcXFxcXFxcXFxcXl1IJ
 M//M3m+xi8v00swAf2ozcJBdXFbWuGEEuL3x0cXFZUGNGxRwQwbc3jWwi8t6Gjco4FbK51nDflwd
@@ -179,16 +186,15 @@ apW1qif2ezE1lIPW4XV5FHBF0imgRvSSR+yogWd8tQP6o6LMzR1/WKeAW8tnCZePxHR5FkmZy7V8
 PX8eKN6jncfFQ/Wt3JAauvd0ECanY4sa/OO0ahAXl0eHtyLNy4qqJ63L5cCtoWlH/zK3/iHWIfqU
 Wezwujw6wAyvNSJHK53sQMvenMcNE+1CIulRDC4uz6JxLUWlnSHPDXW/uXIqzPiHicPr8uRaN6Ww
 GN5Uf2VZE9w1fr6Ly9r+rqW0SoaJOVguLiubzvx/s47rdHBdXOa1MH3CpIuLi4uLi4uLi4uLi4uL
-i4uLi4uLi4uLi8tY+T8BBgAZTVulUse29gAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 35.7988 38.2871)">
+i4uLi4uLi4uLi8tY+T8BBgAZTVulUse29gAAAABJRU5ErkJggg==" transform="matrix(0.2329 0 0 0.2329 35.7988 38.2871)">
 		</image>
 		<g>
 			<g>
-				<polygon fill="#00AEEE" points="39.775,87.713 84.731,87.713 84.731,86.725 87.201,88.219 84.731,89.713 84.731,88.701 
-					84.731,88.701 38.787,88.701 38.787,87.96 38.787,42.757 37.799,42.757 39.281,40.287 40.763,42.757 39.775,42.757 				"/>
-				<polygon fill="#00AEEE" points="40.763,86.741 47.759,73.148 54.073,78.599 65.53,72.654 73.551,77.709 82.755,67.202 
-					82.755,86.741 				"/>
-				<polygon fill="#CCCCCC" points="41.311,83.224 47.519,71.172 54.073,77.117 65.883,71.172 73.536,75.793 82.755,65.067 
-					82.755,54.177 72.529,67.403 63.307,58.61 55.422,69.412 43.217,63.767 				"/>
+				<polygon class="st3" points="39.8,87.7 84.7,87.7 84.7,86.7 87.2,88.2 84.7,89.7 84.7,88.7 84.7,88.7 38.8,88.7 38.8,88 
+					38.8,42.8 37.8,42.8 39.3,40.3 40.8,42.8 39.8,42.8 				"/>
+				<polygon class="st3" points="40.8,86.7 47.8,73.1 54.1,78.6 65.5,72.7 73.6,77.7 82.8,67.2 82.8,86.7 				"/>
+				<polygon class="st4" points="41.3,83.2 47.5,71.2 54.1,77.1 65.9,71.2 73.5,75.8 82.8,65.1 82.8,54.2 72.5,67.4 63.3,58.6 
+					55.4,69.4 43.2,63.8 				"/>
 			</g>
 		</g>
 	</g>

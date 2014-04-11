@@ -8,6 +8,19 @@
 			<div class="inner-page row">
     		<div class="col-md-8"><!-- main content -->
         <div class="article-summary">
+           <h2>Delegated Proof of Stake</h2>
+           <h3>by Daniel Larimer on April 3, 2014</h3>
+           <p>
+         This paper introduces a new implementation of proof of stake that can validate transactions 
+         in seconds while providing greater security in a shorter period of time than all existing proof 
+         of stake systems.  In the time it takes Bitcoin to produce a single block a DPOS system can 
+         have your transaction verified by 20% of the shareholders and by the time Bitcoin claims the 
+         transaction is almost irreversible (6 blocks, 1 hour) your transaction under DPOS has been 
+         verified by 100% of the shareholders through their representatives.
+           <br/> <a href="/security/delegated-proof-of-stake.php">read more  </a> | <a href="https://bitsharestalk.org/index.php?topic=4009.msg50412#msg50412">discuss</a>
+           </p>
+        </div>
+        <div class="article-summary">
            <h2>The end of Cryptomoney</h2>
            <h3>by Charles Evans on March 25, 2014</h3>
            <p>
@@ -62,7 +75,6 @@ providing PTS holders at least 10% of every future Decentralized Autonomous Comp
            Sometimes our suggestions that third-party developers should honor the BitShares Social Consensus sound a bit like Invictus is just making up a set of take-it-or-leave-it rules.  We are not.  What we are suggesting are more like Natural Economic Laws we have discovered that we are bound to follow as well.
            </p><p>
            Winning the favor of the BitShares PTS/AGS community is a Big Deal because owners of PTS and AGS already represent the lion’s share of informed early adopters of the concept of crypto-equities and Decentralized Autonomous Companies (DACs).  If you get these folks on your side, they can help you fine-tune your concept and spread the word once they understand what you have in mind.  And they will be the ones most likely to invest in your idea.  Everyone else in the world needs to be educated from scratch.
-           </p>
            <br/> <a href="ten-natural-laws-of-crypto-asset-universe.php">read more  </a>  |  <a href="https://bitsharestalk.org/index.php?topic=2876.0">discuss </a>
            </p>
         </div>
@@ -72,25 +84,30 @@ providing PTS holders at least 10% of every future Decentralized Autonomous Comp
            <p>
 Since <a href="http://bitshares.org/team/stanley-larimer.php">Stan Larimer</a> first published “<a title="Bitcoin and the Three Laws of Robotics" href="http://letstalkbitcoin.com/bitcoin-and-the-three-laws-of-robotics/">Bitcoin and the Three Laws of Robotics</a>” there have been many articles discussing the creation of Decentralized Autonomous Corporations (aka DACs).    <a href="https://bitcoinpresscenter.org/presscontact/vitalik-buterin">Vitalik Buterin</a> has published a <a href="http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/">3-part series</a> discussing the bootstrapping of a DAC, interacting with the world, and Identity Corp.   Others, such as <a href="http://8btc.com">8BTC</a>, have started to  <a href="http://bitcoinmagazine.com/7827/the-pirates-of-8btc-implement-the-idea-of-distributed-autonomous-corporations/">talk about their systems as a DAC</a>.</p>
            <p style="text-align: justify;">Unfortunately, the enthusiasm for DACs has led many people to jump the gun and start calling things a DAC that clearly are not while at the same time proposing new DACs that are not feasible.  As the original creator of the DAC metaphor I would like to add some clarity to the discussion that will help people design new DACs.
-           </p>
            <br/> <a href="dac-revisited.php">read more  </a>
            </p>
         </div>
         <div class="article-summary">
            <h2>Bitcoin &amp; the Three Laws of Robotics</h2>
            <h3>by Stan Larimer  September, 2013</h3>
+            <p>
+You may not have considered it, but Bitcoin can be viewed as an unmanned company – or a Distributed Autonomous Corporation (DAC) if you prefer.  Unlike passive currencies, Bitcoin derives much of its tangible value by performing a trustworthy confidential fiduciary service. Essentially, it keeps private books for customer “checking” accounts and will transfer credits between accounts upon receipt of a properly signed “check”. 
            <br/> <a href="bitcoin-and-the-three-laws-of-robotics.php">read more  </a>
            </p>
         </div>
         <div class="article-summary">
            <h2>Overpaying for Security</h2>
            <h3>by Daniel Larimer  September, 2013</h3>
+           <p>
+           If you have been following Bitcoin and crypto-currencies in general you will have probably seen the claim that miners provide computation power that secures the network. To compensate these miners for the security services they provide they earn mining rewards and transaction fees. The questions become, is there any rationale to justify how many resources are currently directed into ‘securing’ the network and how much ‘value’ is being provided in exchange for the so-called security provided? 
            <br/> <a href="overpaying-for-security.php">read more  </a>
            </p>
         </div>
         <div class="article-summary">
            <h2>Own your Identity</h2>
            <h3>by Daniel Larimer on September, 2013</h3>
+           <p>
+Who really owns your online identity? I can assure you that any ownership you perceive is an illusion and ultimately your online identity is not currently under your control. Chances are your identity is tied to your e-mail address and every service you sign up for uses email verification as the primary means of identification. 
            <br/> <a href="own-your-identity.php">read more  </a>
            </p>
         </div>

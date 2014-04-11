@@ -1,4 +1,3 @@
-
 <?php $section_title = "Voting"; include '../header.php'; ?>
 <section data-type="background" class="bitsharesx-header">
   <section class="inner-lg-billboard">
@@ -19,7 +18,7 @@
     <div class="row">
       <h3>Decentalized Voting</h3>
       <p>
-      Transparently honest ellections are something that we could only dream of prior to the
+      Transparently honest elections are something that we could only dream of prior to the
       invention of decentralized transaction ledgers and technologies such as <a href="http://zerocoin.org/">Zerocoin</a>. 
       With the latest ideas behind bitshares Voice it will soon be possible to have ellections
       where all voters are verified, they can cast their votes in an anonymous manner and yet also

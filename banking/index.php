@@ -59,6 +59,15 @@
       </div>
 
     </div>
+     <div class="row">
+        <div class="col-lg-8">
+            <?php include 'overview.php'?>
+            <?php include 'whitepaper.php'?>
+        </div>
+        <div class="col-lg-4" style="padding-left:40px">
+            <?php include 'sidebar.php'?>
+        </div>
+     </div> <!-- row -->
   </div>
 </div>
 <?php include '../footer.php'; ?>

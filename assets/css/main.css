@@ -333,13 +333,10 @@ p.capitalize:first-letter {
 /* ================== MAIN WRAP SECTIONS ================== */
 
 #headerwrap {
-/*	background: url(../img/earthspace.jpg) no-repeat center top;  
+	background: url(../img/earthspace.jpg) no-repeat ;  
 	margin-top: -20px;
 	padding-top:10px;*/
-	background-attachment: relative;
-	background-position: center bottom;
-	min-height: 400px;
-	/*height: 100%;*/
+	background-position: center 0px;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;

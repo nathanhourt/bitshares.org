@@ -218,12 +218,6 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/matthew.jpg" alt="Adam B.. Levine" title="Adam B. Levine"></div>
-          <h2>
-            Adam B. Levine
-            <span>Advisor</span>
-          </h2>
-          <p>&nbsp;</p>
         </div>
 
         <div class="clear"></div>

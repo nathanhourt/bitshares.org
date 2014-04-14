@@ -1,11 +1,11 @@
 <?php $section_title="Vision"; include '../header.php'?>
-<section data-type="background" class="bitsharesx-header">
+<section data-type="background" class="vision-header">
   <section class="inner-lg-billboard">
       <div class="container">
         <div class="row" style="min-height:80px"> </div>
         <div class="row">
           <center>
-            <h2 style="color:white; font-size:6em">Vision</h2>
+            <h2 style="color:white; font-size:6em">Our Vision</h2>
           </center>
         </div>
       </div>

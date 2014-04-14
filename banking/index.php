@@ -14,7 +14,7 @@
       <p>
       Bitshares X is a family of DACs that implement the business model of a bank
       and exchange.   Banks create money by issuing bank notes based upon deposits
-      or collateral.  Bank notes can be denominated in anything including gold, silver,
+      or collateral.  Bank notes can be denominated in anything, including gold, silver,
       dollars, shares of a company, or gallons of gasoline.  
       </p>
       <p>
@@ -52,7 +52,7 @@
       <div class="col-lg-4 center">
         <h3>bitshares CX</h3>
         <p>
-            This bank specializes in comodities trading and is scheduled to be released
+            This bank specializes in commodities trading and is scheduled to be released
             after bitshares FX has proven itself in the market.   
             <a href="/banking/cx">Learn More</a>
         </p>

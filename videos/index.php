@@ -38,10 +38,6 @@
             <h2> Insurance (Mutual Aid Society) </h2>
             <iframe src="//player.vimeo.com/video/88861284" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </li>
-        <li>
-           <h2> Mining for World Domination </h2>
-           <iframe width="480" height="270" src="//www.youtube.com/embed/OaOVFoZkI_0" frameborder="0" allowfullscreen></iframe>
-        </li>
      </ul>
      </center>
    </div>

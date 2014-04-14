@@ -1,7 +1,6 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	line-height: 1em;
 	background: url(../img/bg.png);
 	font-family: 'Open Sans', sans-serif;
 }
@@ -60,7 +59,13 @@ body {
 }
 .col-25 {
 	width: 25%;
+	
 }
+
+.f-col-25 {
+	width: 25%;
+}
+
 .col-30 {
 	width: 30%;
 }
@@ -271,7 +276,6 @@ body {
 }
 
 .container {
-	width: 1233px;
 	margin: 0 auto;
 }
 
@@ -304,17 +308,9 @@ nav section {
 }
 
 nav .container {
-	width: 707px;
+	max-width: 690px;
 }
 
-nav .scroll-logo {
-	margin-top: 6px !important;
-	background-position: 0 -747px;
-	width: 150px;
-	height: 46px;
-	display: block;
-	text-indent: -9000em;
-}
 
 nav a {
 	text-transform: uppercase;
@@ -340,7 +336,7 @@ nav a:nth-child(5) {
 }
 
 .topNavDefault .container {
-	width: 707px;
+	max-width: 690px;
 }
 
 .topNavDefault a {
@@ -395,8 +391,8 @@ nav section ul li {
 
 nav section ul li a {
 	color: #fff;
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 1px;
+	font-weight: 400;
 }
 
 nav section a h1 {
@@ -800,7 +796,7 @@ header section .blue-btn {
 
 .extra-nav .container article {
 	float: left;
-	padding: 40px 0 0 25px;
+	padding: 10px 25px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -812,20 +808,19 @@ header section .blue-btn {
 }
 
 .extra-nav .container article h3 {
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 300;
-	margin-bottom: 35px;
-	line-height: 30px;
 }
 
 .extra-nav .container article ul {
-	height: 245px;
+	height: 100%;
+	min-height:100%
 }
 
 .extra-nav .container article ul li {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 4px;
 }
 
 .map {
@@ -897,9 +892,7 @@ footer span {
 }
 
 footer span, 
-footer a {
-	padding-top: 30px;
-}
+
 footer h1 {
 	margin: 15px auto 0 auto;
 }
@@ -1920,3 +1913,4 @@ footer .clear {
 
 
 
+	

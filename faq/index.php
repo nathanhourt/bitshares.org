@@ -10,7 +10,7 @@
         <li>
             <h3>What is a DAC?</h3>
             <p>
-              DAC stands for decentralized autonomous company and has previously been called a distributed autonomous corporation.  DACs are
+              DAC stands for Decentralized Autonomous Company or previously Distributed Autonomous Corporation.  DACs are
               not legal entities and instead serve as a metaphor for describing how transparent, irreversable ledger systems such as Bitcoin
               operate.  DACs can have expenses (paying miners) and they can earn revenue (charging transaction fees). 
             </p>
@@ -20,8 +20,8 @@
         <li>
             <h3>What is a crypto-equity?</h3>
             <p>
-            A crypto-equity is a more accurate description of what a crypto-currency is.  Bitcoin is first and foremost a crypto-equity, when it
-            is used as a medium of exchange, it becomes a crypto-currency.   In the same ways shares in Apple (AAPL) are first and foremost
+            A crypto-equity is a more accurate description of what a crypto-currency is.  Bitcoin is first and foremost a crypto-equity, but when it
+            is used as a medium of exchange, it becomes a crypto-currency.  In the same ways shares in Apple (AAPL) are first and foremost
             an equity, but if they became <a href="http://www.investopedia.com/terms/b/bearer_share.asp">bearer shares</a> and started circulating 
             in barter transactions they could become a currency as well.
             </p>
@@ -29,12 +29,12 @@
         <li>
             <h3>What is a BIP?</h3>
             <p>
-            A BIP is one billionth of the current share supply and is the fundamental unit of account.  Given 8,000,000 initial shares, a
-            BIP would be .008 shares. The total shares in circulation is constantly decreasing as <a href="#dividend">dividends</a> are
+            A BIP is one billionth of the current share supply and is the fundamental unit of account in a DAC.  Given 8,000,000 initial shares, a
+            BIP would be .008 shares. The total number of shares in circulation is constantly decreasing as <a href="#dividend">dividends</a> are
             paid from transaction fees.
             </p>
             <p>
-            While the number of shares in your wallet doesn't change, the number of BIPs in your wallet is constantly growing and it this 
+            While the number of shares in your wallet doesn't change, the number of BIPs in your wallet is constantly growing and in this 
             way users have a better unit of account.   The user interface of all DACs should completely hide the underlying shares and
             instead display all balances in termps of BIPs and all transfers should also be specified in terms of BIPs.
             </p>

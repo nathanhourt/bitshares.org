@@ -54,7 +54,7 @@
             <li>claim by cover</li>
             <li>claim by option execute</li>
             <li>claim by bid</li>
-            <li>claim by cove bid</li>
+            <li>claim by cover bid</li>
          </ul>
 
          <h4> User Generated Transactions </h4>

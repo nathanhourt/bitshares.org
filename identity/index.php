@@ -46,9 +46,9 @@
       <div class="col-lg-4 center">
          <h3>Namecoin</h3>
          <p>
-         Namecoin is primarly designed for registering names under the .bit domain,
-         but has also been used like Nxt Aliases to register usernames for systems
-         such as BitMessage.
+         Namecoin's id/ namespace is used for registering usernames used in
+         systems such as BitMessage. Namecoin has several use other cases (most
+         notably the .bit TLD) which are analagous to the DNS family of DACs.
          </p>
       </div>
     </div>

@@ -137,7 +137,7 @@
     <h5>2.5.1  Bitcoin</h5>
 
     <p>
-    Bitcoin currently operates on the basis of Delegated Proof of Work (DPOW) and therefore has about 10 delegates that control the vast majority of the hashing power.  Hashing power is itself centralized in the hands of those who can employee economies of scale to make mining unprofitable for their competition.  Lastly, proof of work creates a barrier to entry that prevents incumbents from being easily displaced.   Compared to Bitcoin, DPOS is at least 10x more decentralized in block production and perhaps infinitely more decentralized relative to market competition.
+    Bitcoin currently operates on the basis of Delegated Proof of Work (DPOW) and therefore has about 10 delegates that control the vast majority of the hashing power.  Hashing power is itself centralized in the hands of those who can employ economies of scale to make mining unprofitable for their competition.  Lastly, proof of work creates a barrier to entry that prevents incumbents from being easily displaced.   Compared to Bitcoin, DPOS is far more decentralized in block production and perhaps infinitely more decentralized relative to market competition.
     </p>
 
     <p>

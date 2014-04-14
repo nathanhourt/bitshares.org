@@ -86,6 +86,7 @@
         <li>
             <a name="bitasset"><h3>What is a BitAsset?</h3></a>
             <p>
+            BitAssets are an experimental digital asset class that are fungible and market-pegged to the value of anything from dollars, to gold, to gallons of gasoline. BitAssets can be transferred between users in the same way as bitcoins.
             </p>
         </li>
         <li>

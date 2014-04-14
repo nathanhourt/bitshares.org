@@ -36,7 +36,7 @@
         <p>
             This DAC is a test-network and a <a href="/faq/index.php#proto-DAC">proto-DAC</a> for
             all future bitshares X chains.  It features basic shares without enabling the
-            built in exchange necessary to support <a href="/faq/index.php#BitAsset">BitAssets</a>.
+            built in exchange necessary to support <a href="/faq/index.php#bitasset">BitAssets</a>.
             <br/>
             <a href="/banking/xt">Learn More</a>
         </p>

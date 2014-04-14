@@ -19,7 +19,7 @@
             </div>
 				<div class="row">				
 					<div class="col-lg-6">					
-             <center> <img src="http://bitshares.org/assets/images/ags-sm-logo.png"/> </center>
+             <center> <img src="../assets/img/ags-sm-logo.png"/> </center>
              <br/>
              <br/>
             <p>
@@ -83,7 +83,7 @@
 
            </div> <!-- AGS COLUMN -->
 					<div class="col-lg-6">					
-             <center> <img src="http://bitshares.org/assets/images/pts-sm-logo.png"/> </center>
+             <center> <img src="/assets/img/pts-sm-logo.png"/> </center>
              <br/>
              <br/>
 							<p style="text-align: justify;">

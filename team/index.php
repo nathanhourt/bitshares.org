@@ -121,14 +121,6 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/michael.jpg" alt="Michael Abridello" title="Michael Abridello"></div>
-          <h2>
-            Michael Abridello
-            <span>Advisor</span>
-          </h2>
-          <p>&nbsp;</p>
-        </div>
-        <div class="fl-lt col-33">
           <div class="avatar"><img src="/assets/img/avatars/danN.jpg" alt="Dan Notestein . Contractor, Consultant, Senior S/W Engineer" 
                                   title="Dan Notestein . Contractor, Consultant, Senior S/W Engineer"></div>
           <h2>

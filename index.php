@@ -18,11 +18,6 @@
           </div>
       </div><!-- /row -->
       </div><!-- /container -->
-      <div class="row" style="min-height:300px">
-      </div>
-      <div class="row" style="position-top:300px">
-        <a name="industries"></a>
-      </div>
    </div>
   <script type="text/javascript">
      var horizony=220;
@@ -88,7 +83,7 @@
 	<!-- ========== FEATURED ICONS ================================================================================================
 	============================================================================================================================= -->
 
-
+  <a name="industries"></a>
   <div class="lightblue-bg">
 			<div class="container">
 				<div class="inner-page row">

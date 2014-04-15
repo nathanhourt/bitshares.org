@@ -54,7 +54,7 @@
             <li>claim by cover</li>
             <li>claim by option execute</li>
             <li>claim by bid</li>
-            <li>claim by cove bid</li>
+            <li>claim by cover bid</li>
          </ul>
 
          <h4> User Generated Transactions </h4>
@@ -109,8 +109,7 @@
 
          <h3> Blockchain Security </h3>
          <p>
-         The blockchain will use a <a href="/security/timekeeper">Timekeeper</a> combined 
-         with <a href="/security/TaPOS">Transactions as Proof of Stake (TaPOS)</a> to secure the 
+         The blockchain will use <a href="/security/delegated-proof-of-stake.php">Delegated Proof-of-Stake (DPOS)</a> to secure the 
          network over the short and long term horizon.  This will give the network a 
          30 second block interval.
          </p>

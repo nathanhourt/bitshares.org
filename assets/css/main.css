@@ -14,16 +14,15 @@
 /* OVERALL ASPECT */
 
 body {
-    background-color: #f2f2f2;
+  
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    
-    margin-top: 20px;
+    background: url(../img/bg.png);
+    padding: 20px 0;
+    width: 100%;
+    overflow: ;
 }
 
 /* Titles */
@@ -34,10 +33,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
+}
+
+.top {
+	margin-top: 48px;
 }
 
 .centered {
@@ -84,14 +88,22 @@ a:after {
     padding: 0;
 }
 
+
+.primary {
+	color:#9ce936;
+}
+
+.secondary {
+	color:#009df6;
+}
+
 .navbar {
 	font-size: 20px;
 	background: #000000; /*ffffff; */
 }
 
 .navbar-fixed-top {
-border-width: 0 0 0px;
-border-bottom-width: 0px;
+border: none;
 }
 /* ================== BASIC CONFIGURATION ================== */
 
@@ -320,6 +332,8 @@ p.capitalize:first-letter {
 	-ms-transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 }
+
+
 @media \0screen {.testi-container:after {background:none; border:none;}}
 
 .testi-text {
@@ -330,18 +344,36 @@ p.capitalize:first-letter {
 	font-weight: 200;
 }
 
+
+
+/* ================== HEADER LOGO SECTIONS ================== */
+
+
+.logo {
+	height: 32px;
+	margin: 10px 0 0 0 ;
+	font-size: 1.1em;
+}
+
+.logo a {
+	color: #FFF;
+}
+
+.logo a:hover {
+}
+
+
 /* ================== MAIN WRAP SECTIONS ================== */
 
 #headerwrap {
-	background: url(../img/earthspace.jpg) no-repeat ;  
+	background: #000 url(../img/earthspace.jpg) no-repeat center bottom;  
 	margin-top: -20px;
-	padding-top:10px;*/
-	background-position: center 0px;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+	padding-top:10px;
+	min-height: 700px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -660,6 +692,190 @@ p.capitalize:first-letter {
 	font-weight: 400;
 }
 
+
+/* ================== Unlimited Opportunities Wrap ================== */
+
+
+.ico-feature {
+height: 200px;
+}
+
+
+
+.ico-title {
+}
+
+
+.ico-title h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	
+}
+
+
+.index-sub-title.col-1 {
+	margin-bottom: 12px;
+}
+
+
+/* 1st row */
+
+.ico-banking {
+	background:  url('../img/ico/ico-banking.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-banking:hover {
+	background: url('../img/ico/ico-banking-h.svg') no-repeat center 48px;
+	
+}
+
+
+.ico-domain {
+	background:  url('../img/ico/ico-domain.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-domain:hover {
+	background:  url('../img/ico/ico-domain-h.svg') no-repeat center 48px;
+
+	
+	
+}
+
+.ico-stock {
+	background:  url('../img/ico/ico-stock.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-stock:hover {
+	background:  url('../img/ico/ico-stock-h.svg') no-repeat center 48px;
+	
+}
+
+
+.ico-money {
+	background:  url('../img/ico/ico-money.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-money:hover {
+	background: url('../img/ico/ico-money-h.svg') no-repeat center 48px;
+}
+
+
+/* 2nd row */
+
+
+.ico-music {
+	background:  url('../img/ico/ico-music.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-music:hover {
+	background:  url('../img/ico/ico-music-h.svg') no-repeat center 48px;
+
+}
+
+
+
+.ico-charity {
+	background:  url('../img/ico/ico-charity.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-charity:hover {
+	background: url('../img/ico/ico-charity-h.svg') no-repeat center 48px;
+
+}
+
+.ico-contracts {
+	background:  url('../img/ico/ico-contracts.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-contracts:hover {
+	background:  url('../img/ico/ico-contracts-h.svg') no-repeat center 48px;
+
+}
+
+
+.ico-insurance {
+	background:  url('../img/ico/ico-insurance.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-insurance:hover {
+	background:  url('../img/ico/ico-insurance-h.svg') no-repeat center 48px;
+
+}
+
+
+/* 3rd row */
+
+.ico-voting {
+	background:  url('../img/ico/ico-voting.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-voting:hover {
+	background: url('../img/ico/ico-voting-h.svg') no-repeat center 48px;
+}
+
+
+
+.ico-gaming {
+	background:  url('../img/ico/ico-gaming.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-gaming:hover {
+	background: url('../img/ico/ico-gaming-h.svg') no-repeat center 48px;
+}
+
+.ico-lending {
+	background:  url('../img/ico/ico-lending.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-lending:hover {
+	background:  url('../img/ico/ico-lending-h.svg') no-repeat center 48px;
+}
+
+
+.ico-identity {
+	background:  url('../img/ico/ico-identity.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-identity:hover {
+	background: url('../img/ico/ico-identity-h.svg') no-repeat center 48px;
+}
 
 /* Footer Wrap */
 
@@ -1553,9 +1769,20 @@ p > tag {
 @media (max-width: 900px) { 
 
 
+.extra-nav .container article h3 {
+	font-size: 28px;
+
+}
+
+
+
+
 #cta03 {
 	background: #2d2d2d;
 	}	
+		
+	
+	
 }
 
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {

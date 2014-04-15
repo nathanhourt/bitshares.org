@@ -518,9 +518,9 @@ body .bitsharesx .boxes li span {
 	border: none;
 }
 
-.index-sub-title.col-1 { min-height:60px; margin-bottom: 35px; }
-.index-sub-title.col-2 { margin-top:-40px; margin-left:100px; margin-bottom: 35px; }
-.index-sub-title.col-3 { margin-top:-30px; margin-left:90px; margin-bottom: 35px; }
+.index-sub-title.col-1 { min-height:42px; margin-bottom: 12px; }
+.index-sub-title.col-2 { margin-top:-40px; margin-left:100px; margin-bottom: 12px; }
+.index-sub-title.col-3 { margin-top:-30px; margin-left:90px; margin-bottom: 12px; }
 
 
 /* BitShares Page */
@@ -625,6 +625,7 @@ body .bitsharesx .boxes li span {
 	#headerwrap.index-page h2 {
 		font-size: 28px;
 	}
+
 }
 
 @media (max-width: 991px) {
@@ -694,6 +695,9 @@ body .bitsharesx .boxes li span {
 	.bitsharesx .action-buttons a.btn {
 		margin-bottom: 20px;
 	}
+	
+
+	
 }
 
 @media (max-width: 768px) {
@@ -711,10 +715,15 @@ body .bitsharesx .boxes li span {
 		width: 60%;
 		margin: 0 auto 15px auto !important;
 	}
-
-	.full-info {
-		padding: 0 30px;
+	
+	
+	.logo {
+		position: absolute;
+		margin: 10px 0 0 24px ;
+		
 	}
+
+
 
 }
 
@@ -745,6 +754,16 @@ body .bitsharesx .boxes li span {
 		width: 90%;
 		margin-bottom: 30px !important;
 	}
+	
+	.f-col-25 {
+		width: 100%;
+	}
+	
+	.extra-nav .container article {
+		border: none;
+		text-align: center;
+	}
+	
 }
 
 @media (max-width: 600px) {
@@ -814,4 +833,6 @@ body .bitsharesx .boxes li span {
 		font-size: 14px;
 		padding: 6px 10px;
 	}
+	
+	
 }

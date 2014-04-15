@@ -1739,6 +1739,20 @@ footer .clear {
 	text-indent: -9000em;
 	overflow: hidden;
 }
+
+/* DNS */
+.dns-header {
+	position: relative;
+/*	background-image: url(/assets/img/bitsharesx-banner.jpg); */
+	background-color: #fff !important;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: fixed;
+	width: 100%;
+	height: auto;
+	color: #fff;
+}
+
 /* Bitshares X */
 .bitsharesx-header {
 	position: relative;

@@ -158,7 +158,7 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/denny.jpg" alt="Denny Wang" title="Denny Wang"></div>
+          <div class="avatar"><img src="/assets/img/avatars/nathan.jpg" alt="Nathan Hourt" title="Denny Wang"></div>
           <h2>
             Nathan Hourt
             <span>Developer</span>
@@ -176,7 +176,7 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/denny.jpg" alt="Emily" title="Emily"></div>
+          <div class="avatar"><img src="/assets/img/avatars/emily.jpg" alt="Emily" title="Emily"></div>
           <h2>
             Emily Knollenberg
             <span>Marketing Assistant</span>

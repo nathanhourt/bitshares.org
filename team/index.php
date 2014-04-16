@@ -158,11 +158,7 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-<<<<<<< HEAD
-          <div class="avatar"><img src="/assets/img/avatars/nathan.jpg" alt="Denny Wang" title="Denny Wang"></div>
-=======
           <div class="avatar"><img src="/assets/img/avatars/nathan.jpg" alt="Nathan Hourt" title="Nathan Hourt"></div>
->>>>>>> 3dd8ca991ddaed2a2e27e809d25af674925f5c15
           <h2>
             Nathan Hourt
             <span>Developer</span>

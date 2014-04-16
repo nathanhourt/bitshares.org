@@ -35,6 +35,8 @@
       <div class="col-lg-4 center">
          <h3>Poker</h3>
          <p>
+	 New cryptographic techniques allow for completely peer-to-peer poker without trusted hosts. with
+	 blockchain technology, players can finally play for real money in a completely peer-to-peer manner.
          </p>
       </div>
       <div class="col-lg-4 center">

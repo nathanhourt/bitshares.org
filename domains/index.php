@@ -123,9 +123,9 @@
       <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
       </div>
 
-    </div>
+    </div></div></div></div>
 
-     <div class="row">
+     <div class="row" style="display: none;">
         <div class="col-lg-8">
             <?php include 'overview.php'?>
             <?php include 'whitepaper.php'?>
@@ -135,7 +135,7 @@
         </div>
      </div> <!-- row -->
   </div>
-</div><div style="margin-top: 120px;"></div></div>
+</div></div>
 
 <?php include '../footer.php'; ?>
 

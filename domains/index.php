@@ -64,7 +64,7 @@
          <div class="col-lg-4 centered">
           <h4>No more snake oil</h4>
           <p>
-              Domain name squatting is a social dillemma that is fixed by giving a mechanism to speculate on the value of the namespace (dividends from nameshares) without having to buy names en masse.
+		With .p2p, renewals and other updates to your DNS record all cost a standard transaction fee. Stop getting milked for the right to manage your domain.
           </p>
          </div>
          <div class="col-lg-4 centered">

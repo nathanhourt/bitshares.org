@@ -92,6 +92,7 @@
         <li>
             <a name="short"><h3>What does shorting mean?</h3></a>
             <p>
+	    Shorting an asset means borrowing it, selling it, then buying it back and returning it. This allows you to profit when you predict the value of an asset will fall. The BitShares X network issues BitAssets to people who take out short positions, using XTS (shares in bitshares X) as collateral.
             </p>
         </li>
       </ul>

@@ -26,8 +26,12 @@
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="/assets/css/invictus.css" rel="stylesheet">
     <link href="/assets/css/counter.css" rel="stylesheet">
-
-
+    
+    <!-- Owl Images Slider Styles -->
+	<link href="/assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="/assets/css/owl.theme.css" rel="stylesheet">
+	
+	
     <!-- JavaScripts needed at the beginning
     ================================================== -->
 

@@ -22,7 +22,7 @@ body {
     background: url(../img/bg.png);
     padding: 20px 0;
     width: 100%;
-    overflow: ;
+
 }
 
 /* Titles */
@@ -1623,6 +1623,64 @@ sup {
 .ico-identity:hover {
 	background: url('/assets/img/ico/ico-identity-h.svg') no-repeat center 24px;
 }
+
+
+/* ================== DNS Section ================== */
+
+
+.dns h3 {
+font-weight: 200;
+}
+
+
+
+.dns-row {
+	border-bottom: 1px dotted #ccc;
+	margin: 12px 0 12px 0;
+	padding: 12px 0;
+	height: 100%;
+}
+
+.dns-row:last-child {
+	border-bottom: none; 
+
+}
+
+.dns-infogfx {
+	border: 0px solid #333;
+	padding: 4px;
+	min-height: 500px;
+}
+
+.dns-infogfx img, .dns-row img {
+	height: 148px;
+
+}
+
+.dns-infogfx h3 {
+	border: 1px solid #333;
+	margin: 0 0 12px 0;
+}
+
+
+.dns-infogfx p {
+	margin: 12px 0 12px 0;
+	padding: 8px;
+	
+}
+
+.dns-infogfx footer  {
+border: 0px solid #333;
+background: none;
+display: inline;
+bottom: 0px;
+left: 0px;
+height: 200px;
+position: absolute;
+
+}
+
+
 
 
 /* ========== SIDEBAR CONF ========== */

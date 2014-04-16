@@ -329,22 +329,7 @@
         </div>
        </div>
     </div>
-			<div class="inner-page row social">
-    		<div class="col-md-5 centered"> </div>
-    		<div class="col-md-4 centered">
-           <table><tr><td>
-             <ul>
-                    <a href="http://facebook.com/officialbitshares" target="_blank" class="ico facebook"></a>
-                    <a href="http://www.twitter.com/_bitshares" target="_blank" class="ico twitter"></a>
-                    <a href="https://plus.google.com/107773134084388749048/posts" target="_blank" class="ico google"></a>
-                    <a href="http://www.youtube.com/user/bitshares" class="ico youtube"></a>
-                    <a href="mailto:info@bitshares.com" class="ico mail"></a>
-             </ul>
-          <td></tr></table>
-        </div>
-      </div>
-			<div class="inner-page row">&nbsp;</div>
-  </div>
+			  </div>
   
 <!--
   <div class="index-content">
@@ -392,7 +377,7 @@
 
     
 
-<?php include 'news_logos.php'; ?>
+<?php include 'news_logos.php'; ?></div>
 
 	<a href="#" class="ico back-to-top"></a>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -402,5 +387,4 @@
 	<script type="text/javascript" src="assets/js/util.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.videobackground.js"></script>
 
-<?php 
-include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -20,9 +20,9 @@
       <p>
       Transparently honest elections are something that we could only dream of prior to the
       invention of decentralized transaction ledgers and technologies such as <a href="http://zerocoin.org/">Zerocoin</a>. 
-      With the latest ideas behind bitshares Voice it will soon be possible to have ellections
+      With the latest ideas behind bitshares Voice it will soon be possible to have elections
       where all voters are verified, they can cast their votes in an anonymous manner and yet also
-      change their vote at any time with out any ability to manipulate the count.
+      change their vote at any time without any ability to manipulate the count.
       </p>
       <p>
       Decentralized voting has the potential to make scientific polling obsolete and give third party canidates

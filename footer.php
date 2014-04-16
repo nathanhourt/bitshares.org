@@ -36,12 +36,12 @@
 	}
 	
 	$(window).load(function() {
-	  equalheight('.extra-nav .container article');
+	  equalheight('.extra-nav .container article' && '.dns-infogfx');
 	});
 	
 	
 	$(window).resize(function(){
-	  equalheight('.extra-nav .container article');
+	  equalheight('.extra-nav .container article' && '.dns-infogfx');
 	});
 	
 	
@@ -111,12 +111,47 @@
   </section>
 
 
+	<!-- OWL Image Slider
+	================================================== -->
+	
+	<script src="assets/js/owl.carousel.js"></script>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina.js"></script>
     <script src="assets/js/invictus.js"></script>
+    <script>
+    $(document).ready(function() {
+     
+    $("#news-slider").owlCarousel({
+    
+    
+      
+     items: 4,
+     loop: true,
+     margin: 12,
+     lazyLoad: true,
+     merge: false, 
+     video: true,
+     autoplay:true,
+     autoplayTimeout:3000,
+     autoplayHoverPause:true,
+     
+  responsive:{
+     678:{
+       mergeFit:true
+     },
+     1000:{
+       mergeFit:false
+     }
+   }
+ });
+   	
+   });
+    
+    </script>
 	<script>
 		$(window).scroll(function() {
 			$('.si').each(function(){

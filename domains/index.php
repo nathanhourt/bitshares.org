@@ -13,63 +13,117 @@
   </section>
 </section>
 
-<div id="white" class="bitsharesx">
+
+
+
+<div id="white" class="bitsharesx dns">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4 center">
-        <h3>No more seizures</h3>
-            <img class="center" src="../assets/img/domains/domain-seizure.png"></img>
-        <p>
-            With traditional DNS, the registrars lease you your name and can take back your ownership at any time. With .p2p, nobody can update your DNS record unless you share your private keys.
-        </p>
-            <img class="center" src="../assets/img/domains/key-in-mind.png"></img>
+    <div class="inner-page row" >
+ 
+
+ 
+    
+     <div class="container ">
+     <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
+      <hr>
+     
+       <div class="inner-page row dns-row">
+         <div class="col-lg-4 centered">
+         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
+         </div>
+         <div class="col-lg-4 centered">
+          <h4>No more seizures</h4>
+          <p>
+              With traditional DNS, the registrars lease you your name and can take back your ownership at any time. With .p2p, nobody can update your DNS record unless you share your private keys.
+          </p>
+         </div>
+         <div class="col-lg-4 centered">
+         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
+         </div>
+   
+       </div>
+       <div class="inner-page row dns-row">
+         <div class="col-lg-4 centered">
+        <img class="center" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
+         </div>
+         <div class="col-lg-4 centered">
+           <h4>No more spying</h4>
+           <p>
+               With blockchain technology, you don't need certificate authorities. Finally you can trust self-signed certificates to let your visitors connect securely without fear of spying.
+           </p>
+         </div>
+         <div class="col-lg-4 centered">
+         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
+         </div>
+   
+       </div>
+       <div class="inner-page row dns-row">
+         <div class="col-lg-4 centered">
+         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
+         </div>
+         <div class="col-lg-4 centered">
+          <h4>No more snake oil</h4>
+          <p>
+              Domain name squatting is a social dillemma that is fixed by giving a mechanism to speculate on the value of the namespace (dividends from nameshares) without having to buy names en masse.
+          </p>
+         </div>
+         <div class="col-lg-4 centered">
+         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
+         </div>
+   
+       </div>
+   
+   
+   
+   <h3 class="centered" style="margin-top: 124px;">.P2P vs. .BIT</h3>
+    <hr>
+
+  <div class="container ">
+    <div class="inner-page row dns-row">
+      <div class="col-lg-4 centered">
+      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
       </div>
-      <div class="col-lg-4 center">
-        <h3>No more spying</h3>
-            <img class="center" src="../assets/img/domains/mitm.png"></img>
-        <p>
-            With blockchain technology, you don't need certificate authorities. Finally you can trust self-signed certificates to let your visitors connect securely without fear of spying.
-        </p>
-            <img class="center" src="../assets/img/domains/end-to-end.png"></img>
+      <div class="col-lg-4 centered">
+       <h4>Efficient Security</h4>
+       <p>
+           The share supply is never diluted to pay for security and no power is ever spent for POW mining. DPOS gives control of the blockchain back to the stakeholders.
+       </p>
       </div>
-      <div class="col-lg-4 center">
-        <h3>No more snake oil</h3>
-            <img class="center" src="../assets/img/domains/businessman.png"></img>
-        <p>
-            With .p2p, renewals and other updates to your DNS record all cost a standard transaction fee. Stop getting milked for the right to manage your domain.
-        </p>
-            <img class="center" src="../assets/img/domains/happy-computer.png"></img>
+      <div class="col-lg-4 centered">
+      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
       </div>
 
     </div>
-
-    <hr/>
-
-<div id="white" class="bitsharesx">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 center">
-        <h3>Efficient Security</h3>
-        <p>
-            The share supply is never diluted to pay for security and no power is ever spent for POW mining. DPOS gives control of the blockchain back to the stakeholders.
-        </p>
+    <div class="inner-page row dns-row">
+      <div class="col-lg-4 centered">
+     <img class="center" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
       </div>
-      <div class="col-lg-4 center">
-        <h3>Price Fixing vs Price Discovery</h3>
+      <div class="col-lg-4 centered">
+        <h4>Price Fixing vs Price Discovery</h4>
         <p>
             By utilizing a mechanic similar to an auction, .p2p domains are sold for their perceived market price and the majority of the income from the sale go to nameshare holders as profit.
         </p>
       </div>
-      <div class="col-lg-4 center">
-        <h3>Eliminate Squatters</h3>
-        <p>
-            Domain name squatting is a social dillemma that is fixed by giving a mechanism to speculate on the value of the namespace (dividends from nameshares) without having to buy names en masse.
-        </p>
+      <div class="col-lg-4 centered">
+      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
       </div>
 
     </div>
+    <div class="inner-page row dns-row">
+      <div class="col-lg-4 centered">
+      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
+      </div>
+      <div class="col-lg-4 centered">
+       <h4>Eliminate Squatters</h4>
+       <p>
+           Domain name squatting is a social dillemma that is fixed by giving a mechanism to speculate on the value of the namespace (dividends from nameshares) without having to buy names en masse.
+       </p>
+      </div>
+      <div class="col-lg-4 centered">
+      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
+      </div>
 
-
+    </div>
 
      <div class="row">
         <div class="col-lg-8">
@@ -81,5 +135,7 @@
         </div>
      </div> <!-- row -->
   </div>
-</div>
+</div><div style="margin-top: 120px;"></div></div>
+
 <?php include '../footer.php'; ?>
+

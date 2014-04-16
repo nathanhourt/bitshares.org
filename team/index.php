@@ -158,7 +158,7 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/denny.jpg" alt="Denny Wang" title="Denny Wang"></div>
+          <div class="avatar"><img src="/assets/img/avatars/nathan.jpg" alt="Denny Wang" title="Denny Wang"></div>
           <h2>
             Nathan Hourt
             <span>Developer</span>

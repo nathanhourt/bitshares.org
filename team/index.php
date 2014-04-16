@@ -176,7 +176,7 @@
           <p>&nbsp;</p>
         </div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/denny.jpg" alt="Emily" title="Emily"></div>
+          <div class="avatar"><img src="/assets/img/avatars/emily.jpg" alt="Emily" title="Emily"></div>
           <h2>
             Emily Knollenberg
             <span>Marketing Assistant</span>

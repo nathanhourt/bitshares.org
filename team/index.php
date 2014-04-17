@@ -196,7 +196,7 @@
         <div class="fl-lt col-33">
           <div class="avatar"><img width="85px" src="/assets/img/avatars/amazon.png" alt="Amazon" title="Amazon"></div>
           <h2>
-            Amazon
+            Dr. Chong Wang
             <span>Forum Management</span>
           </h2>
           <p>&nbsp;</p>

@@ -1,18 +1,17 @@
 <?php $section_title = "Domains"; include '../header.php'; ?>
-<section data-type="background" class="dns-header">
-  <section>
+<header>
+<section data-type="background" class="dns-header header">
+  <section class="inner-lg-billboard">
       <div class="container">
-        <div class="row" style="min-height:20px">
-        </div>
         <div class="row">
-          <center>
-            <h2 style="color:black; font-size:6em">NameShares</h2>
-          </center>
+        <center><h2>BitShares DNS</h2>
+        <span class="header-subtitle">featuring .p2p</span>
+        </center>        
         </div>
       </div>
   </section>
 </section>
-
+</header>
 
 
 
@@ -29,7 +28,7 @@
      
        <div class="inner-page row dns-row">
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
+         <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
          </div>
          <div class="col-lg-4 centered">
           <h4>No more seizures</h4>
@@ -38,13 +37,13 @@
           </p>
          </div>
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
+         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
          </div>
    
        </div>
        <div class="inner-page row dns-row">
          <div class="col-lg-4 centered">
-        <img class="center" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
+        <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
          </div>
          <div class="col-lg-4 centered">
            <h4>No more spying</h4>
@@ -53,13 +52,13 @@
            </p>
          </div>
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
+         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
          </div>
    
        </div>
        <div class="inner-page row dns-row">
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
+         <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
          </div>
          <div class="col-lg-4 centered">
           <h4>No more snake oil</h4>
@@ -68,7 +67,7 @@
           </p>
          </div>
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
+         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
          </div>
    
        </div>
@@ -81,7 +80,7 @@
   <div class="container ">
     <div class="inner-page row dns-row">
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
+      <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
       </div>
       <div class="col-lg-4 centered">
        <h4>Efficient Security</h4>
@@ -90,13 +89,13 @@
        </p>
       </div>
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
+      <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
       </div>
 
     </div>
     <div class="inner-page row dns-row">
       <div class="col-lg-4 centered">
-     <img class="center" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
+     <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
       </div>
       <div class="col-lg-4 centered">
         <h4>Price Fixing vs Price Discovery</h4>
@@ -105,13 +104,13 @@
         </p>
       </div>
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
+      <img class="center bad" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
       </div>
 
     </div>
     <div class="inner-page row dns-row">
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
+      <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
       </div>
       <div class="col-lg-4 centered">
        <h4>Eliminate Squatters</h4>
@@ -120,7 +119,7 @@
        </p>
       </div>
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
+      <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
       </div>
 
     </div></div></div></div>

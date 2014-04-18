@@ -1652,6 +1652,12 @@ font-weight: 200;
 	min-height: 500px;
 }
 
+.dns-infogfx .good {
+	color: #000;
+}
+
+
+
 .dns-infogfx img, .dns-row img {
 	height: 148px;
 

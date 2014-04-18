@@ -20,12 +20,12 @@
       <p>
       Lending is one of the more difficult systems to decentralize because it generally
       involves matters of trust and credit worthiness.  These things typically require individual
-      judgment and ultimatley accountability.
+      judgment and ultimately accountability.
       </p>
       <p> 
       Ripple is the first system that has entered the scene that allows individuals to extend 
       credit to one other on a decentralized ledger system.  This ledger system facilitates 
-      the settlement of debt among many parties, some of which may not know eachother directly.
+      the settlement of debt among many parties, some of whom may not know each other directly.
       </p>
     </div>
     <hr/>
@@ -34,7 +34,7 @@
          <h2>Ripple</h2>
          <p>
          The Ripple network allows individuals to extend credit directly to one another and will
-         automatically ripple payments between strangers through a network of credit relaitonships.
+         automatically ripple payments between strangers through a network of credit relationships.
          </p>
       </div>
       <div class="col-lg-4 center">
@@ -42,7 +42,7 @@
          <p>
          Bitshares ME allows individuals to issue their own individual shares.  These shares can be used to
          represent their own IOUs that can then circulate.  This can be seen as a form of peer-to-peer 
-         lending where the individual holding the IOU is extending credit to the issuer.
+         lending in which the individual holding the IOU is extending credit to the issuer.
          </p>
       </div>
     </div>

@@ -16,7 +16,7 @@
     <div class="row">
      <h1>Vision</h1>
      <p>
-     The long term benefit of decentralized autonomous companies is the creation of millions of information-based jobs that allow everyone to make money by contributing what they know to the market.  Whether you love music, inventions, news articles, insurance, or currency speculation there will be ample opportunities for people to make money on what they know.   
+     The long term benefit of decentralized autonomous companies is the creation of millions of information-based jobs that allow everyone to make money by contributing what they know to the market.  Whether you love music, inventions, news articles, insurance, or currency speculation, there will be ample opportunity for you to make money on what you know.
      </p>
      <p>
      Consensus technology has the power to do for economics what the internet did for information.
@@ -29,7 +29,7 @@
      <h1>bitshares.org</h1> 
      <p>
      At bitshares.org we are bringing together a community of next generation entrepreneurs, investors, and developers 
-     to build an economic revolution as big as significant as the Industrial Revolution and the Information Age. Join us
+     to help carry out this vision. Join us
      in rebuilding the world around voluntary consensus.
      </p>
     </div>

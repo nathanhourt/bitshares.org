@@ -4,6 +4,7 @@
   <section class="inner-lg-billboard">
       <div class="container">
         <div class="row">
+        <img class="ico-header" src="../assets/img/domains/ico/ico-dns0.svg">
         <center><h2>BitShares DNS</h2>
         <span class="header-subtitle">featuring .p2p</span>
         </center>        

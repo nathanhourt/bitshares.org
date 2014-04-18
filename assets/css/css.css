@@ -1654,20 +1654,28 @@ header section {
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 64px;
+	padding-top: 64px;
+	
+}
+
+header .ico-header {
+	width: 128px;
+	height: 128px;
 }
 
 header section h1 {
 	text-transform: uppercase;
 	font-size: 86px;
 	line-height: 1em;
-	margin-top: 125px;
+	margin-top: 64px;
 }
 
 header section h2 {
 	color: #fff;
-	font-size: 6em;
-	font-weight: 100;
-	margin-top: 80px;
+	font-size: 4.8em;
+	margin-top: 12px;
+
+
 }
 
 header section .play-btn {
@@ -1690,12 +1698,13 @@ header h2 {
 .header-subtitle {
 	font-size: 1.2em;
 	font-weight: 100;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	color: #fff;
+	
 }
 
 
 header section .container {
-	padding-top: 60px;
 	
 }
 

@@ -955,9 +955,9 @@ footer .clear {
 
 .inner-content {
 	border-bottom: 1px solid #ddd;
+	padding-bottom: 60px;
 }
 .inner-content .container {
-	width: 1040px;
 	margin: 0 auto;
 }
 .checkered {
@@ -1798,7 +1798,7 @@ header section .container {
 	position: relative;
 	margin: 80px auto 0 auto;
 	width: 570px;
-	height: 180px;
+	height: 140px;
 	background-position: 0 -1139px;
 	text-indent: -9000em;
 	overflow: hidden;

@@ -41,23 +41,23 @@
 
 <section class="nav-subpage sticky">
 <ul>
-<li><a href="#">Compare</a></li>
-<li><a href="#">Resources</a></li>
-<li><a href="#">FAQ</a></li>
-<li><a href="#">Info</a></li>
+<li><a href="#Compare">Compare</a></li>
+<li><a href="#Resources">Resources</a></li>
+<li><a href="#FAQ">FAQ</a></li>
+<li><a href="#Info">Info</a></li>
 </ul>
 </section>
-
-
 </section>
+
 </header>
 
+<a name="Compare"></a>
 
 <div id="tab1">
-<div id="white" class="bitsharesx dns">
+<div id="white" class="dns">
+<div style="height:96px"></div>
   <div class="container">
     <div class="inner-page row" >
-<center></center>
      <div class="container ">
      <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
       <hr>
@@ -160,7 +160,7 @@
 
     </div></div></div></div></div>
     <section id="tab2">
-   
+   <a name="Resources"></a>
       <div class="container ">
       <h3 class="centered" style="margin-top: 124px;">RESOURCES</h3>
        <hr>
@@ -179,6 +179,7 @@
     </div>
     </section>
 	<section id="tab3">
+	<a name="FAQ"></a>
 	<div class="container ">
 	<h3 class="centered" style="margin-top: 124px;">FAQ</h3>
 	 <hr>
@@ -190,6 +191,7 @@
 	</div>
 	</section>
 	<section id="tab4">
+	<a name="Info"></a>
 	<div class="container ">
 	<h3 class="centered" style="margin-top: 124px;">INFO</h3>
 	 <hr>

@@ -1821,6 +1821,10 @@ p > tag {
 #wv {
 	height: 350px;
 }
+
+.bios .col-33 {
+	width: 100%;
+}
 	
 }
 

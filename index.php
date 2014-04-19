@@ -3,7 +3,8 @@
 
 	<! ========== HEADERWRAP ====================================================================================================
 	=============================================================================================================================>
-    <div id="headerwrap" class="index-page" style="background-color:black; min-height:1000px">
+   <section data-type="background" id="headerwrap" class="index-header header">
+   <section class="inner-lg-billboard">
       <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -18,10 +19,11 @@
           </div>
       </div><!-- /row -->
       </div><!-- /container -->
-   </div>
+      </section>
+   </section>
   <script type="text/javascript">
-     var horizony=220;
-     var target_horizon=220;
+     var horizony=0;
+     var target_horizon=0;
      var video_opacity = 0;
      var play = false;
      $('#headerwrap').css('background-position', '-250px '+horizony+'px');
@@ -40,7 +42,10 @@
         $('#player_button').each( function(i){
             $(this).animate({'opacity':'0'},500);
         }); 
-
+        
+		$('#close_button').each( function(i){
+		    $(this).animate({'opacity':'1'},500);
+		}); 
         
        $('#headerwrap').css('background-position', 'center '+horizony+'px');
        $('#headerwrap').css('background-size', '100%' );
@@ -48,7 +53,6 @@
      }
      window.setInterval(function(){
                            $('#headerwrap').css('background-position', 'center '+horizony+'px');
-                           $('#headerwrap').css('background-size', '100%' );
                            $('#video_player').css('opacity', video_opacity);
                            $('#video_player').css('margin-top', (-670+horizony)+'px' );
 

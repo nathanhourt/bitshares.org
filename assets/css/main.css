@@ -367,13 +367,8 @@ p.capitalize:first-letter {
 #headerwrap {
 	background: #000 url(../img/earthspace.jpg) no-repeat center bottom;  
 	margin-top: -20px;
-	padding-top:10px;
+	padding-top:20px;
 	min-height: 700px;
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

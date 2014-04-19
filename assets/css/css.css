@@ -898,12 +898,7 @@ footer .clear {
 	height: auto;
 	color: #fff;
 }
-.inner-lg-billboard .container {
-	position: relative;
-	width: 1280px;
-	height: 450px;
-	margin: 0 auto;	
-}
+
 .inner-lg-billboard .message {
 	position: absolute;
 	top: 60px;
@@ -1758,6 +1753,15 @@ header section .container {
 }
 
 /* end | general */
+
+/* Frontpage Header */
+
+.index-header {
+	margin-top: 120px;
+}
+
+
+/* end | Frontpage Header */
 
 /* Bitshares X */
 .bitsharesx-header {

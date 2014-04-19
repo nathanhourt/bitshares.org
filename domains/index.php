@@ -1,4 +1,29 @@
 <?php $section_title = "Domains"; include '../header.php'; ?>
+<script>
+ $(function(){ // document ready
+  
+   var stickyTop = $('.sticky').offset().top; // returns number
+  
+   $(window).scroll(function(){ // scroll event 
+  
+     var windowTop = $(window).scrollTop(); // returns number
+  
+     if (stickyTop < windowTop) {
+       $('.sticky').css({ position: 'fixed', top: 52, width: '100%' , background: '#FFF'});
+      	$('.nav-subpage  a').css({ color: '#1A485C' });
+      	$('.nav-subpage').addClass( "nav-shadow" );
+      	
+     }
+     else {
+       $('.sticky').css({ position:'static' , background: 'none' , width: '660px' , });
+       $('.nav-subpage  a').css({ color: '#FFF' });
+       $('.nav-subpage').removeClass( "nav-shadow" );
+     }
+  
+   });
+  
+ });
+</script>
 <header>
 <section data-type="background" class="dns-header header">
   <section class="inner-lg-billboard">
@@ -14,7 +39,7 @@
   </section>
 
 
-<section class="nav-subpage">
+<section class="nav-subpage sticky">
 <ul>
 <li><a href="#">Compare</a></li>
 <li><a href="#">Resources</a></li>
@@ -28,7 +53,7 @@
 </header>
 
 
-
+<div id="tab1">
 <div id="white" class="bitsharesx dns">
   <div class="container">
     <div class="inner-page row" >
@@ -133,9 +158,49 @@
       <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
       </div>
 
-    </div></div></div></div>
-
-     <div class="row" style="display: none;">
+    </div></div></div></div></div>
+    <section id="tab2">
+   
+      <div class="container ">
+      <h3 class="centered" style="margin-top: 124px;">RESOURCES</h3>
+       <hr>
+    	<div class="inner-page row dns-row">
+    	<div class="col-md-4 centered">
+    	1
+    	</div>
+    	<div class="col-md-4 centered">
+    	2
+    	</div>
+    	<div class="col-md-4 centered">
+    	3
+    	</div>
+    	
+    	</div>
+    </div>
+    </section>
+	<section id="tab3">
+	<div class="container ">
+	<h3 class="centered" style="margin-top: 124px;">FAQ</h3>
+	 <hr>
+		<div class="inner-page row dns-row">
+		<div class="col-lg-4 centered">
+		
+		</div>
+		</div>
+	</div>
+	</section>
+	<section id="tab4">
+	<div class="container ">
+	<h3 class="centered" style="margin-top: 124px;">INFO</h3>
+	 <hr>
+		<div class="inner-page row dns-row">
+		<div class="col-lg-4 centered">
+		
+		</div>
+		</div>
+	</div>
+	</section>
+     <div class="row" >
         <div class="col-lg-8">
             <?php include 'overview.php'?>
             <?php include 'whitepaper.php'?>

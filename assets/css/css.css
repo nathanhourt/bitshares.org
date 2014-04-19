@@ -420,17 +420,29 @@ nav section a h1 {
 
 .nav-subpage   {
 	
-	max-width: 600px;
-	overflow: hidden;
-	text-align: center;
-	margin: 0 auto;
 	
+	color: white;
+	font-size: 16px;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	width:660px;
+	z-index: 9999;
 }
 
+.nav-shadow {
+border-top: 5px solid #a1cb2f;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+}
 
 .nav-subpage  a {
 	text-transform: uppercase;
-	color: #fff;
+	color: #FFF;
 	font-weight: 300;
 	font-size: 16px;
 	padding: 0;
@@ -1768,12 +1780,10 @@ header section .container {
 	position: relative;
 	background-image: url(/assets/img/bitsharesx-banner.jpg);
 	background-color: #fff !important;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: fixed;
-	width: 100%;
-	height: auto;
-	color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .bitsharesx-header .inner-lg-billboard .container,.dns-header .inner-lg-billboard .container  {
@@ -1805,6 +1815,7 @@ header section .container {
 	width: 100%;
 	height: auto;
 	color: #fff;
+
 }
 .keyhotee-header .inner-lg-billboard {
 	padding-bottom: 80px;

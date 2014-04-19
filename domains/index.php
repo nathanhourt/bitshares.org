@@ -200,7 +200,7 @@
 		</div>
 	</div>
 	</section>
-     <div class="row" >
+     <div class="row" style="display: none;">
         <div class="col-lg-8">
             <?php include 'overview.php'?>
             <?php include 'whitepaper.php'?>

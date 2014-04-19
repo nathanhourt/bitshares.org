@@ -10,7 +10,20 @@
         </center>        
         </div>
       </div>
+     
   </section>
+
+
+<section class="nav-subpage">
+<ul>
+<li><a href="#">Compare</a></li>
+<li><a href="#">Resources</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Info</a></li>
+</ul>
+</section>
+
+
 </section>
 </header>
 
@@ -19,10 +32,7 @@
 <div id="white" class="bitsharesx dns">
   <div class="container">
     <div class="inner-page row" >
- 
-
- 
-    
+<center></center>
      <div class="container ">
      <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
       <hr>

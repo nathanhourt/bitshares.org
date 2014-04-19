@@ -416,6 +416,55 @@ nav section a h1 {
 	background: #009df6;
 }
 
+/* Sub Nav Pages */
+
+.nav-subpage   {
+	
+	max-width: 600px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+
+.nav-subpage  a {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 0;
+	padding: 2px 4px;
+}
+
+
+.nav-subpage a:hover {
+	background: #fff;
+	color: #1A485C;
+	
+}
+
+.nav-subpage  ul {
+	border-top: 1px solid #fff;
+	padding-top: 12px;
+	display: block;
+}
+
+.nav-subpage li {
+	padding: 2px 4px;
+	display: inline;
+	margin-right: 8px;
+}
+
+
+.nav-subpage li:last-child {
+	margin-right: 0px;
+}
+
+
+
+
+
 .what-we-do {
 	text-align: center;
 	background: #241f2f;
@@ -1643,18 +1692,18 @@ header {
 	background-image: url(../img/banner.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: fixed;
 	width: 100%;
 	height: auto;
 	color: #fff;
+	
 }
 
 
 header section {
 	margin: 0 auto;
 	text-align: center;
-	padding-bottom: 64px;
-	padding-top: 64px;
+	padding-bottom: 24px;
+	padding-top: 44px;
 	
 }
 
@@ -1780,7 +1829,7 @@ header section .container {
 	background-color: #fff !important;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: fixed;
+	background-size: cover;
 	width: 100%;
 	height: auto;
 	color: #fff;

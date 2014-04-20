@@ -38,10 +38,23 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="/assets/js/hover.zoom.js"></script>
     <script src="/assets/js/hover.zoom.conf.js"></script>
+	<script>
 
     ga('create', 'UA-46805398-1', 'invictus.io');
     ga('send', 'pageview');
 
+    </script>
+    <script>
+    
+    jQuery(document).ready(function($) {
+    
+    	$('a.smoothScroll').click(function(){
+    	    $('html, body').animate({
+    	        scrollTop: $( $.attr(this, 'href') ).offset().top
+    	    }, 500);
+    	    return false;
+    	});
+    });
     </script>
   </head>
 
@@ -66,9 +79,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#footer">About</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="/index.php#getinvolved">Community</a></li>
-        <li><a href="/index.php#industries">Industries</a></li>
-        <li><a href="#footer">Resources</a></li>
+        <li><a class="smoothScroll" href="/index.php#getinvolved">Community</a></li>
+        <li><a class="smoothScroll" href="/index.php#industries">Industries</a></li>
+        <li><a class="smoothScroll" href="#footer">Resources</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

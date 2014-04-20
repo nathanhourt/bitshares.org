@@ -1,35 +1,70 @@
 <?php $section_title = "Domains"; include '../header.php'; ?>
-<section data-type="background" class="dns-header">
-  <section>
+<script>
+ $(function(){ // document ready
+  
+   var stickyTop = $('.sticky').offset().top; // returns number
+  
+   $(window).scroll(function(){ // scroll event 
+  
+     var windowTop = $(window).scrollTop(); // returns number
+  
+     if (stickyTop < windowTop) {
+       $('.sticky').css({ position: 'fixed', top: 52, width: '100%' , background: '#FFF'});
+      	$('.nav-subpage  a').css({ color: '#1A485C' });
+      	$('.nav-subpage').addClass( "nav-shadow" );
+      	
+     }
+     else {
+       $('.sticky').css({ position:'static' , background: 'none' , width: '660px' , });
+       $('.nav-subpage  a').css({ color: '#FFF' });
+       $('.nav-subpage').removeClass( "nav-shadow" );
+     }
+  
+   });
+  
+ });
+</script>
+<header>
+<section data-type="background" class="dns-header header">
+  <section class="inner-lg-billboard">
       <div class="container">
-        <div class="row" style="min-height:20px">
-        </div>
         <div class="row">
-          <center>
-            <h2 style="color:black; font-size:6em">NameShares</h2>
-          </center>
+        <img class="ico-header" src="../assets/img/domains/ico/ico-dns0.svg">
+        <center><h2>BitShares DNS</h2>
+        <span class="header-subtitle">featuring .p2p</span>
+        </center>        
         </div>
       </div>
+     
   </section>
+
+
+<section class="nav-subpage sticky">
+<ul>
+<li><a href="#Compare">Compare</a></li>
+<li><a href="#Resources">Resources</a></li>
+<li><a href="#FAQ">FAQ</a></li>
+<li><a href="#Info">Info</a></li>
+</ul>
+</section>
 </section>
 
+</header>
 
+<a name="Compare"></a>
 
-
-<div id="white" class="bitsharesx dns">
+<div id="tab1">
+<div id="white" class="dns">
+<div style="height:96px"></div>
   <div class="container">
     <div class="inner-page row" >
- 
-
- 
-    
      <div class="container ">
      <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
       <hr>
      
        <div class="inner-page row dns-row">
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
+         <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
          </div>
          <div class="col-lg-4 centered">
           <h4>No more seizures</h4>
@@ -38,13 +73,13 @@
           </p>
          </div>
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
+         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
          </div>
    
        </div>
        <div class="inner-page row dns-row">
          <div class="col-lg-4 centered">
-        <img class="center" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
+        <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
          </div>
          <div class="col-lg-4 centered">
            <h4>No more spying</h4>
@@ -53,13 +88,13 @@
            </p>
          </div>
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
+         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
          </div>
    
        </div>
        <div class="inner-page row dns-row">
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
+         <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
          </div>
          <div class="col-lg-4 centered">
           <h4>No more snake oil</h4>
@@ -68,7 +103,7 @@
           </p>
          </div>
          <div class="col-lg-4 centered">
-         <img class="center" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
+         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
          </div>
    
        </div>
@@ -81,7 +116,7 @@
   <div class="container ">
     <div class="inner-page row dns-row">
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
+      <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
       </div>
       <div class="col-lg-4 centered">
        <h4>Efficient Security</h4>
@@ -90,13 +125,13 @@
        </p>
       </div>
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
+      <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
       </div>
 
     </div>
     <div class="inner-page row dns-row">
       <div class="col-lg-4 centered">
-     <img class="center" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
+     <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
       </div>
       <div class="col-lg-4 centered">
         <h4>Price Fixing vs Price Discovery</h4>
@@ -105,13 +140,13 @@
         </p>
       </div>
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
+      <img class="center bad" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
       </div>
 
     </div>
     <div class="inner-page row dns-row">
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
+      <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
       </div>
       <div class="col-lg-4 centered">
        <h4>Eliminate Squatters</h4>
@@ -120,11 +155,53 @@
        </p>
       </div>
       <div class="col-lg-4 centered">
-      <img class="center" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
+      <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
       </div>
 
-    </div></div></div></div>
-
+    </div></div></div></div></div>
+    <section id="tab2">
+   <a name="Resources"></a>
+      <div class="container ">
+      <h3 class="centered" style="margin-top: 124px;">RESOURCES</h3>
+       <hr>
+    	<div class="inner-page row dns-row">
+    	<div class="col-md-4 centered">
+    	1
+    	</div>
+    	<div class="col-md-4 centered">
+    	2
+    	</div>
+    	<div class="col-md-4 centered">
+    	3
+    	</div>
+    	
+    	</div>
+    </div>
+    </section>
+	<section id="tab3">
+	<a name="FAQ"></a>
+	<div class="container ">
+	<h3 class="centered" style="margin-top: 124px;">FAQ</h3>
+	 <hr>
+		<div class="inner-page row dns-row">
+		<div class="col-lg-4 centered">
+		
+		</div>
+		</div>
+	</div>
+	</section>
+	<section id="tab4">
+	<a name="Info"></a>
+	<div class="container ">
+	<h3 class="centered" style="margin-top: 124px;">INFO</h3>
+	 <hr>
+		<div class="inner-page row dns-row">
+		<div class="col-lg-4 centered">
+		
+		</div>
+		</div>
+	</div>
+	</section>
      <div class="row" style="display: none;">
         <div class="col-lg-8">
             <?php include 'overview.php'?>

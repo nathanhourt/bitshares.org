@@ -1,12 +1,13 @@
 <?php $section_title = "Banking"; include '../header.php'; ?>
-<section data-type="background" class="bitsharesx-header">
+<header>
+<section data-type="background" class="bitsharesx-header header">
   <section class="inner-lg-billboard">
       <div class="container">
          <h1 class="ico">Banking</h1>
       </div>
   </section>
 </section>
-
+</header>
 <div id="white" class="bitsharesx">
   <div class="container">
     <div class="row">

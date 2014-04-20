@@ -119,9 +119,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/retina.js"></script>
-    <script src="assets/js/invictus.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/retina.js"></script>
+    <script src="../assets/js/invictus.js"></script>
     <script>
     $(document).ready(function() {
      

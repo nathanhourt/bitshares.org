@@ -416,63 +416,6 @@ nav section a h1 {
 	background: #009df6;
 }
 
-/* Sub Nav Pages */
-
-.nav-subpage   {
-	
-	
-	color: white;
-	font-size: 16px;
-	line-height: 1.2em;
-	text-align: center;
-	padding: 10px;
-	text-shadow: 0 1px 1px rgba(0,0,0,.2);
-	width:660px;
-	z-index: 9999;
-}
-
-.nav-shadow {
-border-top: 5px solid #a1cb2f;
-background: #fff;
--moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
--webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-z-index: 999999;
-}
-
-.nav-subpage  a {
-	text-transform: uppercase;
-	color: #FFF;
-	font-weight: 300;
-	font-size: 16px;
-	padding: 0;
-	padding: 2px 4px;
-}
-
-
-.nav-subpage a:hover {
-	background: #fff;
-	color: #1A485C;
-	
-}
-
-.nav-subpage  ul {
-	border-top: 1px solid #fff;
-	padding-top: 12px;
-	display: block;
-}
-
-.nav-subpage li {
-	padding: 2px 4px;
-	display: inline;
-	margin-right: 8px;
-}
-
-
-.nav-subpage li:last-child {
-	margin-right: 0px;
-}
-
 
 
 
@@ -777,38 +720,7 @@ z-index: 999999;
 	float: left;
 }
 
-.extra-nav {
-	border-top: 1px solid #d4d3d7;
-}
 
-.extra-nav .container article {
-	float: left;
-	padding: 10px 25px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border-left: 1px solid #d4d3d7;
-}
-
-.extra-nav .container article:first-child {
-	border: none;
-}
-
-.extra-nav .container article h3 {
-	font-size: 32px;
-	font-weight: 300;
-}
-
-.extra-nav .container article ul {
-	height: 100%;
-	min-height:100%
-}
-
-.extra-nav .container article ul li {
-	font-size: 16px;
-	font-weight: 300;
-	margin-bottom: 4px;
-}
 
 .map {
 	background: #009df6;
@@ -1786,14 +1698,6 @@ header section .container {
 	background-size: cover;
 }
 
-.bitsharesx-header .inner-lg-billboard .container,.dns-header .inner-lg-billboard .container  {
-	position: relative;
-	width: 100%;
-	height: 280px !important;
-	overflow: hidden;
-
-
-}
 .bitsharesx-header .inner-lg-billboard h1 {
 	position: relative;
 	margin: 80px auto 0 auto;
@@ -1837,25 +1741,7 @@ header section .container {
 	overflow: hidden;
 }
 
-/* DNS */
 
-
-.dns-header {
-	position: relative;
-	background-image: url(/assets/img/domains/bitsharesdns-banner.jpg); */
-	background-color: #fff !important;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-size: cover;
-	width: 100%;
-	height: auto;
-	color: #fff;
-
-}
-
-
-
-/* @end */
 
 .current-bank-features ul,
 .bitshares-x-features ul {

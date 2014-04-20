@@ -1,20 +1,44 @@
 /* Table of Contents
 
-1 Default
-2 Elements
+1.0 Default
+2.0 Elements
 	2.1 Nav
-	2.2 Header Keyhotee
-	2.3 Header BitsharesX
-	2.4 Content
+	2.2 Buttons
+	2.3 Lists
+	2.4 Images
+	2.5 Icons
+	2.6 Sliders
+3.0 Header
+	3.1 Header Default
+	3.2 Header Custom
+		3.2.1 Header Index
+		3.2.2 Header About
+		3.2.3 Header Industries
+		3.2.4 Header Resources
+		3.2.5 Header Community			
+4.0 Content
+	4.1 Content Default
+	4.2 Content Custom
+		4.4.1 Content Index
+		4.4.2 Content About
+		4.4.3 Content Industries
+		4.4.4 Content Rescources
+		4.4.5 Content Community
+5.0 Footer
+	5.1 Footer Default
+	5.2 Footer Custom
+	
+6.0 Sidebars
+7.0 Responsive @media
+8.0 Browser specific
+9.0 Experimental (beta stage)
+	9.1 Animations & Transitions
+
+
 */
 
 
-/*
-*
-*
-*
-* 1 Default
-*/
+/* @group 1.0 Default */
 
 p {
 	font-weight: 500;
@@ -141,20 +165,264 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align:middle;
 }
 
-/*
-*
-*
-*
-* 2 Elements
-*/
+/* @end | Default */
 
-/* 2.1 Nav */
+/* @group 2.0 Elements */  
+
+
+/* @group 2.1 Nav */
+
 .nav > li > a {
 	font-weight: 100;
 	font-size: 16px;
 }
 
-/* 2.2 Header Keyhotee */
+/* Sub Nav Pages - Sticky */
+
+.nav-subpage   {
+	
+	
+	color: white;
+	font-size: 16px;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	width:660px;
+	z-index: 9999;
+}
+
+.nav-shadow {
+border-top: 5px solid #a1cb2f;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+}
+
+.nav-subpage  a {
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 0;
+	padding: 2px 4px;
+}
+
+
+.nav-subpage a:hover {
+	background: #fff;
+	color: #1A485C;
+	
+}
+
+.nav-subpage  ul {
+	border-top: 1px solid #fff;
+	padding-top: 12px;
+	display: block;
+}
+
+.nav-subpage li {
+	padding: 2px 4px;
+	display: inline;
+	margin-right: 8px;
+}
+
+
+.nav-subpage li:last-child {
+	margin-right: 0px;
+}
+
+/* Footer Navigation */
+
+.extra-nav {
+	border-top: 1px solid #d4d3d7;
+}
+
+.extra-nav .container article {
+	float: left;
+	padding: 10px 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-left: 1px solid #d4d3d7;
+}
+
+.extra-nav .container article:first-child {
+	border: none;
+}
+
+.extra-nav .container article h3 {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.extra-nav .container article ul {
+	height: 100%;
+	min-height:100%
+}
+
+.extra-nav .container article ul li {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 4px;
+}
+
+/* @end | Nav */
+
+/* @group 2.2 Buttons */
+
+/* @end | Buttons */
+
+/* @group 2.3 Lists */
+
+/* @end | Lists */
+
+/* @group 2.4 Images */
+
+/* @end | Images */
+
+/* @group 2.5 Icons */
+
+
+
+
+
+/* @end | Icons */
+
+/* @group 2.5 Sliders */
+
+/* Press Sliders */
+
+
+/* @end | Sliders */
+
+/* @end | Elements */
+
+
+/* @group 3.0 Header */
+
+/* @group 3.1 Header Default */
+
+.bitsharesx-header .inner-lg-billboard .container
+{
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.header h2  img {
+	width: 96px;
+	margin-top: -12px;
+}
+
+
+
+/* @end | Header Default */
+
+/* @group 3.2 Header Custom */
+
+/* @group 3.2.1 Header Index */
+
+
+/* @end | Header Index */
+
+
+/* @group 3.2.2 Header About */
+/* @end | Header About */
+
+/* @group 3.2.3 Header Industries */
+
+
+/*  Header Banking - BitsharesX  */
+
+#headerwrap.community {
+	background: url(/assets/img/community-banner.jpg)  no-repeat center top;
+/*	min-height: 400px; */
+  background-size: 100%;
+/*  background-size:100% 100%; */
+}
+
+
+#headerwrap.bitsharesx {
+	background: url(../img/stockback.jpg)  no-repeat center top;
+	min-height: 400px;
+  background-size:100% 100%;
+}
+
+/*  Header Domain Names - BitsharesDNS  */
+
+.dns-header {
+	position: relative;
+	background-image: url(/assets/img/domains/bitsharesdns-banner.jpg); */
+	background-color: #fff !important;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	color: #fff;
+
+}
+
+
+
+/*  Header Bitshares AGS */
+
+#headerwrap.ags {
+	background: url(../img/above-the-clouds-hd-wallpaper.jpg)  no-repeat center top;
+	min-height: 400px;
+  background-size:100% 100%;
+}
+
+/*  Header Bitshares PTS */
+
+#headerwrap.pts {
+	background: url(../img/blueprint.jpg)  no-repeat center top;
+	min-height: 400px;
+  background-size:100% 100%;
+}
+
+/*  Header all Industries */
+
+#headerwrap.bitsharesx .buttons,
+#headerwrap.index-page .buttons {
+	padding: 30px 0 90px 0;
+}
+
+#headerwrap.bitsharesx .buttons a,
+#headerwrap.index-page .buttons a {
+	display: inline-block;
+	border: 0;
+	margin: 0 10px;
+	padding: 14px 40px;
+}
+
+#headerwrap.bitsharesx .buttons a:hover,
+#headerwrap.index-page .buttons a:hover {
+	background-color: #619dc3;
+}
+
+#headerwrap.index-page {
+	text-align: center;
+
+}
+
+#headerwrap.index-page h2 {
+	color: #b1cbdb;
+}
+
+
+
+/* @end | Header Industries */
+
+/* @group 3.2.4 Header Resources */
+
+
+/* Header Keyhotee */
 #headerwrap.keyhotee {
 	/*background: none #afe1f8;*/
 	background: url(../img/windmills_in_holl.jpg)  no-repeat center top;
@@ -197,57 +465,24 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 10px;
 }
 
-/* 2.3 Header BotsharesX */
-#headerwrap.community {
-	background: url(/assets/img/community-banner.jpg)  no-repeat center top;
-/*	min-height: 400px; */
-  background-size: 100%;
-/*  background-size:100% 100%; */
-}
-#headerwrap.bitsharesx {
-	background: url(../img/stockback.jpg)  no-repeat center top;
-	min-height: 400px;
-  background-size:100% 100%;
-}
-#headerwrap.ags {
-	background: url(../img/above-the-clouds-hd-wallpaper.jpg)  no-repeat center top;
-	min-height: 400px;
-  background-size:100% 100%;
-}
-#headerwrap.pts {
-	background: url(../img/blueprint.jpg)  no-repeat center top;
-	min-height: 400px;
-  background-size:100% 100%;
-}
 
-#headerwrap.bitsharesx .buttons,
-#headerwrap.index-page .buttons {
-	padding: 30px 0 90px 0;
-}
+/* @end | Header Resources */
 
-#headerwrap.bitsharesx .buttons a,
-#headerwrap.index-page .buttons a {
-	display: inline-block;
-	border: 0;
-	margin: 0 10px;
-	padding: 14px 40px;
-}
+/* @group 3.2.5 Header Community */
+/* @end | Header Community */
 
-#headerwrap.bitsharesx .buttons a:hover,
-#headerwrap.index-page .buttons a:hover {
-	background-color: #619dc3;
-}
 
-#headerwrap.index-page {
-	text-align: center;
+/* @end | Header Custom */
 
-}
+/* @end | Header */
 
-#headerwrap.index-page h2 {
-	color: #b1cbdb;
-}
 
-/* 2.4 Content */
+
+/* @group 4.0 Content */
+
+/* @group 4.1 Content Default */
+
+
 .boxes {
 	margin-bottom: 70px;
 }
@@ -307,188 +542,13 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff !important;
 }
 
-.full-info {
-	padding: 40px 0;
-}
 
-.full-info h2 {
-	font-weight: bold;
-	font-size: 36px;
-	margin-bottom: 40px;
-}
+/* @end | Content Default */
 
+/* @group 4.2 Content Custom */
 
-.bitsharesx .boxes {
-	padding-top: 40px;
-}
+/* @group 4.2.1 Content Index */
 
-.bitsharesx .boxes h2 {
-	font-size: 30px;
-	line-height: 40px;
-}
-
-.bitsharesx .boxes img.bitsharesx-logo {
-	width: 100%;
-}
-
-.bitsharesx .boxes ul {
-	list-style: none outside;
-}
-
-.bitsharesx .boxes li {
-	background-color: #4aa6d4;
-	display: inline-block;
-	width: 27%;
-	float: right;
-	color: #fff;
-	min-height: 140px;
-	text-align: center;
-	margin: 0 30px;
-	margin-bottom: 30px;
-	border-radius: 3px;
-}
-
-body .bitsharesx .boxes li h3 {
-	margin: 0 0 15px 0;
-	padding: 0;
-	color: #fff;
-	padding: 20px 15px;
-	background-color: #105077;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
-
-body .bitsharesx .boxes li span {
-	font-size: 16px;
-	font-weight: 700;
-}
-
-.bitshares .bitsharesx-logo {
-	box-shadow: none;
-	width: 60%;
-}
-
-.specs-table h3.maintitle {
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 40px;
-	min-height: 50px;
-}
-
-.bitsharesx .lightblue-bg {
-	overflow: visible;
-	padding-bottom: 90px;
-}
-
-.bitsharesx .specs-table h2 {
-	font-size: 50px;
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-.bitsharesx .specs-table .mono-img {
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-.bitsharesx .specs-table .mono-img img {
-	height: 130px;
-	box-shadow: none;
-}
-
-.bitsharesx .specs-table ul {
-	list-style: none outside;
-	background-color: #fff;
-	padding: 30px 40px 20px 40px;
-	text-align: center;
-	color: #1b485d;
-	font-size: 15px;
-	border-radius: 3px;
-	border: 1px solid #d8e2e6;
-	box-shadow: 0 2px 2px #d8e2e6;
-}
-
-.bitsharesx .specs-table ul {
-	width: 70%;
-	margin: 0 auto;
-}
-
-.bitsharesx .specs-table .your-bank ul {
-	color: #668fa2;
-}
-
-.bitsharesx .specs-table li {
-	margin-bottom: 8px;
-	padding-bottom: 8px;
-	border-bottom: 1px solid #f2f7f9;
-}
-
-.bitsharesx .specs-table li:last-child {
-	border: none;
-}
-
-.bitsharesx .specs-table li img {
-	width: 100%;
-	box-shadow: none;
-	margin-bottom: 20px;
-}
-
-.bitsharesx .specs-table li h3 {
-	margin-bottom: 20px;
-}
-
-.bitsharesx .specs-table li.final {
-	padding-top: 10px;
-}
-
-.bitsharesx .specs-table li.final span {
-	display: inline-block;
-	background-color: #faeae7;
-	padding: 10px 20px;
-	color: #a94d3b;
-	border-radius: 3px;
-	font-size: 15px;
-	font-weight: 700;
-}
-
-.bitsharesx .specs-table .bitshares li.final span {
-	background-color: #ebf2dd;
-	color: #7d9849;
-	font-weight: 700;
-}
-
-.bitsharesx .action-buttons {
-	padding: 70px 0 30px 0;
-	text-align: center;
-}
-
-.bitsharesx .action-buttons a.btn {
-	padding: 20px 70px;
-	margin: 0 20px;
-	font-size: 18px;
-	box-shadow: none;
-	border: none;
-}
-
-#pdf-profiles {
-	margin-left: 0;
-	padding-left: 0;
-	list-style: none;
-}
-
-#pdf-profiles li {
-	background-image: url(/assets/img/pdf_doc.png);
-	padding-left: 80px;
-	background-repeat: no-repeat;
-	background-position: 0 .5em;
-	height: 100px;
-	line-height:100px;
-	font-size:16px;
-	margin-top:12px;
-	font-weight:bold;
-}
-
-/* Indexpage */
 .index-content {
 	background-color: #f2f7f9;
 	padding: 40px 0;
@@ -524,7 +584,207 @@ body .bitsharesx .boxes li span {
 .index-sub-title.col-3 { margin-top:-30px; margin-left:90px; margin-bottom: 12px; }
 
 
-/* BitShares Page */
+
+/* ================== Unlimited Opportunities  ================== */
+
+
+.ico-feature {
+height: 200px;
+}
+
+
+
+.ico-title {
+	margin-top: -8px;
+}
+
+
+.ico-title h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+
+}
+
+
+.index-sub-title.col-1 {
+	margin-bottom: 12px;
+}
+
+
+/* 1st row */
+
+.ico-banking {
+	background:  url('../img/ico/ico-banking.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-banking:hover {
+	background: url('../img/ico/ico-banking-h.svg') no-repeat center 48px;
+	
+}
+
+
+.ico-domain {
+	background:  url('../img/ico/ico-domain.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-domain:hover {
+	background:  url('../img/ico/ico-domain-h.svg') no-repeat center 48px;
+
+	
+	
+}
+
+.ico-stock {
+	background:  url('../img/ico/ico-stock.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-stock:hover {
+	background:  url('../img/ico/ico-stock-h.svg') no-repeat center 48px;
+	
+}
+
+
+.ico-money {
+	background:  url('../img/ico/ico-money.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-money:hover {
+	background: url('../img/ico/ico-money-h.svg') no-repeat center 48px;
+}
+
+
+/* 2nd row */
+
+
+.ico-music {
+	background:  url('../img/ico/ico-music.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-music:hover {
+	background:  url('../img/ico/ico-music-h.svg') no-repeat center 48px;
+
+}
+
+
+
+.ico-charity {
+	background:  url('../img/ico/ico-charity.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-charity:hover {
+	background: url('../img/ico/ico-charity-h.svg') no-repeat center 48px;
+
+}
+
+.ico-contracts {
+	background:  url('../img/ico/ico-contracts.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-contracts:hover {
+	background:  url('../img/ico/ico-contracts-h.svg') no-repeat center 48px;
+
+}
+
+
+.ico-insurance {
+	background:  url('../img/ico/ico-insurance.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-insurance:hover {
+	background:  url('../img/ico/ico-insurance-h.svg') no-repeat center 48px;
+
+}
+
+
+/* 3rd row */
+
+.ico-voting {
+	background:  url('../img/ico/ico-voting.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-voting:hover {
+	background: url('../img/ico/ico-voting-h.svg') no-repeat center 48px;
+}
+
+
+
+.ico-gaming {
+	background:  url('../img/ico/ico-gaming.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-gaming:hover {
+	background: url('../img/ico/ico-gaming-h.svg') no-repeat center 48px;
+}
+
+.ico-lending {
+	background:  url('../img/ico/ico-lending.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-lending:hover {
+	background:  url('../img/ico/ico-lending-h.svg') no-repeat center 48px;
+}
+
+
+.ico-identity {
+	background:  url('../img/ico/ico-identity.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	
+}
+
+.ico-identity:hover {
+	background: url('../img/ico/ico-identity-h.svg') no-repeat center 48px;
+}
+
+/* ================== Get your Share  ================== */
+
+
+/* ================== Get involved  ================== */
+
+/* @end | Content Index */
+
+
+/* @group 4.2.2 Content About */
+/* @end | Content About */
+
+/* @group 4.2.3 Content Industries */
+
+
+/* @group Banking - BitSharesX */
 .bitsharesx.bitshares .row.boxes:first-child {
 	margin-bottom: 20px;
 }
@@ -583,7 +843,7 @@ body .bitsharesx .boxes li span {
 .bitsharesx.bitshares .specs-table ul {
 	background-color: #fff;
 	color: #71767d;
-	border: 1px solid #dfdfdf;
+	border: 1px solid #dfdfdf;	
 	box-shadow: 0 2px 2px #ccc;
 }
 
@@ -597,6 +857,101 @@ body .bitsharesx .boxes li span {
 	max-width: 650px;
 }
 
+/* @end | Banking  */
+
+/* @group Domain Names - BitSharesDNS */
+
+
+.dns h3 {
+font-weight: 200;
+}
+
+
+
+.dns-row {
+	border-bottom: 1px dotted #ccc;
+	margin: 12px 0 12px 0;
+	padding: 12px 0;
+	height: 50%;
+}
+
+.dns-row:last-child {
+	border-bottom: none; 
+
+}
+
+.dns-infogfx {
+	border: 0px solid #333;
+	padding: 4px;
+	min-height: 500px;
+}
+
+.dns-infogfx .good {
+	color: #000;
+}
+
+
+
+.dns-infogfx img, .dns-row img {
+	height: 148px;
+
+}
+
+.dns-infogfx h3 {
+	border: 1px solid #333;
+	margin: 0 0 12px 0;
+}
+
+
+.dns-infogfx p {
+	margin: 12px 0 12px 0;
+	padding: 8px;
+	
+}
+
+.dns-infogfx footer  {
+border: 0px solid #333;
+background: none;
+display: inline;
+bottom: 0px;
+left: 0px;
+height: 200px;
+position: absolute;
+
+}
+
+/* @end | Domain Names */
+
+
+/* @end | Content Industries */
+
+/* @group 4.2.4 Content Resources */
+/* @end | Content Resources */
+
+/* @group 4.2.5 Content Community */
+/* @end | Content Community */
+
+
+/* @end | Content Custom */
+
+/* @end | Content */
+
+/* @group 5.0 Footer */
+
+/* 5.1 Footer Default */
+
+
+/* 5.2 Footer Custom */
+
+/* @end | Footer */
+
+/* @group 6.0 Sidebars */
+
+
+
+/* @end | Sidebars  */
+
+/* @group 7.0 Responsive @media */
 
 @media (max-width: 1200px) {
 
@@ -813,6 +1168,8 @@ body .bitsharesx .boxes li span {
 	}
 }
 
+/* @media (max-width: 400px)  */
+
 @media (max-width: 400px) {
 	#headerwrap .col-md-3 h3 {
 		width: 80%;
@@ -837,3 +1194,34 @@ body .bitsharesx .boxes li span {
 	
 	
 }
+
+
+/* @end | Responsive @media */
+
+
+
+
+/* @group 8.0 Browser specific */
+
+
+
+/* @end | Browser specific */
+
+/* @group 9.0 Experimental */
+
+/* @group 9.1 Animations & Transitions */
+
+
+
+/* @end | Animations & Transitions */
+
+/* @end | Experimental */
+
+
+
+
+
+
+
+
+

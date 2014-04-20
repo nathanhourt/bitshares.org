@@ -142,7 +142,7 @@
 
         <div class="clear"></div>
         <div class="fl-lt col-33">
-          <div class="avatar"><img src="/assets/img/avatars/corral.jpg" alt="Eric Frias" title="Eric Frias"></div>
+          <div class="avatar"><img src="/assets/img/avatars/empty.jpg" alt="Eric Frias" title="Eric Frias"></div>
           <h2>
             Eric Frias 
             <span>Developer</span>

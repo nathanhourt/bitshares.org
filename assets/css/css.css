@@ -279,16 +279,7 @@ body {
 	margin: 0 auto;
 }
 
-header {
-	position: relative;
-	background-image: url(../img/banner.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: fixed;
-	width: 100%;
-	height: auto;
-	color: #fff;
-}
+
 
 /*
 
@@ -400,38 +391,7 @@ nav section a h1 {
 	text-indent: -9000em;
 }
 
-header section {
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 116px;
-}
 
-header section h1 {
-	text-transform: uppercase;
-	font-size: 86px;
-	line-height: 1em;
-	margin-top: 125px;
-}
-
-header section h2 {
-	width: 880px;
-	margin: 0 auto;
-	font-size: 31px;
-	line-height: 50px;
-	margin-top: 23px;
-	font-weight: normal;	
-	background: rgba(0, 0, 0, .2);
-}
-
-header section .play-btn {
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-header section .blue-btn {
-	margin: 0 auto;
-	margin-top: 20px;
-}
 
 #nav {
 	position: absolute;
@@ -455,6 +415,67 @@ header section .blue-btn {
 #nav a.active {
 	background: #009df6;
 }
+
+/* Sub Nav Pages */
+
+.nav-subpage   {
+	
+	
+	color: white;
+	font-size: 16px;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	width:660px;
+	z-index: 9999;
+}
+
+.nav-shadow {
+border-top: 5px solid #a1cb2f;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+}
+
+.nav-subpage  a {
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 0;
+	padding: 2px 4px;
+}
+
+
+.nav-subpage a:hover {
+	background: #fff;
+	color: #1A485C;
+	
+}
+
+.nav-subpage  ul {
+	border-top: 1px solid #fff;
+	padding-top: 12px;
+	display: block;
+}
+
+.nav-subpage li {
+	padding: 2px 4px;
+	display: inline;
+	margin-right: 8px;
+}
+
+
+.nav-subpage li:last-child {
+	margin-right: 0px;
+}
+
+
+
+
 
 .what-we-do {
 	text-align: center;
@@ -889,12 +910,7 @@ footer .clear {
 	height: auto;
 	color: #fff;
 }
-.inner-lg-billboard .container {
-	position: relative;
-	width: 1280px;
-	height: 450px;
-	margin: 0 auto;	
-}
+
 .inner-lg-billboard .message {
 	position: absolute;
 	top: 60px;
@@ -939,9 +955,9 @@ footer .clear {
 
 .inner-content {
 	border-bottom: 1px solid #ddd;
+	padding-bottom: 60px;
 }
 .inner-content .container {
-	width: 1040px;
 	margin: 0 auto;
 }
 .checkered {
@@ -1440,7 +1456,7 @@ footer .clear {
 #mc_embed_signup .button:hover {
 	background: #8dc63f;
 }
-
+/* end | News */
 
 /* Contact */
 .contact-header {
@@ -1674,6 +1690,120 @@ footer .clear {
 	margin: 0 auto;
 }
 
+/* @group Header sections */
+
+/* Header general */
+
+header {
+	position: relative;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	
+}
+
+
+header section {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 24px;
+	padding-top: 44px;
+	
+}
+
+header .ico-header {
+	width: 128px;
+	height: 128px;
+}
+
+header section h1 {
+	text-transform: uppercase;
+	font-size: 86px;
+	line-height: 1em;
+	margin-top: 64px;
+}
+
+header section h2 {
+	color: #fff;
+	font-size: 4.8em;
+	margin-top: 12px;
+
+
+}
+
+header section .play-btn {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+header section .blue-btn {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+header h2 {
+	color: #fff;
+	font-size: 6em;
+	font-weight: 100;
+}
+
+.header-subtitle {
+	font-size: 1.2em;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: #fff;
+	
+}
+
+
+header section .container {
+	
+}
+
+/* end | general */
+
+/* Frontpage Header */
+
+.index-header {
+	margin-top: 120px;
+}
+
+
+/* end | Frontpage Header */
+
+/* Bitshares X */
+.bitsharesx-header {
+	position: relative;
+	background-image: url(/assets/img/bitsharesx-banner.jpg);
+	background-color: #fff !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bitsharesx-header .inner-lg-billboard .container,.dns-header .inner-lg-billboard .container  {
+	position: relative;
+	width: 100%;
+	height: 280px !important;
+	overflow: hidden;
+
+
+}
+.bitsharesx-header .inner-lg-billboard h1 {
+	position: relative;
+	margin: 80px auto 0 auto;
+	width: 570px;
+	height: 140px;
+	background-position: 0 -1139px;
+	text-indent: -9000em;
+	overflow: hidden;
+}
+
 /* Keyhotee */
 .keyhotee-header {
 	position: relative;
@@ -1685,6 +1815,7 @@ footer .clear {
 	width: 100%;
 	height: auto;
 	color: #fff;
+
 }
 .keyhotee-header .inner-lg-billboard {
 	padding-bottom: 80px;
@@ -1707,49 +1838,25 @@ footer .clear {
 }
 
 /* DNS */
+
+
 .dns-header {
 	position: relative;
-/*	background-image: url(/assets/img/bitsharesx-banner.jpg); */
+	background-image: url(/assets/img/domains/bitsharesdns-banner.jpg); */
 	background-color: #fff !important;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: fixed;
+	background-size: cover;
 	width: 100%;
 	height: auto;
 	color: #fff;
+
 }
 
-/* Bitshares X */
-.bitsharesx-header {
-	position: relative;
-	background-image: url(/assets/img/bitsharesx-banner.jpg);
-	background-color: #fff !important;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: fixed;
-	width: 100%;
-	height: auto;
-	color: #fff;
-}
-.bitsharesx-header .inner-lg-billboard {
-	padding-bottom: 80px;
-}
-.bitsharesx-header .inner-lg-billboard .container {
-	position: relative;
-	width: 100%;
-	height: 280px !important;
-	overflow: hidden;
-	margin: 0 auto;	
-}
-.bitsharesx-header .inner-lg-billboard h1 {
-	position: relative;
-	margin: 130px auto 0 auto;
-	width: 570px;
-	height: 149px;
-	background-position: 0 -1139px;
-	text-indent: -9000em;
-	overflow: hidden;
-}
+
+
+/* @end */
+
 .current-bank-features ul,
 .bitshares-x-features ul {
 	border-top: 1px solid #ccc;

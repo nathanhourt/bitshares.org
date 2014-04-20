@@ -114,7 +114,7 @@ Who really owns your online identity? I can assure you that any ownership you pe
 
         </div> <!-- main content -->
     		<div class="col-md-4 sidebar"> <!-- side bar -->
-        <?php include 'sidebar.php'; ?>
+        <?php include '../sidebar.php'?>
         </div><!-- side bar --> 
 
 			</div> <!-- master row -->

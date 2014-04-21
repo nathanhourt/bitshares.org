@@ -57,6 +57,22 @@ $(document).ready(function () { // document ready
 </header>
 
 <div id="white" class="dns">
+<section id="intro">
+
+  <div class="container">
+
+     <h3 class="centered">Introducing .p2p</h3>
+<hr>
+<p>
+.p2p is the first of a family of blockchain-based decentralized namespace services attempting to achieve scalability and sustainability by adopting the insights of the Decentralized Autonomous Company metaphor for cryptocurrencies and similar systems.
+</p>
+<p>
+It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs P2P in the <a href="#FAQ">FAQ</a>.
+</p>
+
+</div>
+
+</section>
 <section id="compare">
 <a name="Compare"></a>
 
@@ -167,19 +183,12 @@ $(document).ready(function () { // document ready
       <div class="container ">
       <h3 class="centered" style="margin-top: 124px;">RESOURCES</h3>
        <hr>
-	links to: FAQ, source, forums, wiki, info
-    	<div class="inner-page row dns-row">
-    	<div class="col-md-4 centered">
-    	1
-    	</div>
-    	<div class="col-md-4 centered">
-    	2
-    	</div>
-    	<div class="col-md-4 centered">
-    	3
-    	</div>
-    	
-    	</div>
+	<ul>
+	<li><a href="#FAQ">FAQ</a></li>
+	<li><a href="https://github.com/nmushegian/bitshares_toolkit">Source</a></li>
+	<li><a href="#https://github.com/nmushegian/dns/wiki/_pages">Wiki</a></li>
+	<li><a href="https://bitsharestalk.org/index.php?board=50.0">Forum</a></li>
+	</ul>
     </div>
     </section>
     
@@ -280,7 +289,7 @@ $(document).ready(function () { // document ready
 		  
 		  <div id="faq-squatting" class="panel-collapse collapse">
 		    <div class="panel-body">
-		    The combination of price discovery via an auction and opportunity cost of purchasing a domain (lost dividends from equivalent value of DNS) makes it more profitable to hold DNS than to hold domains speculatively. This is the only source of revenue for the network, aside from standard per-byte transaction fees. The cost of renewing and updating domains is thus resource-driven.
+		    The combination of price discovery via an auction and opportunity cost of purchasing a domain (lost dividends from equivalent value of domainshares) makes it more profitable to hold DNS than to hold domains speculatively. This is the only source of revenue for the network, aside from standard per-byte transaction fees. The cost of renewing and updating domains is thus resource-driven.
 		    </div>
 		    
 		  </div>
@@ -298,7 +307,7 @@ $(document).ready(function () { // document ready
 		  
 		  <div id="faq-differnt" class="panel-collapse collapse">
 		    <div class="panel-body">
-		    The critical difference is in the design of the relationship of the crypto-equity ("namecoins" or NMC for Namecoin, "domainshares" or .P2P for .p2p) to the functionality of the network. We use the Distributed Autonomous Company metaphor to help describe how these two network reward their "shareholder" when it is able to provide value. This provides an incentive for engineers all around the globe to independently cooperate on maintaining the network with a narrowly defined goal and incentive mechanic.
+		    <p>The critical difference is in the design of the relationship of the crypto-equity ("namecoins" or NMC for Namecoin, "nameshares", ".P2Pshares" or .P2P for .p2p) to the functionality of the network. We use the Distributed Autonomous Company metaphor to help describe how these two network reward their "shareholder" when it is able to provide value. This provides an incentive for engineers all around the globe to independently cooperate on maintaining the network with a narrowly defined goal and incentive mechanic.</p>
 		    <ul>
 		        <li>Namecoin issues new coins to miners as a reward for performing merged mining with the Bitcoin network. The namecoin supply is being inflated at nearly 30% per year for the next 40,000 blocks, then over 10% for the next four years. .p2p uses DPOS for significantly cheaper security, while domainshares only ever shrink in supply, when fees are destroyed as implicit dividends.</li>
 		        <li>Namecoin attempts to service multiple namespaces at once, including non-TLD key-value records. Domainshares is highly specialized for servicing the .p2p TLD namespace. We believe this gives is more freedom to optimize around unforseen constraints in the future. The use case is the same as Namecoin's "d/" namespace.</li>
@@ -324,10 +333,11 @@ $(document).ready(function () { // document ready
 		    Ethereum is an runtime environment on a blockchain - you can easily make a TLD just like .p2p in just a few lines of code. A simple name registration script is shown on the ethereum website:
 		    
 		    <pre>if tx.value < block.basefee * 200:
-		        stop
-		    if contract.storage[tx.data[0]] or tx.data[0] < 100:
-		        stop
-		    contract.storage[tx.data[0]] = tx.data[1]</pre>
+    stop
+if contract.storage[tx.data[0]] or tx.data[0] < 100:
+    stop
+contract.storage[tx.data[0]] = tx.data[1]
+			</pre>
 		    
 		    You can imagine completely mimicking .p2p's behavior in just a few hundred lines of code in this language. Allocating names on a blockchain is almost as basic as distributing shares and so we should expect to see namespace capabilities in practically every bitcoin 2.0 project.
 		    
@@ -349,7 +359,7 @@ $(document).ready(function () { // document ready
 		  
 		  <div id="faq-p2p-websites" class="panel-collapse collapse">
 		    <div class="panel-body">
-		    You can view pages on the .p2p namespace without any installation or configuration by using a centralized proxy like dotp2p.io To use .p2p like a normal TLD, you need to configure your browser to point to a DNSchain node, or install a browser extension like okTurtles.
+		    You can view pages on the .p2p namespace without any installation or configuration by using a centralized proxy like dotp2p.io To use .p2p like a normal TLD, you need to configure your browser to point to a <a href="http://okturtles.com/">DNSchain</a> node, or install a browser extension like okTurtles.
 		    </div>
 		    
 		  </div>
@@ -367,19 +377,10 @@ $(document).ready(function () { // document ready
 		  
 		  <div  id="faq-tld" class="panel-collapse collapse">
 		    <div class="panel-body">
-		    <quote>
+		   <p> 
+		       The original purpose of distinct TLD was to establish different rulesets for how the namespace is managed. The fact that it can be used to avoid name collisions is a secondary effect and an artifact of how traditional DNS is structured. AAPL.com and AAPL.org aren't just avoiding a collision - AAPL.org is utilizing the fact that it won't get sued on the .org namespace, while it would on the .com namespace. Sure you can make it so that two TLDs use the same ruleset and are on the same blockchain, but then the only thing that it accomplishes is to make an aesthetic difference between typing "yoursite-org / yoursite-com" and "yoursite.org / yoursite.com". One blockchain is one namespace, no matter how you slice it or mask it.
 		    
-		    
-		        if you look at what distinct TLDs actually do in real life, it's to establish different rulesets for how the namespace is managed. The fact that it can be used to avoid name collisions is a secondary effect and an artifact of how traditional DNS is structured. AAPL.com and AAPL.org aren't just avoiding a collision - AAPL.org is utilizing the fact that it won't get sued on the .org namespace, while it would on the .com namespace. Sure you can make it so that two TLDs use the same ruleset and are on the same blockchain, but then the only thing that it accomplishes is to make an aesthetic difference between typing "yoursite-org / yoursite-com" and "yoursite.org / yoursite.com". One blockchain is one namespace, no matter how you slice it or mask it.
-		    
-		        So the idea is, future DNS derivatives who want to have different rulesets for their namespace, or who want to prove me wrong and show how people are just willing to avoid collisions (would you register "yourname.dac" if "yourname.p2p" is registered and popular? maybe) can launch a DNS derivative a la BTS X.
-		    
-		        So .key might have a ruleset that fits the supply/demand characteristic of having a namespace for public keys better than domainshares.
-		    
-		        .intr could be the first namespace to support a full character set.
-		    
-		        There might be another blockchain that handles migrating .com, .org, etc onto a blockchain.
-		    		    </quote>
+</p>
 		    </div>
 		    
 		  </div>
@@ -397,7 +398,7 @@ $(document).ready(function () { // document ready
 		  
 		  <div id="faq-expire" class="panel-collapse collapse">
 		    <div class="panel-body">
-		    After one year of inactivity, names are reclaimed by the network. To renew a domain, you just have to do any standard transaction, like sending it to yourself, at least once per year.
+		    To renew a domain, you just have to do any standard transaction, like sending it to yourself, at least once per year. After one year of inactivity, names are reclaimed by the network.
 		    </div>
 		    
 		  </div>
@@ -450,7 +451,7 @@ $(document).ready(function () { // document ready
 		<h3>Architecture</h3>
 		<hr>
 		<p>
-		The .p2p namespace should be accessed by configuring your browser to point to a .p2p-enabled DNS server. [TODO DNSchain]
+		The .p2p namespace should be accessed by configuring your browser to point to a .p2p-enabled DNS server.
 		</p>
 		The .p2p blockchain's unspent transaction outputs is used to determine the state of the .p2p namespace. The blockchain is only concerned with resolving strings into JSON blobs, managing domainshare balances, and managing auctions.
 		

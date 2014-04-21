@@ -25,7 +25,7 @@
       change their vote at any time without any ability to manipulate the count.
       </p>
       <p>
-      Decentralized voting has the potential to make scientific polling obsolete and give third party canidates
+      Decentralized voting has the potential to make scientific polling obsolete and give third party candidates
       an opportunity to build a base in a transparent way without the media telling us who has
       a chance.  If a candidate fails to garner enough support you can always change your vote
       at the last minute, but early on you can express your true opinions without fear of

@@ -266,7 +266,7 @@
 		    
 		    <div id="faq-mitm" class="panel-collapse collapse">
 		      <div class="panel-body">
-		        The owner of a domain name can put their SSL key directly into a secure public ledger, rather than relying on trusted certificate authorities to sign off on keys. There are no entities that can be coerced to put a compromised certificate in the record except fo the owner of the corresponding private keys.
+		        The owner of a domain name can put their SSL key directly into a secure public ledger, rather than relying on trusted certificate authorities to sign off on keys. There are no entities that can be coerced to put a compromised certificate in the record except for the owner of the corresponding private keys.
 		      </div>
 		  
 		    
@@ -373,7 +373,7 @@ contract.storage[tx.data[0]] = tx.data[1]
 		  
 		  <div id="faq-p2p-websites" class="panel-collapse collapse">
 		    <div class="panel-body">
-		    You can view pages on the .p2p namespace without any installation or configuration by using a centralized proxy like dotp2p.io To use .p2p like a normal TLD, you need to configure your browser to point to a <a href="http://okturtles.com/">DNSchain</a> node, or install a browser extension like okTurtles.
+		    You can view pages on the .p2p namespace without any installation or configuration by using a centralized proxy like <a href="http://dotp2p.io">dotp2p.io</a>. To use .p2p like a normal TLD, you need to configure your browser to point to a <a href="http://okturtles.com/">DNSchain</a> node, or install a browser extension like okTurtles.
 		    </div>
 		    
 		  </div>

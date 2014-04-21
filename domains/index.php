@@ -67,7 +67,7 @@ $(document).ready(function () { // document ready
 .p2p is the first of a family of blockchain-based decentralized namespace services attempting to achieve scalability and sustainability by adopting the insights of the Decentralized Autonomous Company metaphor for cryptocurrencies and similar systems.
 </p>
 <p>
-It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs P2P in the <a href="/faq#dns-faq">FAQ</a>.
+It is similar to Namecoin and it's use for the .bit TLD. <a href="#p2p-vs-nmc">Read more about NMC vs P2P</a>.
 </p>
 
 </div>
@@ -219,15 +219,15 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 		Finally, traditional domain registrars have all the problems that come with having a de-facto monopoly on an industry: Enormous margins and bloated operating costs.
 		<p>
 		
-		<h3>Comparison to Namecoin</h3>
+		<h3 id="p2p-vs-nmc">Comparison to Namecoin</h3>
 		<hr>
-		.p2p is different from Namecoin in a few important ways.
+		Namecoin was the first major effort to put a TLD (.bit, from namecoin's "d/" namespace) on a blockchain. .p2p is different from Namecoin in a few important ways:
 		<p>
 		<ul class="list-group">
-		   <li class="list-group-item">Namecoin issues new coins to miners as a reward for performing merged mining with the Bitcoin network. The namecoin supply is being inflated at nearly 30% per year for several more months, then over 10% for the next several years [citation!!]. "With .p2p, transaction fees are destroyed, thus effectively acting as dividends to existing shareholders."</li>
+		   <li class="list-group-item">Namecoin issues new coins to miners as a reward for performing merged mining with the Bitcoin network. The namecoin supply is being inflated at nearly 30% per year for several more months, then over 10% for the next several years. With .p2p, transaction fees (including name sale revenue) are paid as dividends existing shareholders.</li>
 		    <li class="list-group-item">Namecoin attempts to service multiple namespaces at once. .p2p is highly specialized for servicing the .p2p TLD namespace. The use case is the same as Namecoin's "d/" namespace, which is used for the .bit TLD.</li>
-		   <li class="list-group-item">Namecoin's name registration price is fixed at any given time and is independent of the name itself. Domainshares utilizes an auction-like mechanic to incentivize price discovery for names, making sure the final owner pays a fair market price. The majority of the final cost will have gone to the network as dividends by the time the auction is over, with a small fraction having gone to bidders as a reward for price discovery.</li>
-		   <li class="list-group-item">As a result of the fact that domains are expensive and there are dividends on shares but not domains, there is a high opportunity cost to squatting: holding a domain without making good use of it.</li>
+		   <li class="list-group-item">Namecoin's name registration price is fixed at any given time and is independent of the name itself. .p2p utilizes an auction-like mechanic to incentivize price discovery for names. The majority of the final cost will have gone to the network as dividends by the time the auction is over, with a small fraction having gone to bidders as a reward for price discovery.</li>
+		   <li class="list-group-item">As a result of the fact that domains are expensive and there are dividends on shares but not domains, there is a high opportunity cost to squatting and so we expect names to bounce around between speculators until someone who can make use of the name comes around to claim it.</li>
 		</ul>
 		</p>
 		
@@ -236,7 +236,7 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 		<p>
 		The .p2p namespace should be accessed by configuring your browser to point to a .p2p-enabled DNS server.
 		</p>
-		The .p2p blockchain's unspent transaction outputs is used to determine the state of the .p2p namespace. The blockchain is only concerned with resolving strings into JSON blobs, managing domainshare balances, and managing auctions.
+		The .p2p blockchain's unspent transaction output set is used to determine the state of the .p2p namespace. The blockchain is only concerned with resolving strings into JSON blobs, managing domainshare balances, and managing auctions.
 		
 		.p2p extends the basic transaction types in the default bitshares toolkit by adding a single new transaction output which contains key/value information. This output type is sufficient to implement the .p2p blockchain specification.
 		<p>
@@ -255,11 +255,6 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 		<p>A domain is defined to be "in auction" if BOTH the state is set to in_auction AND previous transaction output referencing this name is less than DNS_AUCTION_BLOCKS block old. That means it is not for sale if the not_for_sale flag is set or if the previous transaction output referencing this name is older than 3 days. The default wallet will not allow you to make a transaction with a domain you own without setting the flag to not_for_sale.</p>
 		
 		<p>A domain is defined to be "expired" if at least DNS_EXPIRE_BLOCKS have passed since its last record update, OR since the end of its auction if no record updates have been performed. Since there are no deterministic transactions, the block age must be checked every time a DNS lookup is made, since it is not sufficient to check the auction flag.</p>
-		
-		
-		<h3>Bitshares toolkit feature review</h3>
-		<hr>
-		<code>bitshares_toolkit</code> provides base classes which form a "shell DAC", which can maintain a ledger on a blockchain much like bitcoin.
 		
 		
 		<h3>Auction</h3>

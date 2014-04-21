@@ -139,6 +139,16 @@
           <p>&nbsp;</p>
         </div>
 
+        <div class="fl-lt col-33">
+          <div class="avatar"><img width="80px" src="/assets/img/avatars/vikram.png" alt="Vikram Rajkumar" title="Vikram Rajkumar"></div>
+          <h2>
+            Vikram Rajkumar
+            <span>BitShares DNS</span>
+          </h2>
+          <p>&nbsp;</p>
+        </div>
+
+
 
         <div class="clear"></div>
         <div class="fl-lt col-33">

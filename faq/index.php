@@ -68,7 +68,7 @@
       
       <div class="panel panel-default">
           <div class="panel-heading">
-            <h4 class="panel-title">
+            <h4 class="panel-title"><a name="dividends"></a>
               <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
                 What are Dividends?
               </a>

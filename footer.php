@@ -50,7 +50,7 @@
 	
 
 <a name="footer"></a>
-<section class="extra-nav">
+<section class="extra-nav" style="margin: 0; padding: 0;">
     <div class="container">
       <article class="f-col-25">
         <h3>About</h3>

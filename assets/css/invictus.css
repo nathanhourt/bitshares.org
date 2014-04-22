@@ -165,6 +165,10 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align:middle;
 }
 
+
+
+
+
 /* @end | Default */
 
 /* @group 2.0 Elements */  
@@ -294,6 +298,24 @@ z-index: 999999;
 /* @group 2.5 Sliders */
 
 /* Press Sliders */
+
+#news-slider {
+	margin: 48px 0 48px 0;
+}
+
+.news-slider {
+	padding-top: 24px;
+}
+
+section.news-slider {
+	margin: 0;
+}
+
+
+.news-slider h2 {
+	font-size: 36px;
+	font-weight: 200;
+}
 
 
 /* @end | Sliders */
@@ -917,8 +939,70 @@ bottom: 0px;
 left: 0px;
 height: 200px;
 position: absolute;
+}
+
+
+
+/* DNS Resources  */
+
+.dns-resources {
+	padding: 40px 0;
+}
+
+
+.dns-resources .ico-title {
+}
+
+.dns-ico-faq {
+	background:  url('../img/domains/ico/ico-faq.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
 
 }
+
+.dns-ico-faq:hover {
+	background:  url('../img/domains/ico/ico-faq-h.svg') no-repeat center 48px;
+
+}
+
+.dns-ico-source {
+	background:  url('../img/domains/ico/ico-source.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+
+}
+
+.dns-ico-source:hover {
+	background:  url('../img/domains/ico/ico-source-h.svg') no-repeat center 48px;
+
+}
+
+.dns-ico-wiki {
+	background:  url('../img/domains/ico/ico-wiki.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+
+}
+
+.dns-ico-wiki:hover {
+	background:  url('../img/domains/ico/ico-wiki-h.svg') no-repeat center 48px;
+	
+
+}
+
+.dns-ico-forum {
+	background:  url('../img/domains/ico/ico-forum.svg') no-repeat center 48px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+
+}
+
+.dns-ico-forum:hover {
+	background:  url('../img/domains/ico/ico-forum-h.svg') no-repeat center 48px;
+	
+
+}
+
 
 /* @end | Domain Names */
 

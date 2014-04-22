@@ -49,7 +49,6 @@ $(document).ready(function () { // document ready
 <ul>
 <li><a href="#Compare">Compare</a></li>
 <li><a href="#Resources">Resources</a></li>
-<li><a href="/faq#faq-dns">FAQ</a></li>
 <li><a href="#Info">Info</a></li>
 </ul>
 </section>
@@ -59,30 +58,33 @@ $(document).ready(function () { // document ready
 <div id="white" class="dns">
 <section id="intro">
 
-  <div class="container">
+  <div class="container ">
 
-     <h3 class="centered">Introducing .p2p</h3>
+   <div class="inner-page row centered">
+<h3 class="centered">Introducing .p2p</h3>
 <hr>
+<a name="Compare"></a>
 <p>
 .p2p is the first of a family of blockchain-based decentralized namespace services attempting to achieve scalability and sustainability by adopting the insights of the Decentralized Autonomous Company metaphor for cryptocurrencies and similar systems.
 </p>
+
 <p>
 It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs P2P in the <a href="/faq#dns-faq">FAQ</a>.
 </p>
-
+</div>
 </div>
 
 </section>
 <section id="compare">
-<a name="Compare"></a>
-
 <div style="height:9px"></div>
   <div class="container">
     <div class="inner-page row" >
-     <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
-      <hr>
+    
+     
      
        <div class="inner-page row dns-row">
+        <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
+        <hr>
          <div class="col-lg-4 centered">
          <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
          </div>
@@ -126,11 +128,13 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
          <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
          </div>
  
-   <h3 class="centered" style="margin-top: 124px;">.P2P vs. .BIT</h3>
-    <hr>
+   
+   
 
-  <div class="container ">
+  <div class="container">
     <div class="inner-page row dns-row">
+    <h3 class="centered" style="margin-top: 124px;">.P2P vs. .BIT</h3>
+     <hr>
       <div class="col-lg-4 centered">
       <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
       </div>
@@ -177,27 +181,56 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
     </div></div></div></div></div>
     
         </section>
-    
-    <section id="resources">
-   <a name="Resources"></a>
-      <div class="container ">
-      <h3 class="centered" style="margin-top: 124px;">RESOURCES</h3>
+        
+ 
+    <section id="grey" class="dns-resources">
+    <a name="Resources"></a> 
+      <div class="container centered">
+      <h3 class="" style="margin-top: 64px;">RESOURCES</h3>
        <hr>
-	<ul>
-	<li><a href="/faq#dns-faq">FAQ</a></li>
-	<li><a href="https://github.com/nmushegian/bitshares_toolkit">Source</a></li>
-	<li><a href="https://github.com/nmushegian/dns/wiki/_pages">Wiki</a></li>
-	<li><a href="https://bitsharestalk.org/index.php?board=50.0">Forum</a></li>
-	</ul>
-    </div>
+       <div class="inner-page row dns-resources">
+ 
+           <a href="/faq#dns-faq"><span style="display: block;">
+             <div class="col-md-3 centered ico-feature dns-ico-faq">
+                 <div class="index-sub-title col-1 ico-title">
+                 <h2>FAQ</h2>
+                 </div>
+             </div></span></a>
+           
+           <a href="https://github.com/nmushegian/bitshares_toolkit" target="_blank"><span style="display: block;">
+             <div class="col-md-3 centered ico-feature dns-ico-source">
+                 <div class="index-sub-title col-1 ico-title">
+                 <h2>Source</h2>
+                 </div>
+             </div></span></a>
+           
+           <a href="https://github.com/nmushegian/dns/wiki/_pages" target="_blank"><span style="display: block;">
+             <div class="col-md-3 centered ico-feature dns-ico-wiki">
+                 <div class="index-sub-title col-1 ico-title">
+                 <h2>Wiki</h2>
+                 </div>
+             </div></span></a>
+             
+             
+            <a href="https://bitsharestalk.org/index.php?board=50.0" target="_blank"><span style="display: block;">
+              <div class="col-md-3 centered ico-feature dns-ico-forum">
+                  <div class="index-sub-title col-1 ico-title">
+                  <h2>Forum</h2>
+                  </div>
+              </div></span></a>
+         
+           </div>
+	    </div>
+ 
     </section>
     
-   	<section id="tab4">
+   	<section id="Info">
 	<a name="Info"></a>
-	<div class="container ">
-	<h3 class="" style="margin-top: 124px;">Introduction</h3>
+	<div class="container centered" >
+	<h3 class="" style="margin-top: 64px;">Introduction</h3>
 	<hr>
-		<div class="inner-page row dns-row">
+		<div class="inner-page row dns-row" style="text-align-last:justify;"
+		>
 		<div class="col-lg-12">
 		<h2>BitShares DNS, NameShares, and .p2p</h2>
 		<hr>
@@ -242,7 +275,7 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 		<p>
 		The extra fields in a DNS transaction output are:
 		<br>
-		<pre>
+		<pre style="text-align: left;">
 		
 		name     a string
 		value    any byte array - some json blob convention for browser to use to resolve IP addresses

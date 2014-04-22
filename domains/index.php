@@ -181,11 +181,12 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
     </div></div></div></div></div>
     
         </section>
-    
+        
+ 
     <section id="grey" class="dns-resources">
-   <a name="Resources"></a>
-      <div class="container ">
-      <h3 class="centered" style="margin-top: 48px;">RESOURCES</h3>
+    <a name="Resources"></a> 
+      <div class="container centered">
+      <h3 class="" style="margin-top: 64px;">RESOURCES</h3>
        <hr>
        <div class="inner-page row dns-resources">
  
@@ -223,7 +224,7 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
  
     </section>
     
-   	<section id="tab4">
+   	<section id="Info">
 	<a name="Info"></a>
 	<div class="container centered" >
 	<h3 class="" style="margin-top: 64px;">Introduction</h3>

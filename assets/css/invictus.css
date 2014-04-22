@@ -165,6 +165,10 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align:middle;
 }
 
+
+
+
+
 /* @end | Default */
 
 /* @group 2.0 Elements */  
@@ -294,6 +298,24 @@ z-index: 999999;
 /* @group 2.5 Sliders */
 
 /* Press Sliders */
+
+#news-slider {
+	margin: 48px 0 48px 0;
+}
+
+.news-slider {
+	padding-top: 24px;
+}
+
+section.news-slider {
+	margin: 0;
+}
+
+
+.news-slider h2 {
+	font-size: 36px;
+	font-weight: 200;
+}
 
 
 /* @end | Sliders */

@@ -87,7 +87,7 @@
 	<!-- ========== FEATURED ICONS ================================================================================================
 	============================================================================================================================= -->
 
-  <a name="industries"></a>
+
   <section class="industries">
   <div class="lightblue-bg">
 			<div class="container">
@@ -164,6 +164,8 @@
     </script>
   </div>
 	<div id="grey">
+	<section>
+	  <a name="industries"></a>
 			<div class="inner-page row"style="min-height:20px">
       </div>
 			<div class="inner-page row"style="min-height:60px">
@@ -258,6 +260,7 @@
       </div>
     </div>
   </div>
+  </section>
 	<div id="grey">
 		<div class="container">
 			<div class="inner-page row"style="min-height:30px">

@@ -31,6 +31,9 @@
 	<link href="/assets/css/owl.carousel.css" rel="stylesheet">
 	<link href="/assets/css/owl.theme.css" rel="stylesheet">
 	
+	<!-- Font Awesome Icons -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
 	
     <!-- JavaScripts needed at the beginning
     ================================================== -->
@@ -61,8 +64,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <ul>
-      </ul>
+   
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">

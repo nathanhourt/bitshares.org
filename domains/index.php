@@ -8,35 +8,40 @@ $(document).ready(function () { // document ready
   
      var windowTop = $(window).scrollTop(); // returns number
   
-     if (stickyTop < windowTop) {
-       $('.sticky').css({ position: 'fixed', top: 52, width: '100%' , background: '#FFF'});
+     if (stickyTop < windowTop + 40) {
+       $('.sticky').css({ position: 'fixed', top: 0, width: '100%', background: '#FFF'});
       	$('.nav-subpage  a').css({ color: '#1A485C' });
-      	$('.nav-subpage').addClass( "nav-shadow" );
-      	
+      	$('.nav-subpage').addClass( 'nav-shadow' );
+  		$('.ico-top').addClass( 'show' );
+  		 $('.navbar-fixed-top').css({ display: 'block' });
+  		
      }
      else {
-       $('.sticky').css({ position:'static' , background: 'none' , width: '660px' , });
-       $('.nav-subpage  a').css({ color: '#FFF' });
-       $('.nav-subpage').removeClass( "nav-shadow" );
+       $('.sticky').css({ position:'static' , background: 'none' , width: '100%' , });
+       $('.navbar-fixed-top').css({ display: 'block' });
+       $('.ico-top').removeClass( 'show' );
      }
   
    });
    
-   location.hash && $(location.hash + '.collapse').collapse('show');
    
   
  });
 </script>
+
 <script>
 
 
 </script>
 <header>
+<a name="totop"></a>
 <section data-type="background" class="dns-header header">
   <section class="inner-lg-billboard">
       <div class="container">
         <div class="row">
-        <center><h2><img class="ico-header" src="../assets/img/domains/ico/ico-dns0.svg"> BitShares DNS</h2>
+        <center>
+        
+        <h2><img class="ico-header" src="../assets/img/domains/ico/ico-dns0.svg"> BitShares DNS</h2>
         
         </center>        
         </div>
@@ -45,16 +50,27 @@ $(document).ready(function () { // document ready
   </section>
 
 
-<section class="nav-subpage sticky">
-<ul>
-<li><a href="#Compare">Compare</a></li>
-<li><a href="#Resources">Resources</a></li>
-<li><a href="#Info">Info</a></li>
-</ul>
-</section>
+
+
+
+
+
 </section>
 </header>
+<section class="nav-subpage sticky">
+<div class="container ">
+<div class="inner-page row centered">
+<a class="ico-top hide" href="#totop"><i class="glyphicon glyphicon-chevron-up"></i></a>
 
+<ul>
+<li><a href="#Resources">Resources</a></li>
+<li><a href="#Info">Info</a></li>
+<li><a href="#Compare">Compare</a></li>
+</ul>
+
+</div>
+</div>
+</section>
 <div id="white" class="dns">
 <section id="intro">
 
@@ -63,7 +79,7 @@ $(document).ready(function () { // document ready
    <div class="inner-page row centered">
 <h3 class="centered">Introducing .p2p</h3>
 <hr>
-<a name="Compare"></a>
+
 <p>
 .p2p is the first of a family of blockchain-based decentralized namespace services attempting to achieve scalability and sustainability by adopting the insights of the Decentralized Autonomous Company metaphor for cryptocurrencies and similar systems.
 </p>
@@ -75,112 +91,7 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 </div>
 
 </section>
-<section id="compare">
-<div style="height:9px"></div>
-  <div class="container">
-    <div class="inner-page row" >
-    
-     
-     
-       <div class="inner-page row dns-row">
-        <h3 class="centered">BitShares DNS vs. Traditional DNS</h3>
-        <hr>
-         <div class="col-lg-4 centered">
-         <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
-         </div>
-         <div class="col-lg-4 centered">
-          <h4>No more seizures</h4>
-          <p>
-              With traditional DNS, the registrars lease you your name and can take back your ownership at any time. With .p2p, nobody can update your DNS record unless you share your private keys.
-          </p>
-         </div>
-         <div class="col-lg-4 centered">
-         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
-         </div>
-   
-       </div>
-       <div class="inner-page row dns-row">
-         <div class="col-lg-4 centered">
-        <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
-         </div>
-         <div class="col-lg-4 centered">
-           <h4>No more spying</h4>
-           <p>
-               With blockchain technology, you don't need certificate authorities. Finally you can trust self-signed certificates to let your visitors connect securely without fear of spying.
-           </p>
-         </div>
-         <div class="col-lg-4 centered">
-         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
-         </div>
-   
-       </div>
-       <div class="inner-page row dns-row">
-         <div class="col-lg-4 centered">
-         <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
-         </div>
-         <div class="col-lg-4 centered">
-          <h4>No more snake oil</h4>
-          <p>
-		With .p2p, renewals and other updates to your DNS record all cost a standard transaction fee. Stop getting milked for the right to manage your domain.
-          </p>
-         </div>
-         <div class="col-lg-4 centered">
-         <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
-         </div>
- 
-   
-   
 
-  <div class="container">
-    <div class="inner-page row dns-row">
-    <h3 class="centered" style="margin-top: 124px;">.P2P vs. .BIT</h3>
-     <hr>
-      <div class="col-lg-4 centered">
-      <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
-      </div>
-      <div class="col-lg-4 centered">
-       <h4>Efficient Security</h4>
-       <p>
-           The share supply is never diluted to pay for security and no power is ever spent for POW mining. DPOS gives control of the blockchain back to the stakeholders.
-       </p>
-      </div>
-      <div class="col-lg-4 centered">
-      <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
-      </div>
-
-    </div>
-    <div class="inner-page row dns-row">
-      <div class="col-lg-4 centered">
-     <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
-      </div>
-      <div class="col-lg-4 centered">
-        <h4>Price Fixing vs Price Discovery</h4>
-        <p>
-            By utilizing a mechanic similar to an auction, .p2p domains are sold for their perceived market price and the majority of the income from the sale go to nameshare holders as profit.
-        </p>
-      </div>
-      <div class="col-lg-4 centered">
-      <img class="center bad" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
-      </div>
-
-    </div>
-    <div class="inner-page row dns-row">
-      <div class="col-lg-4 centered">
-      <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
-      </div>
-      <div class="col-lg-4 centered">
-       <h4>Eliminate Squatters</h4>
-       <p>
-           Domain name <a href="#faq-squatting">squatting</a> is a social dillemma that is fixed by giving a mechanism to speculate on the value of the namespace (dividends from nameshares) without having to buy names en masse.
-       </p>
-      </div>
-      <div class="col-lg-4 centered">
-      <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
-      </div>
-
-    </div></div></div></div></div>
-    
-        </section>
         
  
     <section id="grey" class="dns-resources">
@@ -225,9 +136,9 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
     </section>
     
    	<section id="Info">
-	<a name="Info"></a>
-	<div class="container centered" >
-	<h3 class="" style="margin-top: 64px;">Introduction</h3>
+   	<a name="Info"></a>
+	<div class="container " >
+	<h3 class="centered" style="margin-top: 96px;">Information</h3>
 	<hr>
 		<div class="inner-page row dns-row" style="text-align-last:justify;"
 		>
@@ -239,12 +150,77 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 		Traditional DNS is a perfect example of centralization due to pre-blockchain architecture. Coming to consensus about the state of a namespace required a hierarchy of organizations to play the role of defining the state of the system. There are several weaknesses in this design that have appeared on the public's radar as trust in traditional centralized solutions is eroding. Namecoin was the first attempt at putting a namespace on a blockchain and promoting its use for TLD resolution, among other things. This paper outlines another approach at decentralizing the DNS system, with an emphasis on long-term scalability and self-sustainability.
 		</p>
 		
-		<h3>Motivation & Comparison to traditional DNS</h3>
+		<h3>Motivation & Comparison to traditional DNS</h3> <a name="Compare"></a>
 		<hr>
 		<p>
 		Man-in-the-middle attacks are when an adversary is able to compromise your key exchange channel and listen on your communications while making it appear as if the connection is secure. This type of attack is possible against HTTPS because the existing domain name infrastructure requires a trusted certificate authority to assert that a key belongs to a particular party. This is how traditional DNS is structured because it was designed prior to the invention of blockchain-based solutions given to us by the invention of Bitcoin. With .p2p, the owner of a domain name can upload their own public key onto the blockchain, and it can be trusted to be authentic without having a trusted authority sign off on it.
 		</p>
 		  <blockquote>However, in some cases GCHQ and the NSA appear to have taken a more aggressive and controversial route -- on at least one occasion bypassing the need to approach Google directly by performing a man-in-the-middle attack to impersonate Google security certificates. One document published by Fantastico, apparently taken from an NSA presentation that also contains some GCHQ slides, describes “how the attack was done” to apparently snoop on SSL traffic. The document illustrates with a diagram how one of the agencies appears to have hacked into a target’s Internet router and covertly redirected targeted Google traffic using a fake security certificate so it could intercept the information in unencrypted format. https://www.schneier.com/blog/archives/2013/09/new_nsa_leak_sh.html </blockquote>
+		  <p>
+		  <div class="panel-group" id="bitdns-vs-trd">
+		 
+		             
+		          <div class="panel panel-default">
+		            <div class="panel-heading">
+		              <h4 class="panel-title ">
+		                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+		                  BitShares DNS<span style="padding:0 36px;"> vs. </span>Traditional DNS
+		                </a>
+		              </h4>
+		            </div>
+		            <div id="collapse1" class="panel-collapse collapse in">
+		              <div class="panel-body ">
+		              <div class="inner-page row dns-row">
+		              <div class="col-lg-2 centered">
+		              
+		                    <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-ds-good.svg"></img>
+		                    </div>
+		                    <div class="col-lg-2 centered">
+		                    <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-ds-bad.svg"></img>
+		                   
+		                    </div>
+		                    <div class="col-lg-8">
+		                    
+		                     <h4>No more seizures</h4>
+		                     <p>
+		                         With traditional DNS, the registrars lease you your name and can take back your ownership at any time. With .p2p, nobody can update your DNS record unless you share your private keys.
+		                     </p>
+		                    </div>
+		              
+		                  </div>
+		                  <div class="inner-page row dns-row">
+		                    <div class="col-lg-2 centered">
+		                   <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-mitm-good.svg"></img>
+		                    </div>
+		                    <div class="col-lg-2 centered">
+		                    <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-mitm-bad.svg"></img>
+		                    </div>
+		                    <div class="col-lg-8">
+		                    <h4>No more spying</h4>
+		                    <p>
+		                        With blockchain technology, you don't need certificate authorities. Finally you can trust self-signed certificates to let your visitors connect securely without fear of spying.
+		                    </p>
+		                    </div>
+		              
+		                  </div>
+		                  <div class="inner-page row dns-row">
+		                    <div class="col-lg-2 centered">
+		                    <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-bi-good.svg"></img>
+		                    </div>
+		                    <div class="col-lg-2 centered">
+		                    <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-bi-bad.svg"></img>
+		                     		                    </div>
+		                    <div class="col-lg-8">
+		                    <h4>No more snake oil</h4>
+		                    <p>
+		                    	With .p2p, renewals and other updates to your DNS record all cost a standard transaction fee. Stop getting milked for the right to manage your domain.
+		                    </p>
+		                    </div>
+		                    </div>
+		            </div>
+		          </div>
+		  </div>
+		  </div></p>
 		<p>
 		Traditional domain name registrars are FBBM (flesh, blood, brick, and mortar) companies which operate inside one jurisdiction. This is why it is possible for the government of China to seize example.cn but not example.com. The .p2p network is managed autonomously by a distributed network of computers, with no individual having the ability to alter the state of the database without controlling the private keys to the domain they own.
 		</p>
@@ -256,6 +232,68 @@ It is similar to Namecoin and it's use for the .bit TLD. Read more about NMC vs 
 		<hr>
 		.p2p is different from Namecoin in a few important ways.
 		<p>
+		<p>
+		<div class="panel-group" id="bitdns-vs-trd">
+		
+		           
+		        <div class="panel panel-default">
+		          <div class="panel-heading">
+		            <h4 class="panel-title">
+		              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+		               .P2P<span style="padding:0 36px;"> vs. </span> .BIT
+		              </a>
+		            </h4>
+		          </div>
+		          <div id="collapse2" class="panel-collapse collapse in">
+		            <div class="panel-body ">
+		            <div class="inner-page row dns-row">
+		            <div class="col-lg-2 centered">
+		                  <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-dpos.svg"></img>
+		                  </div>
+		                  <div class="col-lg-2">
+		                   <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-pow.svg"></img>
+		                  </div>
+		                  <div class="col-lg-8">
+		                  <h4>Efficient Security</h4>
+		                  <p>
+		                      The share supply is never diluted to pay for security and no power is ever spent for POW mining. DPOS gives control of the blockchain back to the stakeholders.
+		                  </p>
+		                  </div>
+		            
+		                </div>
+		                <div class="inner-page row dns-row">
+		                  <div class="col-lg-2 centered">
+		                 <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-income-good.svg"></img>
+		                  </div>
+		                  <div class="col-lg-2">
+		                   <img class="center bad" width="148" src="../assets/img/domains/infogfx/icon-income-bad.svg"></img>
+		                  </div>
+		                  <div class="col-lg-8">
+		                  <h4>Price Fixing vs Price Discovery</h4>
+		                  <p>
+		                      By utilizing a mechanic similar to an auction, .p2p domains are sold for their perceived market price and the majority of the income from the sale go to nameshare holders as profit.
+		                  </p>
+		                  </div>
+		            
+		                </div>
+		                <div class="inner-page row dns-row">
+		                  <div class="col-lg-2 centered">
+		                  <img class="centered good" width="148" src="../assets/img/domains/infogfx/icon-sq-good.svg"></img>
+		                  </div>
+		                  <div class="col-lg-2 centered">
+		                   <img class="centered bad" width="148" src="../assets/img/domains/infogfx/icon-sq-bad.svg"></img>
+		                  </div>
+		                  <div class="col-lg-8">
+		                  <h4>Eliminate Squatters</h4>
+		                  <p>
+		                      Domain name <a href="#faq-squatting">squatting</a> is a social dillemma that is fixed by giving a mechanism to speculate on the value of the namespace (dividends from nameshares) without having to buy names en masse.
+		                  </p>
+		                  </div>
+		          </div>
+		        </div>
+		</div>
+		</div></div></p>
+		
 		<ul class="list-group">
 		   <li class="list-group-item">Namecoin issues new coins to miners as a reward for performing merged mining with the Bitcoin network. The namecoin supply is being inflated at nearly 30% per year for several more months, then over 10% for the next several years [citation!!]. "With .p2p, transaction fees are destroyed, thus effectively acting as dividends to existing shareholders."</li>
 		    <li class="list-group-item">Namecoin attempts to service multiple namespaces at once. .p2p is highly specialized for servicing the .p2p TLD namespace. The use case is the same as Namecoin's "d/" namespace, which is used for the .bit TLD.</li>

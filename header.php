@@ -31,6 +31,9 @@
 	<link href="/assets/css/owl.carousel.css" rel="stylesheet">
 	<link href="/assets/css/owl.theme.css" rel="stylesheet">
 	
+	<!-- Font Awesome Icons -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
 	
     <!-- JavaScripts needed at the beginning
     ================================================== -->
@@ -44,18 +47,7 @@
     ga('send', 'pageview');
 
     </script>
-    <script>
-    
-    jQuery(document).ready(function($) {
-    
-    	$('a.smoothScroll').click(function(){
-    	    $('html, body').animate({
-    	        scrollTop: $( $.attr(this, 'href') ).offset().top
-    	    }, 500);
-    	    return false;
-    	});
-    });
-    </script>
+
   </head>
 
 <body>
@@ -72,16 +64,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <ul>
-      </ul>
+   
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#footer">About</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a class="smoothScroll" href="/index.php#getinvolved">Community</a></li>
-        <li><a class="smoothScroll" href="/index.php#industries">Industries</a></li>
-        <li><a class="smoothScroll" href="#footer">Resources</a></li>
+        <li><a href="../index.php#getinvolved">Community</a></li>
+        <li><a href="../index.php#industries">Industries</a></li>
+        <li><a href="#footer">Resources</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

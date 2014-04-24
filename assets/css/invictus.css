@@ -41,7 +41,7 @@
 /* @group 1.0 Default */
 
 p {
-	font-weight: 500;
+	font-weight: 300;
 	line-height: 24px;
 	color: #1b485d;
 }
@@ -52,6 +52,14 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #1b485d;
+}
+
+.primary {
+	color:#9ce936;
+}
+
+.secondary {
+	color:#009df6;
 }
 
 #white {
@@ -165,6 +173,10 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align:middle;
 }
 
+
+
+
+
 /* @end | Default */
 
 /* @group 2.0 Elements */  
@@ -179,31 +191,55 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sub Nav Pages - Sticky */
 
+.fixed {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 1;
+}
+
+
+.logo-sub {
+	float: left;
+	text-transform: none;
+	display: none;
+	margin: 12px 0  0 12px;
+	font-size: 20px;
+	max-width: 240px;
+	border: 1px solid red;
+}
+
+.logo-sub a span {
+}
+
+
+.ico-top i {
+	color: #ccc;
+	float: right;
+	margin: 18px 0 0 0;
+}
+
 .nav-subpage   {
-	
-	
-	color: white;
-	font-size: 16px;
+	color: #FFF;
+	font-size: 20px;
 	line-height: 1.2em;
-	text-align: center;
-	padding: 10px;
+	padding: 0px;
 	text-shadow: 0 1px 1px rgba(0,0,0,.2);
-	width:660px;
 	z-index: 9999;
+	border-bottom: 1px solid #a1cb2f;
 }
 
 .nav-shadow {
-border-top: 5px solid #a1cb2f;
-background: #fff;
--moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
--webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-z-index: 999999;
+	border-bottom: 1px solid #a1cb2f;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	z-index: 999999;
+
 }
 
 .nav-subpage  a {
-	text-transform: uppercase;
-	color: #FFF;
+	color: #1A485C;
 	font-weight: 300;
 	font-size: 16px;
 	padding: 0;
@@ -213,14 +249,13 @@ z-index: 999999;
 
 .nav-subpage a:hover {
 	background: #fff;
-	color: #1A485C;
+	color: #89B326;
 	
 }
 
 .nav-subpage  ul {
-	border-top: 1px solid #fff;
 	padding-top: 12px;
-	display: block;
+	
 }
 
 .nav-subpage li {
@@ -295,6 +330,24 @@ z-index: 999999;
 
 /* Press Sliders */
 
+#news-slider {
+	margin: 48px 0 48px 0;
+}
+
+.news-slider {
+	padding-top: 24px;
+}
+
+section.news-slider {
+	margin: 0;
+}
+
+
+.news-slider h2 {
+	font-size: 36px;
+	font-weight: 200;
+}
+
 
 /* @end | Sliders */
 
@@ -365,9 +418,8 @@ z-index: 999999;
 	width: 100%;
 	height: auto;
 	color: #fff;
-
+	
 }
-
 
 
 /*  Header Bitshares AGS */
@@ -862,6 +914,11 @@ height: 200px;
 /* @group Domain Names - BitSharesDNS */
 
 
+#compare {
+	padding-bottom: 60px;
+}
+
+
 .dns h3 {
 font-weight: 200;
 }
@@ -880,11 +937,7 @@ font-weight: 200;
 
 }
 
-.dns-infogfx {
-	border: 0px solid #333;
-	padding: 4px;
-	min-height: 500px;
-}
+
 
 .dns-infogfx .good {
 	color: #000;
@@ -893,7 +946,7 @@ font-weight: 200;
 
 
 .dns-infogfx img, .dns-row img {
-	height: 148px;
+	height: 96px;
 
 }
 
@@ -924,7 +977,7 @@ position: absolute;
 /* DNS Resources  */
 
 .dns-resources {
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 

@@ -1,5 +1,3 @@
-
-
 <section class="news-slider">
     <div class="container centered">
       <h2><span style="color:#9ce936;">bit</span><span style="color:#009df6;">shares</span> Press</h2>

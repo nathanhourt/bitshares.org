@@ -87,12 +87,13 @@
 	<!-- ========== FEATURED ICONS ================================================================================================
 	============================================================================================================================= -->
 
-  <a name="industries"></a>
+
+  <section class="industries">
   <div class="lightblue-bg">
 			<div class="container">
 				<div class="inner-page row">
       		<div class="col-md-4 centered">
-              <h1><b>D</b>ECENTRALIZED</h4>
+              <h1><b>D</b>ECENTRALIZED</h1>
               <p>
               Bitshares decentralizes power among millions of shareholders who
               work together to effortlessly secure the system and prevent anyone
@@ -101,7 +102,7 @@
               </p>
           </div>
       		<div class="col-md-4 centered">
-              <h1><b>A</b>UTONOMOUS</h4>
+              <h1><b>A</b>UTONOMOUS</h1>
               <p>
               Each company has a business plan encoded in <a href="http://github.com/BitShares">open source software</a> 
               that executes automatically in an entirely transparent and 
@@ -111,7 +112,7 @@
               </p>
           </div>
       		<div class="col-md-4 centered">
-              <h1><b>C</b>OMPANIES</h4>
+              <h1><b>C</b>OMPANIES</h1>
               <p>
               Every bitshares company produces profit by providing a service for
               which it can charge transaction fees.  The profit earned from operation
@@ -163,6 +164,8 @@
     </script>
   </div>
 	<div id="grey">
+	<section>
+	  <a name="industries"></a>
 			<div class="inner-page row"style="min-height:20px">
       </div>
 			<div class="inner-page row"style="min-height:60px">
@@ -257,6 +260,7 @@
       </div>
     </div>
   </div>
+  </section>
 	<div id="grey">
 		<div class="container">
 			<div class="inner-page row"style="min-height:30px">
@@ -295,6 +299,8 @@
        </div>
     </div>
   </div>
+  </section>
+  <section>
 	<div id="grey">
 		<div class="container">
         <a name="getinvolved"></a>
@@ -334,55 +340,13 @@
        </div>
     </div>
 			  </div>
+  </section>
+
+
   
-<!--
-  <div class="index-content">
-    <div class="container">
-    	<div class="row mt">
-    		<div class="col-md-4 centered">
-          <div class="inner">
-          <i class="fa fa-cog"></i>
-    			<h3>Developers</h3>
-       		<a class="btn btn-primary btn-lg" href="https://bitsharestalk.org/index.php?board=38.0">Build BitShares</a>
-          </div>
-    		</div>
-    		<div class="col-md-4 centered">
-        <div class="inner">
-          <i class="fa fa-star"></i>
-    			<h3>Angels</h3>
-      		<a class="btn btn-primary btn-lg" href="bitshares-ags.php">Support BitShares</a>
-          </div>
-    		</div>
-    		<div class="col-md-4 centered">
-        <div class="inner">
-          <i class="fa fa-bar-chart-o"></i>
-    			<h3>Traders</h3>
-          <a class="btn btn-primary btn-lg" href="bitshares-pts.php">Trade Now</a>
-          </div>
-    		</div>
--->
-
-    	</div><!-- /row -->
-      <!--
-      <div class="inner-page row center-y"> 
-		  <div class="col-md-5" style="text-align:right">
-			<img src="assets/img/ybitcoin.png">
-		  </div>
-		  <div class="col-md-6">
-			<ul id="pdf-profiles">
-				<li><a href="assets/pdf/BitsharesProfile.pdf">BitShares Profile in the Next Issue of yBitcoin Magazine</a></li>
-				<li><a href="assets/pdf/DanielLarimerProfile.pdf">Profile of Daniel Larimer in the Next Issue of yBitcoin Magazine</a></li>
-			</ul>
-		  </div>
-      </div>
-      -->
-    </div><!-- /container -->
-    </div><!-- end index-page -->
-
-    
-
 <?php include 'news_logos.php'; ?></div>
-
+</div><!-- /container -->
+</div><!-- end index-page -->
 	<a href="#" class="ico back-to-top"></a>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="assets/js/jquery.fancybox.js"></script>

@@ -10,6 +10,10 @@
            <iframe src="//player.vimeo.com/video/90419206" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </li>
         <li>
+            <h2>bitshares - Crypto Currency Convention</h2>
+            <iframe width="480" height="270" src="//www.youtube.com/embed/7mwmlJICyRA" frameborder="0" allowfullscreen></iframe>
+        </li>
+        <li>
             <h2>bitshares - Texas Bitcoin Conference</h2>
                <iframe src="//player.vimeo.com/video/89951386" width="480" height="270" frameborder="0" 
                                   webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

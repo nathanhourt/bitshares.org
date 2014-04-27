@@ -221,6 +221,14 @@
         </div>
         <div class="fl-lt col-33">
         </div>
+        <div class="fl-lt col-33">
+          <div class="avatar"><img src="/assets/img/avatars/nikita.jpg" alt="Nikita Sharakhov" title="Nikita Sharakhov"></div>
+          <h2>
+            Nikita Sharakhov
+            <span>Software Engineer</span>
+          </h2>
+          <p>&nbsp;</p>
+        </div>
 
         <div class="clear"></div>
         <div class="fl-lt col-33">

@@ -247,6 +247,15 @@
           </h2>
           <p>&nbsp;</p>
         </div>
+        <div class="fl-lt col-33">
+          <div class="avatar"><img src="/assets/img/avatars/mwd.jpg" alt="Stewart Redwine" title="Michael W. Dean"></div>
+          <h2>
+             Michael W. Dean
+            <span>Publicity, Cat Herding</span>
+          </h2>
+          <p>&nbsp;</p>
+        </div>
+
 
       </div>
     </div>

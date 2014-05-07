@@ -53,7 +53,7 @@
            <h3>by Charles Evans on March 7, 2014</h3>
            <p>
            BitShares X is a bank &amp; exchange implemented as a decentralized autonomous company (DAC).  In addition to having shares in the BitShares X DAC, the DAC has a additional layer for the creation of <a href="/faq/index.php#bitasset">BitAssets</a>, which have values that track gold, silver, dollars, or almost <i>anything</i> with a price. 
-           <br/> <a href="what-is-bitshares-x.php">read more  </a>
+           <br/> <a href="/banking/">read more  </a>
            </p>
         </div>
         <div class="article-summary">

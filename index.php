@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-md-12">
               <center>
-               <h1 class="slideUp">Reimagine Everything.</h1>
+               <h1 class="slideUp">Bitshares does for business what </br>Bitcoin did for money.</h1>
                <br/>
                  <a id="player_button" href="javascript:hideme()" class="fancybox-media ico play-btn hideme"></a>
                  <div id="video_player" class="video_player" style="margin-top:-10px;opacity:1">
@@ -186,7 +186,7 @@
             <h2>Banking</h2>
             </div>
         </div></span></a>
-           <a href="/domains/"><span style="display: block;">
+           <a href="http://www.dotp2p.io"><span style="display: block;">
         <div class="col-md-3 centered ico-domain ico-feature">
             <div class="index-sub-title col-1 ico-title">
             <h2>Domain Names</h2>

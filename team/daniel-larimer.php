@@ -88,12 +88,6 @@
   He points out that Bitcoin operates on
   basically the same premise, where, he
   says, “No one delivers anything by fiat.”
-  </p>
-
-  <p>
-  He points out that Bitcoin operates on
-  basically the same premise, where, he
-  says, “No one delivers anything by fiat.”
   “Satoshi Nakamoto,” the pseudonym for
   the developer of Bitcoin, whom he soon
   began regularly communicating with

@@ -103,7 +103,7 @@
           <li><a href="https://plus.google.com/107773134084388749048/posts" target="_blank" >Google Plus</a></li>
           <li><a href="http://www.youtube.com/user/bitshares" >YouTube</a></li>
           <li><a href="http://www.reddit.com/r/BitShares" >Reddit</a></li>
-          <li><a href="mailto:info@bitshares.com" >Contact Us</a></li>
+          <li><a href="mailto:info@bitshares.org" >Contact Us</a></li>
         </ul>
      
       </article>
